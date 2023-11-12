@@ -3,10 +3,14 @@ import random as RA
 
 PY.init()
 
-Panta_ancho = 800
-Panta_largo = 600
-screen = PY.display.set_mode((Panta_ancho, Panta_largo))
+# Tamaño de pantalla dinámico
+pW = 800
+pH = 800
+screen = PY.display.set_mode((pW, pH))
 PY.display.set_caption("Ecosistema Simulator")
+
+# Color de fondo
+fondo_color = (0, 0, 0)
 
 class Organismo:
     def __init__(self, posicion, vida, energia, velocidad):
@@ -16,10 +20,11 @@ class Organismo:
         self.velocidad = velocidad
 
 class Animal(Organismo):
-    def __init__(self, posicion, vida, energia, velocidad, especie, dieta):
+    def __init__(self, posicion, vida, energia, velocidad, especie, dieta, imagen):
         super().__init__(posicion, vida, energia, velocidad)
         self.especie = especie
         self.dieta = dieta
+        self.imagen = imagen
 
 class Planta(Organismo):
     def __init__(self, posicion, vida, energia, velocidad, fotosintesis, repro_semilla):
@@ -38,35 +43,42 @@ class Ecosistema:
         self.plantas = []
         self.ambiente = None
 
+# Diccionario de imágenes para cada especie de animal
+#imagenes_animales = {
+    #"León": PY.image.load("Animales/leon.png"),
 
+#}
 
+# Parámetros de la matriz
+nxC = 25
+nyC = 25
 
-#----------------Matriz--------------#
+# Tamaño de la celda en función del tamaño de la pantalla y la matriz
+cH = pW // nxC
+cW = pH // nyC
 
-# Crear una matriz para representar el espacio del ecosistema
-filas = 100
-columnas = 100
-celda_ancho = Panta_ancho // columnas
-celda_largo = Panta_largo // filas
-matriz_espacial = [[None for _ in range(columnas)] for _ in range(filas)]
+matriz_espacial = [[None for _ in range(nxC)] for _ in range(nyC)]
 
 # Ejemplo: inicializar algunas celdas con organismos
-organismo1 = Organismo((2, 3), 100, 50, 2)
-organismo2 = Organismo((5, 9), 80, 40, 1)
-
-matriz_espacial[1][1] = organismo1
-matriz_espacial[5][9] = organismo2
+organismo1 = Animal((5, 5), 100, 50, 2, "León", "Carnívoro", None)
+matriz_espacial[organismo1.posicion[1]][organismo1.posicion[0]] = organismo1
 
 # Función para dibujar la matriz en la pantalla
 def dibujar_matriz():
-    for fila in range(filas):
-        for col in range(columnas):
-            # Dibujar cada celda
-            color = (255, 255, 255)  # Color de fondo (blanco) por defecto
-            if matriz_espacial[fila][col] is not None:
-                color = (0, 255, 0)  # Cambiar el color si hay algo en la celda
+    # Establecer el color de fondo
+    screen.fill(fondo_color)
+    
+    for y in range(0, nyC):
+        for x in range(0, nxC):
+            # Dibujar cada celda como un rectángulo
+            rect = (x * cW, y * cH, cW, cH)
 
-            PY.draw.rect(screen, color, (col * celda_ancho, fila * celda_largo, celda_ancho, celda_largo), 0)
+            # Cambiar el color de la celda completa si hay un organismo en la celda
+            color = (128, 128, 128)
+            if matriz_espacial[y][x] is not None:
+                color = (0, 255, 0)  # Verde para el organismo
+
+            PY.draw.rect(screen, color, rect,1)
 
 # Bucle principal
 ejecutando = True
@@ -77,8 +89,8 @@ while ejecutando:
 
     dibujar_matriz()
 
-    # Actualizar panta
+    # Actualizar pantalla
     PY.display.flip()
 
-# Salir 
+# Salir del programa
 PY.quit()
