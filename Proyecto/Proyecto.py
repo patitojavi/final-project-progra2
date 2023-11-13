@@ -27,10 +27,9 @@ class Animal(Organismo):
         self.imagen = imagen
 
 class Planta(Organismo):
-    def __init__(self, posicion, vida, energia, velocidad, fotosintesis, repro_semilla):
+    def __init__(self, posicion, vida, energia, velocidad, tipo_planta):
         super().__init__(posicion, vida, energia, velocidad)
-        self.fotosintesis = fotosintesis
-        self.repro_semilla = repro_semilla
+        self.tipo_planta = tipo_planta
 
 class Ambiente:
     def __init__(self, fact_ambioticos, eve_climaticos):
@@ -43,10 +42,9 @@ class Ecosistema:
         self.plantas = []
         self.ambiente = None
 
-
 # Parámetros de la matriz
-nxC = 25
-nyC = 25
+nxC =100
+nyC = 100
 
 # Tamaño de la celda en función del tamaño de la pantalla y la matriz
 cH = pW // nxC
@@ -62,9 +60,33 @@ matriz_espacial = [
     [None for _ in range(mitad_x)] + [None for _ in range(mitad_x, nxC)] for _ in range(mitad_y, nyC)
 ]
 
-# Ejemplo: inicializar algunas celdas con organismos en la región arriba izquierda
-organismo1 = Animal((5, 5), 100, 50, 2, "León", "Carnívoro", None)
-matriz_espacial[organismo1.posicion[1]][organismo1.posicion[0]] = organismo1
+# Definir tipos de plantas y sus colores
+tipos_de_plantas = {
+    "Flor": (255, 0, 0),          # Rojo
+    "Arbusto": (0, 255, 0),       # Verde
+    "Hierba": (0, 0, 255),        # Azul
+    "Árbol Pequeño": (255, 255, 0),  # Amarillo
+    "Árbol Grande": (255, 165, 0)    # Naranja
+}
+
+class PintaPlanta(Planta):
+    def __init__(self):
+        # Generar posición aleatoria
+        posicion = (RA.randint(0, nxC - 1), RA.randint(0, nyC - 1))
+        vida = RA.randint(50, 100)
+        energia = RA.randint(20, 50)
+        velocidad = RA.uniform(0.5, 2.0)
+        tipo_planta = RA.choice(list(tipos_de_plantas.keys()))
+
+        super().__init__(posicion, vida, energia, velocidad, tipo_planta)
+
+
+# Crear 5 plantas aleatorias en diferentes regiones
+plantas = [PintaPlanta() for _ in range(20)]
+
+# Colocar las plantas en la matriz
+for planta in plantas:
+    matriz_espacial[planta.posicion[1]][planta.posicion[0]] = planta
 
 # Función para dibujar la matriz en la pantalla
 def dibujar_matriz():
@@ -76,21 +98,16 @@ def dibujar_matriz():
             # Dibujar cada celda como un rectángulo
             rect = (x * cW, y * cH, cW, cH)
 
-            # Cambiar el color de la celda completa según la región
-            if x < mitad_x and y < mitad_y:
-                color = (0, 0, 255)  # Azul para arriba izquierda
-            elif x >= mitad_x and y < mitad_y:
-                color = (255, 0, 0)  # Rojo para arriba derecha
-            elif x < mitad_x and y >= mitad_y:
-                color = (0, 255, 0)  # Verde para abajo izquierda
-            else:
-                color = (255, 255, 0)  # Amarillo para abajo derecha
+            # Obtener el tipo de planta 
+            tipo_planta = None
+            if matriz_espacial[y][x] is not None and isinstance(matriz_espacial[y][x], Planta):
+                tipo_planta = matriz_espacial[y][x].tipo_planta
 
-            # Cambiar el color de la celda completa si hay un organismo en la celda
-            if matriz_espacial[y][x] is not None:
-                color = (0, 255, 0)  # Verde para el organismo
+            # Asignar color según el tipo de planta
+            color = tipos_de_plantas.get(tipo_planta, (255, 255, 255))  # Blanco si no hay planta
 
-            PY.draw.rect(screen, color, rect,0)
+            # Dibujar la celda
+            PY.draw.rect(screen, color, rect, 0)
 
 # Bucle principal
 ejecutando = True
