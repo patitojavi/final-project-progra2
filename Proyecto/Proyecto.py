@@ -20,30 +20,26 @@ class Organismo:
         self.velocidad = velocidad
 
 class Animal(Organismo):
-    def __init__(self, posicion, vida, energia, velocidad, especie, dieta, imagen):
+    def __init__(self, posicion, vida, energia, velocidad, especie, dieta, ):
         super().__init__(posicion, vida, energia, velocidad)
         self.especie = especie
         self.dieta = dieta
-        self.imagen = imagen
 
 class Planta(Organismo):
     def __init__(self, posicion, vida, energia, velocidad, tipo_planta):
         super().__init__(posicion, vida, energia, velocidad)
         self.tipo_planta = tipo_planta
 
-class Ambiente:
-    def __init__(self, fact_ambioticos, eve_climaticos):
-        self.fac_ambioticos = fact_ambioticos
-        self.eve_climaticos = eve_climaticos
+class Carnivoro(Animal):
+    def __init__(self, posicion, vida, energia, velocidad, especie, ):
+        super().__init__(posicion, vida, energia, velocidad, especie, "Carnívoro")
 
-class Ecosistema:
-    def __init__(self):
-        self.organismos = []
-        self.plantas = []
-        self.ambiente = None
+class Herbivoro(Animal):
+    def __init__(self, posicion, vida, energia, velocidad, especie, ):
+        super().__init__(posicion, vida, energia, velocidad, especie, "Herbívoro")
 
 # Parámetros de la matriz
-nxC =100
+nxC = 100
 nyC = 100
 
 # Tamaño de la celda en función del tamaño de la pantalla y la matriz
@@ -51,14 +47,11 @@ cH = pW // nxC
 cW = pH // nyC
 
 # Dividir la matriz en cuatro regiones
-mitad_x = nxC // 2
-mitad_y = nyC // 2
+mX = nxC // 2
+mY = nyC // 2
 
-matriz_espacial = [
-    [None for _ in range(mitad_x)] + [None for _ in range(mitad_x, nxC)] for _ in range(mitad_y)
-] + [
-    [None for _ in range(mitad_x)] + [None for _ in range(mitad_x, nxC)] for _ in range(mitad_y, nyC)
-]
+# Inicializar matriz con una lista vacía para cada celda
+matriz_espacial = [[[] for _ in range(nxC)] for _ in range(nyC)]
 
 # Definir tipos de plantas y sus colores
 tipos_de_plantas = {
@@ -67,6 +60,20 @@ tipos_de_plantas = {
     "Hierba": (0, 0, 255),        # Azul
     "Árbol Pequeño": (255, 255, 0),  # Amarillo
     "Árbol Grande": (255, 165, 0)    # Naranja
+}
+
+# Definir tipos de animales y sus colores
+tipos_de_animales = {
+    "León": (255, 0, 0),        # Rojo
+    "Tigre": (255, 165, 0),     # Naranja
+    "Leopardo": (0, 0, 0),      # Blanco y negro
+    "Lobo": (0, 255, 0),        # Verde
+    "Oso": (150, 75, 0),        # Marrón
+    "Vaca": (255, 255, 255),    # Blanco
+    "Cabra": (128, 0, 128),     # Púrpura
+    "Cebra": (0, 0, 0),         # Blanco y negro
+    "Jirafa": (255, 255, 0),    # Amarillo
+    "Elefante": (128, 64, 0)    # Marrón oscuro
 }
 
 class PintaPlanta(Planta):
@@ -80,13 +87,49 @@ class PintaPlanta(Planta):
 
         super().__init__(posicion, vida, energia, velocidad, tipo_planta)
 
+class PintaCarnivoro(Carnivoro):
+    def __init__(self, especie):
+        # Generar posición aleatoria
+        posicion = (RA.randint(0, nxC - 1), RA.randint(0, nyC - 1))
+        vida = RA.randint(50, 100)
+        energia = RA.randint(20, 50)
+        velocidad = RA.uniform(0.5, 2.0)
+        super().__init__(posicion, vida, energia, velocidad, especie)
 
-# Crear 5 plantas aleatorias en diferentes regiones
-plantas = [PintaPlanta() for _ in range(20)]
+class PintaHerbivoro(Herbivoro):
+    def __init__(self, especie):
+        # Generar posición aleatoria
+        posicion = (RA.randint(0, nxC - 1), RA.randint(0, nyC - 1))
+        vida = RA.randint(50, 100)
+        energia = RA.randint(20, 50)
+        velocidad = RA.uniform(0.5, 2.0)
+        super().__init__(posicion, vida, energia, velocidad, especie)
+
+num_plantas = 0
+num_carnivoros = 4
+num_herbivoros = 5
+
+# Crear plantas
+plantas = [PintaPlanta() for _ in range(num_plantas)]
+
+# Crear carnívoros
+carnivoros = [PintaCarnivoro("León"), PintaCarnivoro("Tigre"), PintaCarnivoro("Leopardo"), PintaCarnivoro("Lobo"), PintaCarnivoro("Oso")][:num_carnivoros]
+
+# Crear herbívoros
+herbivoros = [PintaHerbivoro("Vaca"), PintaHerbivoro("Cabra"), PintaHerbivoro("Cebra"), PintaHerbivoro("Jirafa"), PintaHerbivoro("Elefante")][:num_herbivoros]
 
 # Colocar las plantas en la matriz
 for planta in plantas:
-    matriz_espacial[planta.posicion[1]][planta.posicion[0]] = planta
+    matriz_espacial[planta.posicion[1]][planta.posicion[0]].append(planta)
+
+# Colocar los carnívoros en la matriz
+for carnivoro in carnivoros:
+    matriz_espacial[carnivoro.posicion[1]][carnivoro.posicion[0]].append(carnivoro)
+
+# Colocar los herbívoros en la matriz
+for herbivoro in herbivoros:
+    matriz_espacial[herbivoro.posicion[1]][herbivoro.posicion[0]].append(herbivoro)
+
 
 # Función para dibujar la matriz en la pantalla
 def dibujar_matriz():
@@ -98,13 +141,20 @@ def dibujar_matriz():
             # Dibujar cada celda como un rectángulo
             rect = (x * cW, y * cH, cW, cH)
 
-            # Obtener el tipo de planta 
-            tipo_planta = None
-            if matriz_espacial[y][x] is not None and isinstance(matriz_espacial[y][x], Planta):
-                tipo_planta = matriz_espacial[y][x].tipo_planta
+            # Obtener el tipo de organismo y sus colores
+            tipos_organismos = set()
+            colores = set()
 
-            # Asignar color según el tipo de planta
-            color = tipos_de_plantas.get(tipo_planta, (255, 255, 255))  # Blanco si no hay planta
+            for organismo in matriz_espacial[y][x]:
+                if isinstance(organismo, Planta):
+                    tipos_organismos.add("Planta")
+                    colores.add(tipos_de_plantas.get(organismo.tipo_planta, (0, 0, 0)))
+                elif isinstance(organismo, Animal):
+                    tipos_organismos.add(organismo.dieta)
+                    colores.add(tipos_de_animales.get(organismo.especie, (0, 0, 0)))
+
+            # Asignar color según el tipo de organismo
+            color = max(colores) if colores else (0, 0, 0)
 
             # Dibujar la celda
             PY.draw.rect(screen, color, rect, 0)
