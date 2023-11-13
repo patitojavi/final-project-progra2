@@ -43,11 +43,6 @@ class Ecosistema:
         self.plantas = []
         self.ambiente = None
 
-# Diccionario de imágenes para cada especie de animal
-#imagenes_animales = {
-    #"León": PY.image.load("Animales/leon.png"),
-
-#}
 
 # Parámetros de la matriz
 nxC = 25
@@ -57,9 +52,17 @@ nyC = 25
 cH = pW // nxC
 cW = pH // nyC
 
-matriz_espacial = [[None for _ in range(nxC)] for _ in range(nyC)]
+# Dividir la matriz en cuatro regiones
+mitad_x = nxC // 2
+mitad_y = nyC // 2
 
-# Ejemplo: inicializar algunas celdas con organismos
+matriz_espacial = [
+    [None for _ in range(mitad_x)] + [None for _ in range(mitad_x, nxC)] for _ in range(mitad_y)
+] + [
+    [None for _ in range(mitad_x)] + [None for _ in range(mitad_x, nxC)] for _ in range(mitad_y, nyC)
+]
+
+# Ejemplo: inicializar algunas celdas con organismos en la región arriba izquierda
 organismo1 = Animal((5, 5), 100, 50, 2, "León", "Carnívoro", None)
 matriz_espacial[organismo1.posicion[1]][organismo1.posicion[0]] = organismo1
 
@@ -67,18 +70,27 @@ matriz_espacial[organismo1.posicion[1]][organismo1.posicion[0]] = organismo1
 def dibujar_matriz():
     # Establecer el color de fondo
     screen.fill(fondo_color)
-    
+
     for y in range(0, nyC):
         for x in range(0, nxC):
             # Dibujar cada celda como un rectángulo
             rect = (x * cW, y * cH, cW, cH)
 
+            # Cambiar el color de la celda completa según la región
+            if x < mitad_x and y < mitad_y:
+                color = (0, 0, 255)  # Azul para arriba izquierda
+            elif x >= mitad_x and y < mitad_y:
+                color = (255, 0, 0)  # Rojo para arriba derecha
+            elif x < mitad_x and y >= mitad_y:
+                color = (0, 255, 0)  # Verde para abajo izquierda
+            else:
+                color = (255, 255, 0)  # Amarillo para abajo derecha
+
             # Cambiar el color de la celda completa si hay un organismo en la celda
-            color = (128, 128, 128)
             if matriz_espacial[y][x] is not None:
                 color = (0, 255, 0)  # Verde para el organismo
 
-            PY.draw.rect(screen, color, rect,1)
+            PY.draw.rect(screen, color, rect,0)
 
 # Bucle principal
 ejecutando = True
