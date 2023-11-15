@@ -25,10 +25,37 @@ class Animal(Organismo):
         self.especie = especie
         self.dieta = dieta
 
+    def moverse(self):
+        # Actualizar la posición del animal de manera aleatoria
+        nueva_x = self.posicion[0] + RA.randint(-1, 1)
+        nueva_y = self.posicion[1] + RA.randint(-1, 1)
+        
+        # Verificar límites de la matriz
+        nueva_x = max(0, min(nueva_x, nxC - 1))
+        nueva_y = max(0, min(nueva_y, nyC - 1))
+        
+        self.posicion = (nueva_x, nueva_y)
+
 class Planta(Organismo):
     def __init__(self, posicion, vida, energia, velocidad, tipo_planta):
         super().__init__(posicion, vida, energia, velocidad)
         self.tipo_planta = tipo_planta
+
+    def crecer(self):
+        # Incrementar vida y energía de la planta
+        self.vida += RA.randint(1, 5)
+        self.energia += RA.randint(1, 10)
+
+class Ambiente:
+    def __init__(self, fact_ambioticos, eve_climaticos):
+        self.fac_ambioticos = fact_ambioticos
+        self.eve_climaticos = eve_climaticos
+        
+class Ecosistema:
+    def __init__(self):
+        self.organismos = []
+        self.plantas = []
+        self.ambiente = None
 
 class Carnivoro(Animal):
     def __init__(self, posicion, vida, energia, velocidad, especie, ):
@@ -105,7 +132,7 @@ class PintaHerbivoro(Herbivoro):
         velocidad = RA.uniform(0.5, 2.0)
         super().__init__(posicion, vida, energia, velocidad, especie)
 
-num_plantas = 0
+num_plantas = 2
 num_carnivoros = 4
 num_herbivoros = 5
 
@@ -159,12 +186,45 @@ def dibujar_matriz():
             # Dibujar la celda
             PY.draw.rect(screen, color, rect, 0)
 
+# Velocidad de movimiento
+velocidad_movimiento = 100  # Puedes ajustar este valor para cambiar la velocidad
+
 # Bucle principal
 ejecutando = True
+contador = 0
 while ejecutando:
     for evento in PY.event.get():
         if evento.type == PY.QUIT:
             ejecutando = False
+
+    # Mover los animales según la velocidad de movimiento
+    if contador % velocidad_movimiento == 0:
+        for carnivoro in carnivoros:
+            carnivoro.moverse()
+        
+        for herbivoro in herbivoros:
+            herbivoro.moverse()
+
+    contador += 1
+
+    # Crecimiento de las plantas
+    for planta in plantas:
+        planta.crecer()
+
+    # Limpiar la matriz
+    matriz_espacial = [[[] for _ in range(nxC)] for _ in range(nyC)]
+
+    # Colocar las plantas en la matriz actualizada
+    for planta in plantas:
+        matriz_espacial[planta.posicion[1]][planta.posicion[0]].append(planta)
+
+    # Colocar los carnívoros en la matriz actualizada
+    for carnivoro in carnivoros:
+        matriz_espacial[carnivoro.posicion[1]][carnivoro.posicion[0]].append(carnivoro)
+
+    # Colocar los herbívoros en la matriz actualizada
+    for herbivoro in herbivoros:
+        matriz_espacial[herbivoro.posicion[1]][herbivoro.posicion[0]].append(herbivoro)
 
     dibujar_matriz()
 
