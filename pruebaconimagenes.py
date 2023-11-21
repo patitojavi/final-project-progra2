@@ -1,109 +1,104 @@
 import pygame
 import random
 
-# Tamaño de la ventana y de la matriz
-WIDTH, HEIGHT = 1500, 1000
-MATRIX_SIZE = 100  # Ahora es una matriz 20x20
+# Inicialización de Pygame
+pygame.init()
 
-# Definición de la clase Bioma
-class Bioma:
-    def __init__(self, image_path):
-        self.image = pygame.image.load(image_path)
+# Definición de constantes
+ANCHO, ALTO = 800, 800
+CELDA_SIZE = 20
+FPS = 10
 
-# Definición de las clases para cada bioma
-class Desierto(Bioma):
-    def __init__(self):
-        super().__init__("arena.png")  # Reemplaza con la ruta de tu imagen de desierto
+# Definición de colores
+BLANCO = (255, 255, 255)
+VERDE = (0, 255, 0)
+ROJO = (255, 0, 0)
+MARRON = (139, 69, 19)
+AZUL = (0, 0, 255)
 
-class Agua(Bioma):
-    def __init__(self):
-        super().__init__("agua.png")  # Reemplaza con la ruta de tu imagen de agua
+# Creación de la ventana
+ventana = pygame.display.set_mode((ANCHO, ALTO))
+pygame.display.set_caption("Simulador de Ecosistemas")
 
-class Bosque(Bioma):
-    def __init__(self):
-        super().__init__("tierra.png")  # Reemplaza con la ruta de tu imagen de bosque
-
-class Nieve(Bioma):
-    def __init__(self):
-        super().__init__("nieve.png")  # Reemplaza con la ruta de tu imagen de nieve
-
-# Definición de la clase Animal
-class Animal:
+# Definición de clases
+class Organismo:
     def __init__(self, x, y):
         self.x = x
         self.y = y
 
-    def move(self):
-        # Implementa la lógica de movimiento aquí
-        pass
+class Animal(Organismo):
+    def __init__(self, x, y, color):
+        super().__init__(x, y)
+        self.color = color
 
-# Definición de la subclase Leon que hereda de Animal
-class Leon(Animal):
+    def mover(self, dx, dy):
+        self.x += dx
+        self.y += dy
+
+class Planta(Organismo):
     def __init__(self, x, y):
         super().__init__(x, y)
 
-    def move(self):
-        # Implementa la lógica de movimiento específica para el león aquí
-        self.x += random.choice([-1, 0, 1])
-        self.y += random.choice([-1, 0, 1])
+# Inicialización de objetos
+cazador = Animal(0, 0, ROJO)
+presa = Animal(0, 0, VERDE)
+planta = Planta(0, 0)
 
-# Función para dibujar la matriz y los animales en la ventana
-def draw_matrix(screen, matrix):
-    cell_width = WIDTH // MATRIX_SIZE
-    cell_height = HEIGHT // MATRIX_SIZE
+# Creación de la matriz del bioma
+bioma = [["" for _ in range(40)] for _ in range(40)]
 
-    # Dibuja los cuadros y líneas de la cuadrícula
-    for row in range(MATRIX_SIZE):
-        for col in range(MATRIX_SIZE):
-            bioma = matrix[row][col]
-            image = bioma.image
-            image = pygame.transform.scale(image, (cell_width, cell_height))  # Ajusta el tamaño de la imagen
-            screen.blit(image, (col * cell_width, row * cell_height))
+# Colocación inicial de organismos
+bioma[10][10] = "bosque"
+bioma[20][20] = "desierto"
+bioma[30][30] = "agua"
 
-            pygame.draw.rect(screen, (0, 0, 0), (col * cell_width, row * cell_height, cell_width, cell_height), 1)
+# Función para dibujar el bioma
+def dibujar_bioma():
+    for i in range(10):  # Desierto (primer tercio)
+        for j in range(40):
+            bioma[i][j] = "desierto"
 
-    # Líneas de la cuadrícula para los bordes derecho e inferior
-    for i in range(1, MATRIX_SIZE):
-        pygame.draw.line(screen, (0, 0, 0), (i * cell_width, 0), (i * cell_width, HEIGHT), 1)
-        pygame.draw.line(screen, (0, 0, 0), (0, i * cell_height), (WIDTH, i * cell_height), 1)
+    for i in range(10, 30):  # Bosque (segundo tercio)
+        for j in range(40):
+            bioma[i][j] = "bosque"
+
+    for i in range(30, 40):  # Agua (último tercio)
+        for j in range(40):
+            bioma[i][j] = "agua"
+
+# Función para dibujar organismos
+def dibujar_organismos():
+    pygame.draw.rect(ventana, cazador.color, (cazador.x * CELDA_SIZE, cazador.y * CELDA_SIZE, CELDA_SIZE, CELDA_SIZE))
+    pygame.draw.rect(ventana, presa.color, (presa.x * CELDA_SIZE, presa.y * CELDA_SIZE, CELDA_SIZE, CELDA_SIZE))
+    pygame.draw.rect(ventana, pygame.Color("green"), (planta.x * CELDA_SIZE, planta.y * CELDA_SIZE, CELDA_SIZE, CELDA_SIZE))
 
 # Función principal
 def main():
-    pygame.init()
+    reloj = pygame.time.Clock()
 
-    screen = pygame.display.set_mode((WIDTH, HEIGHT))
-    pygame.display.set_caption("Simulador de Ecosistemas")
+    while True:
+        for evento in pygame.event.get():
+            if evento.type == pygame.QUIT:
+                pygame.quit()
+                quit()
 
-    clock = pygame.time.Clock()
+        # Movimiento aleatorio de los organismos
+        cazador.mover(random.choice([-2, 0, 2]), random.choice([-2, 0, 2]))
+        presa.mover(random.choice([-1, 0, 1]), random.choice([-1, 0, 1]))
 
-    # Crear la matriz que representa el mapa con diferentes biomas
-    matrix = [[random.choice([Desierto(), Agua(), Bosque(), Nieve()]) for _ in range(MATRIX_SIZE)] for _ in range(MATRIX_SIZE)]
+        # Limitar la posición de los organismos dentro de la matriz
+        cazador.x = max(0, min(cazador.x, 39))
+        cazador.y = max(0, min(cazador.y, 39))
+        presa.x = max(0, min(presa.x, 39))
+        presa.y = max(0, min(presa.y, 39))
 
-    # Crear un león en una posición aleatoria
-    leon = Leon(random.randint(0, MATRIX_SIZE - 1), random.randint(0, MATRIX_SIZE - 1))
-
-    running = True
-    while running:
-        for event in pygame.event.get():
-            if event.type == pygame.QUIT:
-                running = False
-
-        # Mueve al león en la matriz
-        leon.move()
-        leon.x = max(0, min(leon.x, MATRIX_SIZE - 1))
-        leon.y = max(0, min(leon.y, MATRIX_SIZE - 1))
-
-        # Limpia la pantalla
-        screen.fill((255, 255, 255))
-
-        # Dibuja la matriz y al león en la ventana
-        draw_matrix(screen, matrix)
-        pygame.draw.rect(screen, (255, 0, 0), (leon.x * (WIDTH // MATRIX_SIZE), leon.y * (HEIGHT // MATRIX_SIZE), WIDTH // MATRIX_SIZE, HEIGHT // MATRIX_SIZE))
+        # Dibujar el bioma y los organismos
+        ventana.fill(BLANCO)
+        dibujar_bioma()
+        dibujar_organismos()
 
         pygame.display.flip()
-        clock.tick(5)  # Ajusta la velocidad del juego
-
-    pygame.quit()
+        reloj.tick(FPS)
 
 if __name__ == "__main__":
     main()
