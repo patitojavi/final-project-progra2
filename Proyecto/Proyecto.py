@@ -25,15 +25,28 @@ class Animal(Organismo):
         self.especie = especie
         self.dieta = dieta
 
-    def moverse(self):
-        # Actualizar la posición del animal de manera aleatoria
-        nueva_x = self.posicion[0] + RA.randint(-1, 1)
-        nueva_y = self.posicion[1] + RA.randint(-1, 1)
-        
-        # Verificar límites de la matriz
-        nueva_x = max(0, min(nueva_x, nxC - 1))
-        nueva_y = max(0, min(nueva_y, nyC - 1))
-        
+    def moverse(self, direccion, distancia=1):
+        # Obtener la posición actual
+        x, y = self.posicion
+
+        # Definir los cambios en las coordenadas según la dirección
+        if direccion == "arriba":
+            nueva_y = max(0, y - distancia)
+            nueva_x = x
+        elif direccion == "abajo":
+            nueva_y = min(nyC - 1, y + distancia)
+            nueva_x = x
+        elif direccion == "izquierda":
+            nueva_x = max(0, x - distancia)
+            nueva_y = y
+        elif direccion == "derecha":
+            nueva_x = min(nxC - 1, x + distancia)
+            nueva_y = y
+        else:
+            # Si la dirección no es válida, no se mueve
+            return
+
+        # Actualizar la posición del animal
         self.posicion = (nueva_x, nueva_y)
 
 class Planta(Organismo):
@@ -50,7 +63,7 @@ class Ambiente:
     def __init__(self, fact_ambioticos, eve_climaticos):
         self.fac_ambioticos = fact_ambioticos
         self.eve_climaticos = eve_climaticos
-        
+
 class Ecosistema:
     def __init__(self):
         self.organismos = []
@@ -66,8 +79,8 @@ class Herbivoro(Animal):
         super().__init__(posicion, vida, energia, velocidad, especie, "Herbívoro")
 
 # Parámetros de la matriz
-nxC = 100
-nyC = 100
+nxC = 50
+nyC = 50
 
 # Tamaño de la celda en función del tamaño de la pantalla y la matriz
 cH = pW // nxC
@@ -103,6 +116,14 @@ tipos_de_animales = {
     "Elefante": (128, 64, 0)    # Marrón oscuro
 }
 
+tipos_de_biomas = {
+    "Bosque": (34, 139, 34),     # Verde oscuro
+    "Pradera": (154, 205, 50),   # Verde claro
+    "Desierto": (244, 164, 96),  # Marrón claro
+    # Agrega más tipos de biomas si es necesario
+}
+
+
 class PintaPlanta(Planta):
     def __init__(self):
         # Generar posición aleatoria
@@ -120,7 +141,7 @@ class PintaCarnivoro(Carnivoro):
         posicion = (RA.randint(0, nxC - 1), RA.randint(0, nyC - 1))
         vida = RA.randint(50, 100)
         energia = RA.randint(20, 50)
-        velocidad = RA.uniform(0.5, 2.0)
+        velocidad = RA.uniform(5, 2)
         super().__init__(posicion, vida, energia, velocidad, especie)
 
 class PintaHerbivoro(Herbivoro):
@@ -129,7 +150,7 @@ class PintaHerbivoro(Herbivoro):
         posicion = (RA.randint(0, nxC - 1), RA.randint(0, nyC - 1))
         vida = RA.randint(50, 100)
         energia = RA.randint(20, 50)
-        velocidad = RA.uniform(0.5, 2.0)
+        velocidad = RA.uniform(5, 2)
         super().__init__(posicion, vida, energia, velocidad, especie)
 
 num_plantas = 2
@@ -187,7 +208,7 @@ def dibujar_matriz():
             PY.draw.rect(screen, color, rect, 0)
 
 # Velocidad de movimiento
-velocidad_movimiento = 100  # Puedes ajustar este valor para cambiar la velocidad
+velocidad_movimiento = 130 # Puedes ajustar este valor para cambiar la velocidad
 
 # Bucle principal
 ejecutando = True
@@ -200,10 +221,14 @@ while ejecutando:
     # Mover los animales según la velocidad de movimiento
     if contador % velocidad_movimiento == 0:
         for carnivoro in carnivoros:
-            carnivoro.moverse()
-        
+            # Generar una dirección aleatoria
+            direccion = RA.choice(["arriba", "abajo", "izquierda", "derecha"])
+            carnivoro.moverse(direccion, distancia=1)  # Movimiento de dos casillas
+            
         for herbivoro in herbivoros:
-            herbivoro.moverse()
+            # Generar una dirección aleatoria
+            direccion = RA.choice(["arriba", "abajo", "izquierda", "derecha"])
+            herbivoro.moverse(direccion, distancia=1)  # Movimiento de dos casillas
 
     contador += 1
 
