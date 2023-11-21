@@ -2,8 +2,8 @@ import pygame
 import random
 
 # Tamaño de la ventana y de la matriz
-WIDTH, HEIGHT = 800, 600
-MATRIX_SIZE = 20  # Ahora es una matriz 20x20
+WIDTH, HEIGHT = 1500, 1000
+MATRIX_SIZE = 100  # Ahora es una matriz 20x20
 
 # Definición de la clase Bioma
 class Bioma:
@@ -13,19 +13,19 @@ class Bioma:
 # Definición de las clases para cada bioma
 class Desierto(Bioma):
     def __init__(self):
-        super().__init__("desert_image.png")  # Reemplaza con la ruta de tu imagen de desierto
+        super().__init__("arena.png")  # Reemplaza con la ruta de tu imagen de desierto
 
 class Agua(Bioma):
     def __init__(self):
-        super().__init__("water_image.png")  # Reemplaza con la ruta de tu imagen de agua
+        super().__init__("agua.png")  # Reemplaza con la ruta de tu imagen de agua
 
 class Bosque(Bioma):
     def __init__(self):
-        super().__init__("forest_image.png")  # Reemplaza con la ruta de tu imagen de bosque
+        super().__init__("tierra.png")  # Reemplaza con la ruta de tu imagen de bosque
 
 class Nieve(Bioma):
     def __init__(self):
-        super().__init__("snow_image.png")  # Reemplaza con la ruta de tu imagen de nieve
+        super().__init__("nieve.png")  # Reemplaza con la ruta de tu imagen de nieve
 
 # Definición de la clase Animal
 class Animal:
