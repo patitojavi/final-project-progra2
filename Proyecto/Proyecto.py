@@ -105,7 +105,6 @@ class Planta(Organismo):
         self.tipo_planta = tipo_planta
 
     def crecer(self):
-        # Incrementar vida y energía de la planta
         self.vida += RA.randint(1, 5)
         self.energia += RA.randint(1, 10)
 
@@ -120,6 +119,23 @@ class Ecosistema:
         self.plantas = []
         self.ambiente = None
 
+class Bioma:
+    def __init__(self, image_path):
+        self.image = PY.image.load(image_path)
+
+class Desierto(Bioma):
+    def __init__(self):
+        super().__init__("Proyecto/arena.png")
+
+class Agua(Bioma):
+    def __init__(self):
+        super().__init__("Proyecto/agua.png")
+
+class Tierra(Bioma):
+    def __init__(self):
+        super().__init__("Proyecto/tierra.png")
+
+        
 
 
 nxC = 50
@@ -128,6 +144,74 @@ cH = pW // nxC
 cW = pH // nyC
 
 matriz_espacial = [[[] for _ in range(nxC)] for _ in range(nyC)]
+matriz_biomas = [] 
+matriz_biomas.extend([[Desierto() for _ in range(nxC)] for _ in range(nyC)])
+matriz_biomas.extend([[Agua() for _ in range(nxC)] for _ in range(nyC)])
+matriz_biomas.extend([[Tierra() for _ in range(nxC)] for _ in range(nyC)])
+
+bioma_dict = {
+    "A": Agua(),
+    "D": Desierto(),
+    "T": Tierra()
+}
+
+patron_biomas = [
+    "AAADADAADADADAADAADAAAADADAADADADAADAADADADAADAADA",
+    "ATTTTTTTTTTTTTTTDADAADAADADADAADAADADADAADAADAADAA",
+    "DTDTDTDTDTDTDTDTADAADAADAADAADAADAADAADAADAADAADAA",
+    "AAADADAADADADAADAADAAAADADAADADADAADAADADADAADAADA",
+    "ATTTTTTTTTTTTTTTDADAADAADADADAADAADADADAADAADAADAA",
+    "AAADADAADADADAADAADAAAADADAADADADAADAADADADAADAADA",
+    "ATTTTTTTTTTTTTTTDADAADAADADADAADAADADADAADAADAADAA",
+    "DTDTDTDTDTDTDTDTADAADAADAADAADAADAADAADAADAADAADAA",
+    "AAADADAADADADAADAADAAAADADAADADADAADAADADADAADAADA",
+    "ATTTTTTTTTTTTTTTDADAADAADADADAADAADADADAADAADAADAA",
+    "AAADADAADADADAADAADAAAADADAADADADAADAADADADAADAADA",
+    "ATTTTTTTTTTTTTTTDADAADAADADADAADAADADADAADAADAADAA",
+    "DTDTDTDTDTDTDTDTADAADAADAADAADAADAADAADAADAADAADAA",
+    "AAADADAADADADAADAADAAAADADAADADADAADAADADADAADAADA",
+    "ATTTTTTTTTTTTTTTDADAADAADADADAADAADADADAADAADAADAA",
+    "AAADADAADADADAADAADAAAADADAADADADAADAADADADAADAADA",
+    "ATTTTTTTTTTTTTTTDADAADAADADADAADAADADADAADAADAADAA",
+    "DTDTDTDTDTDTDTDTADAADAADAADAADAADAADAADAADAADAADAA",
+    "AAADADAADADADAADAADAAAADADAADADADAADAADADADAADAADA",
+    "ATTTTTTTTTTTTTTTDADAADAADADADAADAADADADAADAADAADAA",
+    "AAADADAADADADAADAADAAAADADAADADADAADAADADADAADAADA",
+    "ATTTTTTTTTTTTTTTDADAADAADADADAADAADADADAADAADAADAA",
+    "DTDTDTDTDTDTDTDTADAADAADAADAADAADAADAADAADAADAADAA",
+    "AAADADAADADADAADAADAAAADADAADADADAADAADADADAADAADA",
+    "ATTTTTTTTTTTTTTTDADAADAADADADAADAADADADAADAADAADAA",
+    "AAADADAADADADAADAADAAAADADAADADADAADAADADADAADAADA",
+    "ATTTTTTTTTTTTTTTDADAADAADADADAADAADADADAADAADAADAA",
+    "DTDTDTDTDTDTDTDTADAADAADAADAADAADAADAADAADAADAADAA",
+    "AAADADAADADADAADAADAAAADADAADADADAADAADADADAADAADA",
+    "ATTTTTTTTTTTTTTTDADAADAADADADAADAADADADAADAADAADAA",
+    "AAADADAADADADAADAADAAAADADAADADADAADAADADADAADAADA",
+    "ATTTTTTTTTTTTTTTDADAADAADADADAADAADADADAADAADAADAA",
+    "DTDTDTDTDTDTDTDTADAADAADAADAADAADAADAADAADAADAADAA",
+    "AAADADAADADADAADAADAAAADADAADADADAADAADADADAADAADA",
+    "ATTTTTTTTTTTTTTTDADAADAADADADAADAADADADAADAADAADAA",
+    "AAADADAADADADAADAADAAAADADAADADADAADAADADADAADAADA",
+    "ATTTTTTTTTTTTTTTDADAADAADADADAADAADADADAADAADAADAA",
+    "DTDTDTDTDTDTDTDTADAADAADAADAADAADAADAADAADAADAADAA",
+    "AAADADAADADADAADAADAAAADADAADADADAADAADADADAADAADA",
+    "ATTTTTTTTTTTTTTTDADAADAADADADAADAADADADAADAADAADAA",
+    "AAADADAADADADAADAADAAAADADAADADADAADAADADADAADAADA",
+    "ATTTTTTTTTTTTTTTDADAADAADADADAADAADADADAADAADAADAA",
+    "DTDTDTDTDTDTDTDTADAADAADAADAADAADAADAADAADAADAADAA",
+    "AAADADAADADADAADAADAAAADADAADADADAADAADADADAADAADA",
+    "ATTTTTTTTTTTTTTTDADAADAADADADAADAADADADAADAADAADAA",
+    "AAADADAADADADAADAADAAAADADAADADADAADAADADADAADAADA",
+    "ATTTTTTTTTTTTTTTDADAADAADADADAADAADADADAADAADAADAA",
+    "DTDTDTDTDTDTDTDTADAADAADAADAADAADAADAADAADAADAADAA",
+    "AAADADAADADADAADAADAAAADADAADADADAADAADADADAADAADA",
+    "ATTTTTTTTTTTTTTTDADAADAADADADAADAADADADAADAADAADAA",
+]
+
+# Colocar el patrón en la matriz
+for y, fila in enumerate(patron_biomas):
+    for x, caracter in enumerate(fila):
+        matriz_biomas[y][x] = bioma_dict[caracter]
 
 num_plantas = 2
 num_carnivoros = 2
@@ -143,18 +227,26 @@ def dibujar_matriz():
             tipos_organismos = set()
             colores = set()
 
+            # Dibujar biomas
+            matriz_biomas[y][x].image = PY.transform.scale(matriz_biomas[y][x].image, (cW, cH))
+            screen.blit(matriz_biomas[y][x].image, (x * cW, y * cH))
+
+            # Verificar si hay organismos y dibujarlos después de los biomas
             for organismo in matriz_espacial[y][x]:
                 if isinstance(organismo, Planta):
                     tipos_organismos.add("Planta")
                 elif isinstance(organismo, Animal):
                     tipos_organismos.add(organismo.dieta)
 
+            for organismo in matriz_espacial[y][x]:
+                if isinstance(organismo, Animal):
                     organismo.dibujar(screen, cW, cH)
 
             color = max(colores) if colores else (0, 0, 0)
             PY.draw.rect(screen, color, rect, 1)
 
-velocidad_movimiento = 130
+
+velocidad_movimiento = 10
 
 plantas = [Planta((RA.randint(0, nxC - 1), RA.randint(0, nyC - 1)), 50, 20, 2, "Tipo1") for _ in range(num_plantas)]
 carnivoros = []
@@ -167,12 +259,39 @@ herbivoros.extend([Gallina((RA.randint(0, nxC - 1), RA.randint(0, nyC - 1))) for
 
 ejecutando = True
 contador = 0
+min_cW = pW // nxC  
+min_cH = pH // nyC
+camera_x = 0
+camera_y = 0
 
 while ejecutando:
     for evento in PY.event.get():
         if evento.type == PY.QUIT:
             ejecutando = False
 
+        elif evento.type == PY.KEYDOWN:
+            if evento.key == PY.K_MINUS:
+                # Reduce el tamaño de la celda
+                cW = max(cW - 1, min_cW)
+                cH = max(cH - 1, min_cH)
+                
+            elif evento.key == PY.K_PLUS:
+                # Aumenta el tamaño de la celda
+                cW += 1
+                cH += 1
+
+                
+            elif evento.key in (PY.K_w, PY.K_UP):
+                camera_y -= 1
+
+            elif evento.key in (PY.K_s, PY.K_DOWN):
+                camera_y += 1
+
+            elif evento.key in (PY.K_a, PY.K_LEFT):
+                camera_x -= 1
+
+            elif evento.key in (PY.K_d, PY.K_RIGHT):
+                camera_x += 1
     if contador % velocidad_movimiento == 0:
         for carnivoro in carnivoros:
             direccion = RA.choice(["arriba", "abajo", "izquierda", "derecha"])
@@ -187,6 +306,14 @@ while ejecutando:
     for planta in plantas:
         planta.crecer()
 
+    screen.fill(fondo_color)
+    for y in range(0, nyC):
+        for x in range(0, nxC):
+            # Calcula las posiciones en pantalla teniendo en cuenta la cámara
+            screen_x = x * cW - camera_x * cW
+            screen_y = y * cH - camera_y * cH
+            rect = (screen_x, screen_y, cW, cH)
+
     matriz_espacial = [[[] for _ in range(nxC)] for _ in range(nyC)]
 
     for planta in plantas:
@@ -200,5 +327,4 @@ while ejecutando:
 
     dibujar_matriz()
     PY.display.flip()
-
 PY.quit()
