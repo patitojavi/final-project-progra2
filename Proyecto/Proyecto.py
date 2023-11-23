@@ -62,8 +62,8 @@ class Lobo(Animal):
         energia = RA.randint(20, 50)
         velocidad = RA.uniform(5, 2)
         super().__init__(posicion, vida, energia, velocidad, especie, "Carnívoro")
-        self.imagen_original = PY.image.load("Proyecto/lobo.png")  # Ruta de la imagen del oso
-        self.imagen = PY.transform.scale(self.imagen_original, (cW, cH))  # Redimensionar la imagen al tamaño de la celda
+        self.imagen_original = PY.image.load("Proyecto/lobo.png")  
+        self.imagen = PY.transform.scale(self.imagen_original, (cW, cH))  
 
 class Guepardo(Animal):
     def __init__(self, posicion):
@@ -72,8 +72,8 @@ class Guepardo(Animal):
         energia = RA.randint(20, 50)
         velocidad = RA.uniform(5, 2)
         super().__init__(posicion, vida, energia, velocidad, especie, "Carnívoro")
-        self.imagen_original = PY.image.load("Proyecto/guepardo.png")  # Ruta de la imagen del oso
-        self.imagen = PY.transform.scale(self.imagen_original, (cW, cH))  # Redimensionar la imagen al tamaño de la celda
+        self.imagen_original = PY.image.load("Proyecto/guepardo.png")  
+        self.imagen = PY.transform.scale(self.imagen_original, (cW, cH))  
 
 
 
@@ -84,18 +84,38 @@ class Cerdo(Animal):
         energia = RA.randint(20, 50)
         velocidad = RA.uniform(5, 2)
         super().__init__(posicion, vida, energia, velocidad, especie, "Omnivero")
-        self.imagen_original = PY.image.load("Proyecto/cerdo.png")  # Ruta de la imagen del oso
-        self.imagen = PY.transform.scale(self.imagen_original, (cW, cH))  # Redimensionar la imagen al tamaño de la celda
+        self.imagen_original = PY.image.load("Proyecto/cerdo.png")  
+        self.imagen = PY.transform.scale(self.imagen_original, (cW, cH))  
 
 class Gallina(Animal):
+    def __init__(self, posicion):
+        especie = "Gallina"
+        vida = RA.randint(50, 100)
+        energia = RA.randint(20, 50)
+        velocidad = RA.uniform(5, 2)
+        super().__init__(posicion, vida, energia, velocidad, especie, "herbivoro")
+        self.imagen_original = PY.image.load("Proyecto/gallina.png")  
+        self.imagen = PY.transform.scale(self.imagen_original, (cW, cH)) 
+
+class Oveja(Animal):
     def __init__(self, posicion):
         especie = "Cerdo"
         vida = RA.randint(50, 100)
         energia = RA.randint(20, 50)
         velocidad = RA.uniform(5, 2)
-        super().__init__(posicion, vida, energia, velocidad, especie, "Omnivero")
-        self.imagen_original = PY.image.load("Proyecto/gallina.png")  # Ruta de la imagen del oso
-        self.imagen = PY.transform.scale(self.imagen_original, (cW, cH))  # Redimensionar la imagen al tamaño de la celda
+        super().__init__(posicion, vida, energia, velocidad, especie, "herbivoro")
+        self.imagen_original = PY.image.load("Proyecto/oveja.png")  
+        self.imagen = PY.transform.scale(self.imagen_original, (cW, cH)) 
+
+class Vaca(Animal):
+    def __init__(self, posicion):
+        especie = "Vaca"
+        vida = RA.randint(50, 100)
+        energia = RA.randint(20, 50)
+        velocidad = RA.uniform(5, 2)
+        super().__init__(posicion, vida, energia, velocidad, especie, "herbivoro")
+        self.imagen_original = PY.image.load("Proyecto/vaca.png")  
+        self.imagen = PY.transform.scale(self.imagen_original, (cW, cH)) 
 
 
 
@@ -126,11 +146,7 @@ nyC = 50
 cH = pW // nxC
 cW = pH // nyC
 
-matriz_espacial = [[[] for _ in range(nxC)] for _ in range(nyC)]
-matriz_biomas = [] 
-matriz_biomas.extend([[Desierto() for _ in range(nxC)] for _ in range(nyC)])
-matriz_biomas.extend([[Agua() for _ in range(nxC)] for _ in range(nyC)])
-matriz_biomas.extend([[Tierra() for _ in range(nxC)] for _ in range(nyC)])
+matriz_biomas = [[[] for _ in range(nxC)] for _ in range(nyC)]
 
 # Colocar el patrón en la matriz
 for y, fila in enumerate(patron_biomas):
@@ -170,7 +186,7 @@ def dibujar_matriz():
             PY.draw.rect(screen, color, rect, 1)
 
 
-velocidad_movimiento = 10
+velocidad_movimiento = 20
 
 plantas = [Planta((RA.randint(0, nxC - 1), RA.randint(0, nyC - 1)), 50, 20, 2, "Tipo1") for _ in range(num_plantas)]
 carnivoros = []
@@ -180,6 +196,8 @@ carnivoros.extend([Guepardo((RA.randint(0, nxC - 1), RA.randint(0, nyC - 1))) fo
 herbivoros = []
 herbivoros.extend([Cerdo((RA.randint(0, nxC - 1), RA.randint(0, nyC - 1))) for _ in range(num_herbivoros)])
 herbivoros.extend([Gallina((RA.randint(0, nxC - 1), RA.randint(0, nyC - 1))) for _ in range(num_herbivoros)])
+herbivoros.extend([Oveja((RA.randint(0, nxC - 1), RA.randint(0, nyC - 1))) for _ in range(num_herbivoros)])
+herbivoros.extend([Vaca((RA.randint(0, nxC - 1), RA.randint(0, nyC - 1))) for _ in range(num_herbivoros)])
 
 ejecutando = True
 contador = 0
