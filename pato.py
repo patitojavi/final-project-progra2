@@ -15,7 +15,8 @@ AGUA_IMAGE = "agua.png"
 BOSQUE_IMAGE = "tierra.png"
 LEON_IMAGE = "lobo1.png"
 VACA_IMAGE = "vaca.png"
-CAZADOR_IMAGE = "lobo1.png"
+LOBO_IMAGE = "lobo1.png"
+PRESA_IMAGE = "vaca.png"  # Cambia a la imagen que quieras para la presa
 
 class Bioma:
     def __init__(self, image_path):
@@ -39,66 +40,86 @@ class Organismo:
         self.x = x
         self.y = y
         self.image = pygame.image.load(image_path)
-
-    def move(self, matrix):
-        # Implementa la lógica de movimiento aquí
-        pass
-
-# Definición de la subclase Animales que hereda de Organismo
-class Animales(Organismo):
-    def __init__(self, x, y, image_path):
-        super().__init__(x, y, image_path)
         self.nivel_agua = 50  # Nivel de agua inicial
         self.muerto = False
         self.tiempo_restante = 0
+        self.energia = 100  # Energía inicial
+        self.movimientos_realizados = 0
 
     def move(self, matrix):
         if not self.muerto:
-            new_x = self.x + random.choice([-1, 0, 1])
-            new_y = self.y + random.choice([-1, 0, 1])
+            if self.movimientos_realizados >= 50:
+                # Si se han realizado 50 movimientos, el organismo descansa y recupera energía
+                self.descansar()
+            else:
+                new_x = self.x + random.choice([-1, 0, 1])
+                new_y = self.y + random.choice([-1, 0, 1])
 
-            # Asegúrate de que el nuevo lugar esté dentro de la matriz
-            new_x = (new_x + MATRIX_SIZE) % MATRIX_SIZE
-            new_y = (new_y + MATRIX_SIZE) % MATRIX_SIZE
+                # Asegúrate de que el nuevo lugar esté dentro de la matriz
+                new_x = (new_x + MATRIX_SIZE) % MATRIX_SIZE
+                new_y = (new_y + MATRIX_SIZE) % MATRIX_SIZE
 
-            # Actualiza el nivel de agua según el tipo de bioma
-            bioma = matrix[new_y][new_x]
-            if isinstance(bioma, Agua):
-                self.nivel_agua = 100
-            elif isinstance(bioma, Desierto):
-                self.nivel_agua -= 5
-            elif isinstance(bioma, Bosque):
-                self.nivel_agua -= 1
+                # Actualiza el nivel de agua según el tipo de bioma
+                bioma = matrix[new_y][new_x]
+                self.beber(matrix)  # Llama al método beber
 
-            # Asegúrate de que el nivel de agua esté dentro del rango [0, 100]
-            self.nivel_agua = max(0, min(self.nivel_agua, 100))
+                # Verifica si hay un Carnivoro en la nueva posición
+                if isinstance(bioma, Carnivoro):
+                    bioma.atacar(self)
 
-            # Verifica si hay un cazador en la nueva posición
-            if isinstance(bioma, Cazador):
-                bioma.atacar(self)
+                # Reproducción si hay otro organismo de la misma especie en la misma posición
+                elif isinstance(bioma, Organismo) and bioma is not self and isinstance(self, type(bioma)):
+                    self.reproducir(matrix, bioma)
 
-            # Reproducción si hay otro animal en la misma posición
-            elif isinstance(bioma, Animales) and bioma is not self:
-                # Crea un nuevo animal en una posición aleatoria
-                new_animal = Animales(random.randint(0, MATRIX_SIZE - 1), random.randint(0, MATRIX_SIZE - 1), LEON_IMAGE)
-                # Agrega el nuevo animal a la lista de animales
-                matrix[new_animal.y][new_animal.x] = new_animal
+                # Actualiza la posición del organismo en la matriz
+                matrix[self.y][self.x] = None
+                matrix[new_y][new_x] = self
+                self.x = new_x
+                self.y = new_y
 
-            # Actualiza la posición del animal en la matriz
-            matrix[self.y][self.x] = None
-            matrix[new_y][new_x] = self
-            self.x = new_x
-            self.y = new_y
+                # Actualiza el tiempo restante si el organismo está muerto
+                if self.muerto:
+                    self.tiempo_restante -= 1
+                    if self.tiempo_restante <= 0:
+                        matrix[self.y][self.x] = None
+                        self.muerto = False
 
-            # Actualiza el tiempo restante si el animal está muerto
-            if self.muerto:
-                self.tiempo_restante -= 1
-                if self.tiempo_restante <= 0:
-                    matrix[self.y][self.x] = None
-                    self.muerto = False
+                # Actualiza el conteo de movimientos realizados
+                self.movimientos_realizados += 1
 
-# Definición de la subclase Cazador que hereda de Organismo
-class Cazador(Organismo):
+    def beber(self, matrix):
+        bioma = matrix[self.y][self.x]
+        if isinstance(bioma, Agua):
+            self.nivel_agua = min(100, self.nivel_agua + 10)  # Ajusta la cantidad de agua que se puede beber
+        elif isinstance(bioma, Desierto):
+            self.nivel_agua = max(0, self.nivel_agua - 5)
+        elif isinstance(bioma, Bosque):
+            self.nivel_agua = max(0, self.nivel_agua - 1)
+        self.nivel_agua = max(0, min(self.nivel_agua, 100))
+
+    def descansar(self):
+        # Restablece la cantidad de movimientos realizados y recupera energía
+        self.movimientos_realizados = 0
+        self.energia += 10  # Ajusta la cantidad de energía recuperada según sea necesario
+        self.energia = min(self.energia, 100)  # Asegúrate de que la energía no supere el máximo
+
+    def reproducir(self, matrix, partner):
+        # Verifica si hay espacio adyacente para la reproducción
+        adjacent_positions = [(self.x + dx, self.y + dy) for dx in [-1, 0, 1] for dy in [-1, 0, 1]]
+        available_positions = [(x, y) for x, y in adjacent_positions if 0 <= x < MATRIX_SIZE and 0 <= y < MATRIX_SIZE and matrix[y][x] is None]
+
+        if available_positions:
+            # Elige una posición aleatoria para la reproducción
+            new_x, new_y = random.choice(available_positions)
+
+            # Crea un nuevo organismo de la misma especie en la posición seleccionada
+            new_organism = type(self)(new_x, new_y, self.image_path)
+            
+            # Agrega el nuevo organismo a la matriz
+            matrix[new_y][new_x] = new_organism
+
+# Definición de la subclase Carnivoro que hereda de Organismo
+class Carnivoro(Organismo):
     def __init__(self, x, y, image_path):
         super().__init__(x, y, image_path)
 
@@ -106,6 +127,21 @@ class Cazador(Organismo):
         # Ataca a la presa (la marca como muerta y establece el tiempo restante)
         presa.muerto = True
         presa.tiempo_restante = 5  # Cambia esto a la cantidad deseada de tiempo que el cuerpo permanece en el mismo lugar
+
+# Definición de la subclase Lobo que hereda de Carnivoro
+class Lobo(Carnivoro):
+    def __init__(self, x, y, image_path):
+        super().__init__(x, y, image_path)
+
+# Definición de la subclase Herviboro que hereda de Organismo
+class Herviboro(Organismo):
+    def __init__(self, x, y, image_path):
+        super().__init__(x, y, image_path)
+
+# Definición de la subclase Vaca que hereda de Herviboro
+class Vaca(Herviboro):
+    def __init__(self, x, y, image_path):
+        super().__init__(x, y, image_path)
 
 # Función para dibujar la matriz y los organismos en la ventana
 def draw_matrix(screen, matrix):
@@ -119,11 +155,11 @@ def draw_matrix(screen, matrix):
             if bioma:
                 screen.blit(bioma.image, (col * cell_width, row * cell_height, cell_width, cell_height))
 
-    # Dibuja los animales y cazadores en la ventana
+    # Dibuja los organismos en la ventana
     for row in range(MATRIX_SIZE):
         for col in range(MATRIX_SIZE):
             organism = matrix[row][col]
-            if organism and isinstance(organism, (Animales, Cazador)):
+            if organism and isinstance(organism, Organismo):
                 screen.blit(organism.image, (col * cell_width, row * cell_height, cell_width, cell_height))
 
     # Líneas de la cuadrícula para los bordes derecho e inferior
@@ -143,10 +179,9 @@ def main():
     # Crear la matriz que representa el mapa con diferentes biomas
     matrix = [[random.choice([Bosque()]) if random.random() < 0.7 else Desierto() if random.random() < 0.7 else Agua() for _ in range(MATRIX_SIZE)] for _ in range(MATRIX_SIZE)]
 
-    # Crear animales y cazadores en posiciones aleatorias
-    animales = [Animales(random.randint(0, MATRIX_SIZE - 1), random.randint(0, MATRIX_SIZE - 1), LEON_IMAGE) for _ in range(5)]  # Crear 5 leones
-    animales += [Animales(random.randint(0, MATRIX_SIZE - 1), random.randint(0, MATRIX_SIZE - 1), VACA_IMAGE) for _ in range(5)]  # Crear 5 vacas
-    cazadores = [Cazador(random.randint(0, MATRIX_SIZE - 1), random.randint(0, MATRIX_SIZE - 1), CAZADOR_IMAGE) for _ in range(3)]  # Crear 3 cazadores
+    # Crear organismos en posiciones aleatorias
+    organisms = [Lobo(random.randint(0, MATRIX_SIZE - 1), random.randint(0, MATRIX_SIZE - 1), LOBO_IMAGE) for _ in range(5)]  # Crear 5 Lobos
+    organisms += [Vaca(random.randint(0, MATRIX_SIZE - 1), random.randint(0, MATRIX_SIZE - 1), VACA_IMAGE) for _ in range(5)]  # Crear 5 Vacas
 
     running = True
     while running:
@@ -154,14 +189,14 @@ def main():
             if event.type == pygame.QUIT:
                 running = False
 
-        # Mueve a los animales y cazadores en la matriz
-        for organism in animales + cazadores:
+        # Mueve a los organismos en la matriz
+        for organism in organisms:
             organism.move(matrix)
 
         # Limpia la pantalla
         screen.fill(WHITE)
 
-        # Dibuja la matriz, animales y cazadores en la ventana
+        # Dibuja la matriz y organismos en la ventana
         draw_matrix(screen, matrix)
 
         pygame.display.flip()
