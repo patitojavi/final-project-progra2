@@ -51,23 +51,78 @@ class Animal(Organismo):
         # Actualizar la posición del animal
         self.posicion = (nueva_x, nueva_y)
 
+    def cazar(self, presas):
+        if self.dieta == "Carnívoro" and presas:
+            presa = RA.choice(presas)
+            presa.vida -= 10  # Reducir la vida de la presa (ajusta según sea necesario)
+            presa.vida = max(presa.vida, 0)  # Asegurar que la vida no sea negativa
+            if presa.vida == 0:  # Si la vida de la presa llega a 0, eliminarla del ecosistema
+                if presa in herbivoros:
+                    herbivoros.remove(presa)
+            self.energia += 1
+
+
+
+    def reproducirse(self, otros):
+        for otro in otros:
+            if (
+                isinstance(otro, type(self))  # Verificar si es del mismo tipo
+                and self.especie == otro.especie
+                and self.energia > 50
+                and otro.energia > 50
+                and self.__class__ == otro.__class__  # Comparar las clases específicas
+            ):
+                nuevo_animal = type(self)(self.posicion)  # Crear nuevo animal del mismo tipo
+                nuevo_animal.energia = (self.energia + otro.energia) // 2  # Energía compartida
+                # Posicionar al nuevo animal cerca de los padres, ajusta según necesites
+                nuevo_animal.posicion = (
+                    self.posicion[0] + 1,
+                    self.posicion[1] + 1,
+                )
+                return nuevo_animal
+
+
+
     def dibujar(self, pantalla, celda_ancho, celda_alto):
         pantalla.blit(self.imagen, (self.posicion[0] * celda_ancho, self.posicion[1] * celda_alto))
-        pass
+
+        vida_restante = max(self.vida, 0)
+        vida_maxima = 100
+        ancho_barra = celda_ancho - 4
+        alto_barra = 5
+        borde_barra = 1
+        color_fondo = (255, 0, 0)
+        color_vida = (0, 255, 0)
+
+        vida_proporcion = vida_restante / vida_maxima
+        ancho_vida = int(ancho_barra * vida_proporcion)
+        x_barra = self.posicion[0] * celda_ancho + 2
+        y_barra = self.posicion[1] * celda_alto - alto_barra - 2
+
+        PY.draw.rect(pantalla, color_fondo, (x_barra, y_barra, ancho_barra, alto_barra))
+        PY.draw.rect(pantalla, color_vida, (x_barra, y_barra, ancho_vida, alto_barra))
+        PY.draw.rect(pantalla, (0, 0, 0), (x_barra, y_barra, ancho_barra, alto_barra), borde_barra)
+
+        # Mostrar la vida como texto sobre la barra
+        font = PY.font.Font(None, 24)
+        vida_texto = font.render(f"Vida: {self.vida}", True, (255, 255, 255))
+        pantalla.blit(vida_texto, (x_barra, y_barra - 20))  # Ajusta la posición del texto según tu preferencia
+
 
 class Lobo(Animal):
     def __init__(self, posicion):
-        especie = "Oso"
+        especie = "Lobo"
         vida = RA.randint(50, 100)
         energia = RA.randint(20, 50)
         velocidad = RA.uniform(5, 2)
         super().__init__(posicion, vida, energia, velocidad, especie, "Carnívoro")
         self.imagen_original = PY.image.load("Proyecto/lobo.png")  
         self.imagen = PY.transform.scale(self.imagen_original, (cW, cH))  
+        
 
 class Guepardo(Animal):
     def __init__(self, posicion):
-        especie = "Oso"
+        especie = "Guepardo"
         vida = RA.randint(50, 100)
         energia = RA.randint(20, 50)
         velocidad = RA.uniform(5, 2)
@@ -83,7 +138,7 @@ class Cerdo(Animal):
         vida = RA.randint(50, 100)
         energia = RA.randint(20, 50)
         velocidad = RA.uniform(5, 2)
-        super().__init__(posicion, vida, energia, velocidad, especie, "Omnivero")
+        super().__init__(posicion, vida, energia, velocidad, especie, "herbivoro")
         self.imagen_original = PY.image.load("Proyecto/cerdo.png")  
         self.imagen = PY.transform.scale(self.imagen_original, (cW, cH))  
 
@@ -154,8 +209,8 @@ for y, fila in enumerate(patron_biomas):
         matriz_biomas[y][x] = bioma_dict[caracter]
 
 num_plantas = 2
-num_carnivoros = 2
-num_herbivoros = 3
+num_carnivoros = 0
+num_herbivoros = 5
 
 def dibujar_matriz():
     screen.fill(fondo_color)
@@ -243,6 +298,7 @@ while ejecutando:
             direccion = RA.choice(["arriba", "abajo", "izquierda", "derecha"])
             herbivoro.moverse(direccion, distancia=1)
 
+
     contador += 1
 
     for planta in plantas:
@@ -266,6 +322,18 @@ while ejecutando:
 
     for herbivoro in herbivoros:
         matriz_espacial[herbivoro.posicion[1]][herbivoro.posicion[0]].append(herbivoro)
+
+    for carnivoro in carnivoros:
+        presas_potenciales = matriz_espacial[carnivoro.posicion[1]][carnivoro.posicion[0]]
+        carnivoro.cazar([presa for presa in presas_potenciales if isinstance(presa, Animal)])
+
+    for herbivoro in herbivoros:
+        posibles_compañeros = matriz_espacial[herbivoro.posicion[1]][herbivoro.posicion[0]]
+        nuevo_animal = herbivoro.reproducirse(
+        [otro for otro in posibles_compañeros if isinstance(otro, Animal) and otro != herbivoro]
+    )
+    if nuevo_animal:  # Agregar verificación aquí para el nuevo animal
+        herbivoros.append(nuevo_animal)
 
     dibujar_matriz()
     PY.display.flip()
