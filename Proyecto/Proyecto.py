@@ -20,12 +20,14 @@ class Organismo:
         self.vida = vida
         self.energia = energia
         self.velocidad = velocidad
+        
 
 class Animal(Organismo):
     def __init__(self, posicion, vida, energia, velocidad, especie, dieta):
         super().__init__(posicion, vida, energia, velocidad)
         self.especie = especie
         self.dieta = dieta
+        self.edad = 0
 
     def moverse(self, direccion, distancia=1):
         # Obtener la posición actual
@@ -54,27 +56,50 @@ class Animal(Organismo):
     def dibujar(self, pantalla, celda_ancho, celda_alto):
         pantalla.blit(self.imagen, (self.posicion[0] * celda_ancho, self.posicion[1] * celda_alto))
         pass
+    
+    def reproducirse(self, otro_animal):
+        if self.especie == otro_animal.especie and self.posicion == otro_animal.posicion and self.energia < 50 or otro_animal.energia < 50:
+            nuevo_animal = Animal(self.posicion, vida=50, energia=50, velocidad=5, especie=self.especie, dieta=self.dieta)
+            return nuevo_animal
+        else:
+            return None
+        
+    def envejecer(self):
+        self.edad += 1
+        if self.edad > 50:
+            self.vida -= 1
+        if self.vida <= 0:
+            self.morir()
 
 class Lobo(Animal):
     def __init__(self, posicion):
-        especie = "Oso"
+        especie = "Lobo"
         vida = RA.randint(50, 100)
         energia = RA.randint(20, 50)
         velocidad = RA.uniform(5, 2)
         super().__init__(posicion, vida, energia, velocidad, especie, "Carnívoro")
         self.imagen_original = PY.image.load("Proyecto/lobo.png")  
-        self.imagen = PY.transform.scale(self.imagen_original, (cW, cH))  
+        self.imagen = PY.transform.scale(self.imagen_original, (cW, cH))
+        
+    def cazar(self, presa):
+        if self.dieta == "Carnívoro":
+            if self.posicion == otro_animal.posicion:
+                otro_animal.vida -= 100
+                self.energia += 10
+                if otro_animal.vida <= 0:
+                    otro_animal.morir()
+        else:
+            return None
 
 class Guepardo(Animal):
     def __init__(self, posicion):
-        especie = "Oso"
+        especie = "Guepardo"
         vida = RA.randint(50, 100)
         energia = RA.randint(20, 50)
         velocidad = RA.uniform(5, 2)
         super().__init__(posicion, vida, energia, velocidad, especie, "Carnívoro")
         self.imagen_original = PY.image.load("Proyecto/guepardo.png")  
         self.imagen = PY.transform.scale(self.imagen_original, (cW, cH))  
-
 
 
 class Cerdo(Animal):
@@ -210,30 +235,6 @@ while ejecutando:
     for evento in PY.event.get():
         if evento.type == PY.QUIT:
             ejecutando = False
-
-        elif evento.type == PY.KEYDOWN:
-            if evento.key == PY.K_MINUS:
-                # Reduce el tamaño de la celda
-                cW = max(cW - 1, min_cW)
-                cH = max(cH - 1, min_cH)
-                
-            elif evento.key == PY.K_PLUS:
-                # Aumenta el tamaño de la celda
-                cW += 1
-                cH += 1
-
-                
-            elif evento.key in (PY.K_w, PY.K_UP):
-                camera_y -= 1
-
-            elif evento.key in (PY.K_s, PY.K_DOWN):
-                camera_y += 1
-
-            elif evento.key in (PY.K_a, PY.K_LEFT):
-                camera_x -= 1
-
-            elif evento.key in (PY.K_d, PY.K_RIGHT):
-                camera_x += 1
     if contador % velocidad_movimiento == 0:
         for carnivoro in carnivoros:
             direccion = RA.choice(["arriba", "abajo", "izquierda", "derecha"])
@@ -242,6 +243,17 @@ while ejecutando:
         for herbivoro in herbivoros:
             direccion = RA.choice(["arriba", "abajo", "izquierda", "derecha"])
             herbivoro.moverse(direccion, distancia=1)
+    for i in range(len(carnivoros)):
+        for j in range(i + 1, len(carnivoros)):
+            nuevo_carnivoro = carnivoros[i].reproducirse(carnivoros[j])
+            if nuevo_carnivoro:
+                carnivoros.append(nuevo_carnivoro)
+
+    for i in range(len(herbivoros)):
+        for j in range(i + 1, len(herbivoros)):
+            nuevo_herbivoro = herbivoros[i].reproducirse(herbivoros[j])
+            if nuevo_herbivoro:
+                herbivoros.append(nuevo_herbivoro)
 
     contador += 1
 
