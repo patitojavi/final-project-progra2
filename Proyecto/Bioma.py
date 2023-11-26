@@ -1,11 +1,11 @@
 import pygame as PY
 import random as RA
+from constantes import pW, pH
 
 PY.init()
 
 # Tamaño de pantalla dinámico
-pW = 800
-pH = 800
+
 screen = PY.display.set_mode((pW, pH))
 PY.display.set_caption("Ecosistema Simulator")
 
@@ -17,15 +17,15 @@ class Bioma:
 
 class Desierto(Bioma):
     def __init__(self):
-        super().__init__("Proyecto/arena.png", RA.randint(0, 1), 0)
+        super().__init__("Proyecto/imagenes/arena.png", RA.randint(0, 1), 0)
 
 class Agua(Bioma):
     def __init__(self):
-        super().__init__("Proyecto/agua.png", 0, RA.randint(0, 5))
+        super().__init__("Proyecto/imagenes/agua.png", 0, RA.randint(0, 5))
 
 class Tierra(Bioma):
     def __init__(self):
-        super().__init__("Proyecto/tierra.png", RA.randint(0, 5), 0)
+        super().__init__("Proyecto/imagenes/tierra.png", RA.randint(0, 5), 0)
 
 
 
