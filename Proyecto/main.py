@@ -67,37 +67,13 @@ herbivoros.extend([Vaca((RA.randint(0, nxC - 1), RA.randint(0, nyC - 1))) for _ 
 
 ejecutando = True
 contador = 0
-camera_x = 0
-camera_y = 0
+
 
 while ejecutando:
     for evento in PY.event.get():
         if evento.type == PY.QUIT:
             ejecutando = False
 
-        elif evento.type == PY.KEYDOWN:
-            if evento.key == PY.K_MINUS:
-                # Reduce el tamaño de la celda
-                cW = max(cW - 1, min_cW)
-                cH = max(cH - 1, min_cH)
-                
-            elif evento.key == PY.K_PLUS:
-                # Aumenta el tamaño de la celda
-                cW += 1
-                cH += 1
-
-                
-            elif evento.key in (PY.K_w, PY.K_UP):
-                camera_y -= 1
-
-            elif evento.key in (PY.K_s, PY.K_DOWN):
-                camera_y += 1
-
-            elif evento.key in (PY.K_a, PY.K_LEFT):
-                camera_x -= 1
-
-            elif evento.key in (PY.K_d, PY.K_RIGHT):
-                camera_x += 1
     if contador % velocidad_movimiento == 0:
         for carnivoro in carnivoros:
             direccion = RA.choice(["arriba", "abajo", "izquierda", "derecha"])
@@ -108,13 +84,6 @@ while ejecutando:
             herbivoro.moverse(direccion, distancia=1)
     contador += 1
 
-
-    for y in range(0, nyC):
-        for x in range(0, nxC):
-            # Calcula las posiciones en pantalla teniendo en cuenta la cámara
-            screen_x = x * cW - camera_x * cW
-            screen_y = y * cH - camera_y * cH
-            rect = (screen_x, screen_y, cW, cH)
 
     matriz_espacial = [[[] for _ in range(nxC)] for _ in range(nyC)]
 
