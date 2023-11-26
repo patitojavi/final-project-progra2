@@ -35,15 +35,6 @@ class Animal(Organismo):
         # Actualizar la posición del animal
         self.posicion = (nueva_x, nueva_y)
 
-    def cazar(self, presas):
-        if self.dieta == "Carnívoro" and presas:
-            presa = RA.choice(presas)
-            presa.vida -= 10  # Reducir la vida de la presa (ajusta según sea necesario)
-            presa.vida = max(presa.vida, 0)  # Asegurar que la vida no sea negativa
-            if presa.vida == 0:  # Si la vida de la presa llega a 0, eliminarla del ecosistema
-                self.energia += 1
-
-
 
     def reproducirse(self, otros):
         for otro in otros:
@@ -102,6 +93,29 @@ class Lobo(Animal):
         self.imagen = PY.transform.scale(self.imagen_original, (cW, cH))  
         
 
+
+class Leon(Animal):
+    def __init__(self, posicion):
+        especie = "Leon"
+        vida = RA.randint(50, 100)
+        energia = RA.randint(20, 50)
+        velocidad = RA.uniform(5, 2)
+        super().__init__(posicion, vida, energia, velocidad, especie, "Carnívoro")
+        self.imagen_original = PY.image.load("Proyecto/imagenes/leon.png")  
+        self.imagen = PY.transform.scale(self.imagen_original, (cW, cH))
+
+
+class Zorro(Animal):
+    def __init__(self, posicion):
+        especie = "Zorro"
+        vida = RA.randint(50, 100)
+        energia = RA.randint(20, 50)
+        velocidad = RA.uniform(5, 2)
+        super().__init__(posicion, vida, energia, velocidad, especie, "Carnívoro")
+        self.imagen_original = PY.image.load("Proyecto/imagenes/zorro.png")  
+        self.imagen = PY.transform.scale(self.imagen_original, (cW, cH))
+
+
 class Guepardo(Animal):
     def __init__(self, posicion):
         especie = "Guepardo"
@@ -112,6 +126,15 @@ class Guepardo(Animal):
         self.imagen_original = PY.image.load("Proyecto/imagenes/guepardo.png")  
         self.imagen = PY.transform.scale(self.imagen_original, (cW, cH))  
 
+class Oso(Animal):
+    def __init__(self, posicion):
+        especie = "Oso"
+        vida = RA.randint(50, 100)
+        energia = RA.randint(20, 50)
+        velocidad = RA.uniform(5, 2)
+        super().__init__(posicion, vida, energia, velocidad, especie, "Carnívoro")
+        self.imagen_original = PY.image.load("Proyecto/imagenes/oso.png")  
+        self.imagen = PY.transform.scale(self.imagen_original, (cW, cH))
 
 
 class Cerdo(Animal):
@@ -123,6 +146,18 @@ class Cerdo(Animal):
         super().__init__(posicion, vida, energia, velocidad, especie, "herbivoro")
         self.imagen_original = PY.image.load("Proyecto/imagenes/cerdo.png")  
         self.imagen = PY.transform.scale(self.imagen_original, (cW, cH))  
+
+
+class Conejo(Animal):
+    def __init__(self, posicion):
+        especie = "Conejo"
+        vida = RA.randint(50, 100)
+        energia = RA.randint(20, 50)
+        velocidad = RA.uniform(5, 2)
+        super().__init__(posicion, vida, energia, velocidad, especie, "herbivoro")
+        self.imagen_original = PY.image.load("Proyecto/imagenes/conejo.png")  
+        self.imagen = PY.transform.scale(self.imagen_original, (cW, cH))
+
 
 class Gallina(Animal):
     def __init__(self, posicion):
@@ -143,6 +178,7 @@ class Oveja(Animal):
         super().__init__(posicion, vida, energia, velocidad, especie, "herbivoro")
         self.imagen_original = PY.image.load("Proyecto/imagenes/oveja.png")  
         self.imagen = PY.transform.scale(self.imagen_original, (cW, cH)) 
+
 
 class Vaca(Animal):
     def __init__(self, posicion):

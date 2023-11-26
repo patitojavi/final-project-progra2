@@ -3,8 +3,8 @@ import random as RA
 
 from bioma import Bioma, Desierto, Agua, Tierra,patron_biomas,bioma_dict
 from organismo import Organismo
-from animales import Animal, Lobo, Guepardo, Cerdo, Gallina, Oveja, Vaca
-from plantas import Planta
+from animales import Animal, Lobo, Guepardo, Cerdo, Gallina, Oveja, Vaca, Conejo, Oso, Leon, Zorro
+from plantas import Planta, Nenufar, ArbolDesierto, ArbolTierra
 from constantes import fondo_color, velocidad_movimiento, cW, cH, nxC, nyC, min_cW, min_cH, pW, pH
 from ambiente import Ambiente
 from ecosistema import Ecosistema
@@ -108,9 +108,7 @@ while ejecutando:
             herbivoro.moverse(direccion, distancia=1)
     contador += 1
 
-    for planta in plantas:
-        planta.crecer()
-    screen.fill(fondo_color)
+
     for y in range(0, nyC):
         for x in range(0, nxC):
             # Calcula las posiciones en pantalla teniendo en cuenta la cámara
@@ -140,7 +138,7 @@ while ejecutando:
     )
     if nuevo_animal:  # Agregar verificación aquí para el nuevo animal
         herbivoros.append(nuevo_animal)
-
+    
     dibujar_matriz()
     PY.display.flip()
 PY.quit()

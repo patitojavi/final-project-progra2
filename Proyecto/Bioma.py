@@ -1,6 +1,7 @@
 import pygame as PY
 import random as RA
 from constantes import pW, pH
+from plantas import Nenufar, ArbolDesierto, ArbolTierra
 
 PY.init()
 
