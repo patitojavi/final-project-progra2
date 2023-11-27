@@ -87,7 +87,7 @@ while ejecutando:
     for evento in PY.event.get():
         if evento.type == PY.QUIT:
             ejecutando = False
-                
+
     if contador % velocidad_movimiento == 0:
         for carnivoro in carnivoros:
             direccion = RA.choice(["arriba", "abajo", "izquierda", "derecha"])
@@ -99,7 +99,9 @@ while ejecutando:
     
     contador += 1
 
+
     # Actualización de la matriz espacial
+
     matriz_espacial = [[[] for _ in range(nxC)] for _ in range(nyC)]
 
     for planta in plantas:
