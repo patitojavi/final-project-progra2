@@ -5,6 +5,8 @@ import random as RA
 from organismo import Organismo
 from constantes import cW, cH, nxC, nyC, min_cW, min_cH, pW, pH
 
+
+
 class Animal(Organismo):
     def __init__(self, posicion, vida, energia, velocidad, especie, dieta):
         super().__init__(posicion, vida, energia, velocidad)
@@ -39,21 +41,46 @@ class Animal(Organismo):
     def reproducirse(self, otros):
         for otro in otros:
             if (
-                isinstance(otro, type(self))  # Verificar si es del mismo tipo
+                isinstance(otro, type(self))
                 and self.especie == otro.especie
                 and self.energia > 50
                 and otro.energia > 50
-                and self.__class__ == otro.__class__  # Comparar las clases específicas
+                and self.__class__ == otro.__class__
             ):
-                nuevo_animal = type(self)(self.posicion)  # Crear nuevo animal del mismo tipo
-                nuevo_animal.energia = (self.energia + otro.energia) // 2  # Energía compartida
-                # Posicionar al nuevo animal cerca de los padres, ajusta según necesites
-                nuevo_animal.posicion = (
-                    self.posicion[0] + 1,
-                    self.posicion[1] + 1,
+                nueva_posicion_x = min(max(self.posicion[0] + RA.randint(-1, 1), 0), nxC - 1)
+                nueva_posicion_y = min(max(self.posicion[1] + RA.randint(-1, 1), 0), nyC - 1)
+
+                nuevo_animal = type(self)(
+                    (nueva_posicion_x, nueva_posicion_y),
+                    vida=(self.vida + otro.vida) // 2,
+                    energia=(self.energia + otro.energia) // 2,
+                    velocidad=self.velocidad,
+                    especie=self.especie,
+                    dieta=self.dieta
                 )
+
                 return nuevo_animal
 
+        return None
+            
+    def cazar(self, presas, herbivoros):
+        if self.dieta == "Carnívoro" and presas:
+            presa = RA.choice(presas)
+            if isinstance(presa, Animal):  # Verificar si la presa es un Animal
+                vida_restante = presa.vida - 10  # Disminuir la vida de la presa (ajustar según sea necesario)
+                presa.vida = max(vida_restante, 0)  # Asegurar que la vida no sea menor que cero
+                
+                # Ajustar la cantidad de vida ganada por el cazador según la situación
+                if vida_restante <= 0:
+                    self.vida += 20  # Si la presa ha muerto, el cazador gana más vida
+                else:
+                    self.vida += 5  # Si la presa sigue viva después del ataque, el cazador gana menos vida
+                    if self.vida > 100:  # Limitar la vida máxima del cazador a 100
+                        self.vida = 100
+                        
+                if presa.vida <= 0:  # Si la vida de la presa llega a 0, quitarla del ecosistema
+                    if presa in herbivoros:
+                        herbivoros.remove(presa)
 
 
     def dibujar(self, pantalla, celda_ancho, celda_alto):
@@ -92,7 +119,16 @@ class Lobo(Animal):
         self.imagen_original = PY.image.load("Proyecto/imagenes/lobo.png")  
         self.imagen = PY.transform.scale(self.imagen_original, (cW, cH))  
         
-
+    def cazar(self, presas, herbivoros):
+        if self.dieta == "Carnívoro" and presas:
+            presa = RA.choice(presas)
+            if isinstance(presa, Animal):  # Verificar si la presa es un Animal
+                vida_restante = presa.vida - 10  # Disminuir la vida de la presa (ajustar según sea necesario)
+                presa.vida = max(vida_restante, 0)  # Asegurar que la vida no sea menor que cero
+                if presa.vida <= 0:  # Si la vida de la presa llega a 0, quitarla del ecosistema
+                    if presa in herbivoros:
+                        herbivoros.remove(presa)
+                self.energia += 1 
 
 class Leon(Animal):
     def __init__(self, posicion):
@@ -171,7 +207,7 @@ class Gallina(Animal):
 
 class Oveja(Animal):
     def __init__(self, posicion):
-        especie = "Cerdo"
+        especie = "Oveja"
         vida = RA.randint(50, 100)
         energia = RA.randint(20, 50)
         velocidad = RA.uniform(5, 2)

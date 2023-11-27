@@ -15,6 +15,10 @@ class Bioma:
         self.image = PY.image.load(image_path)
         self.comida = comida
         self.agua = agua
+        self.plantas = []  # Lista para almacenar plantas en el bioma
+
+    def agregar_planta(self, planta):
+        self.plantas.append(planta)
 
 class Desierto(Bioma):
     def __init__(self):
