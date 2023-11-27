@@ -1,6 +1,5 @@
 import pygame as PY
 import random as RA
-import pygame_gui
 
 from Bioma import patron_biomas,bioma_dict,Tierra,Agua,Desierto
 from organismo import Organismo
@@ -16,29 +15,6 @@ PY.init()
 screen = PY.display.set_mode((pW, pH))
 PY.display.set_caption("Ecosistema Simulator")
 
-# Crear una ventana para la interfaz gráfica
-manager = pygame_gui.UIManager((pW, pH))
-
-# Crear un botón para agregar plantas
-button_planta = pygame_gui.elements.UIButton(
-    relative_rect=PY.Rect((10, 10), (100, 30)),
-    text='Agregar Planta',
-    manager=manager
-)
-
-# Crear un botón para agregar carnívoros
-button_carnivoro = pygame_gui.elements.UIButton(
-    relative_rect=PY.Rect((10, 50), (100, 30)),
-    text='Agregar Carnívoro',
-    manager=manager
-)
-
-# Crear un botón para agregar herbívoros
-button_herbivoro = pygame_gui.elements.UIButton(
-    relative_rect=PY.Rect((10, 90), (100, 30)),
-    text='Agregar Herbívoro',
-    manager=manager
-)
 
 matriz_biomas = [[[] for _ in range(nxC)] for _ in range(nyC)]
 
@@ -139,7 +115,6 @@ while ejecutando:
         presas_potenciales = matriz_espacial[carnivoro.posicion[1]][carnivoro.posicion[0]]
         carnivoro.cazar([presa for presa in presas_potenciales if isinstance(presa, Animal)], herbivoros)
 
-    # Proceso de reproducción y adición de nuevos animales
     # Proceso de reproducción y adición de nuevos animales
     for y in range(0, nyC):
         for x in range(0, nxC):
