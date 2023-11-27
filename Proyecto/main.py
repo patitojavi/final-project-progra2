@@ -57,13 +57,43 @@ cantidad_nenufares = 10
 cantidad_arboles_desierto = 10
 cantidad_arboles_tierra = 10
 
-plantas = [
-    Nenufar((RA.randint(0, nxC - 1), RA.randint(0, nyC - 1))),
-    ArbolDesierto((RA.randint(0, nxC - 1), RA.randint(0, nyC - 1))),
-    ArbolTierra((RA.randint(0, nxC - 1), RA.randint(0, nyC - 1)))
-]
+cantidad_nenufares = 10
+cantidad_arboles_desierto = 10
+cantidad_arboles_tierra = 10
 
-    
+plantas = []
+
+for y in range(nyC):
+    for x in range(nxC):
+        bioma_actual = matriz_biomas[y][x]
+        if isinstance(bioma_actual, Agua) and cantidad_nenufares > 0 and RA.random() > 0.5:
+            nenufar = Nenufar((x, y))
+            bioma_actual.agregar_planta(nenufar)
+            plantas.append(nenufar)
+            cantidad_nenufares -= 1
+
+        elif isinstance(bioma_actual, Desierto) and cantidad_arboles_desierto > 0 and RA.random() > 0.5:
+            arbol_desierto = ArbolDesierto((x, y))
+            bioma_actual.agregar_planta(arbol_desierto)
+            plantas.append(arbol_desierto)
+            cantidad_arboles_desierto -= 1
+
+        elif isinstance(bioma_actual, Tierra) and cantidad_arboles_tierra > 0 and RA.random() > 0.5:
+            arbol_tierra = ArbolTierra((x, y))
+            bioma_actual.agregar_planta(arbol_tierra)
+            plantas.append(arbol_tierra)
+            cantidad_arboles_tierra -= 1
+            
+        if cantidad_nenufares == 0 and cantidad_arboles_desierto == 0 and cantidad_arboles_tierra == 0:
+            # Si ya se han colocado todas las plantas deseadas, salir del bucle
+            break
+            
+    if cantidad_nenufares == 0 and cantidad_arboles_desierto == 0 and cantidad_arboles_tierra == 0:
+        # Si ya se han colocado todas las plantas deseadas, salir del bucle externo
+        break
+
+
+                    
 carnivoros = []
 carnivoros.extend([Lobo((RA.randint(0, nxC - 1), RA.randint(0, nyC - 1))) for _ in range(num_carnivoros)])
 carnivoros.extend([Guepardo((RA.randint(0, nxC - 1), RA.randint(0, nyC - 1))) for _ in range(num_carnivoros)])
