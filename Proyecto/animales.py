@@ -119,16 +119,7 @@ class Lobo(Animal):
         self.imagen_original = PY.image.load("Proyecto/imagenes/lobo.png")  
         self.imagen = PY.transform.scale(self.imagen_original, (cW, cH))  
         
-    def cazar(self, presas, herbivoros):
-        if self.dieta == "Carnívoro" and presas:
-            presa = RA.choice(presas)
-            if isinstance(presa, Animal):  # Verificar si la presa es un Animal
-                vida_restante = presa.vida - 10  # Disminuir la vida de la presa (ajustar según sea necesario)
-                presa.vida = max(vida_restante, 0)  # Asegurar que la vida no sea menor que cero
-                if presa.vida <= 0:  # Si la vida de la presa llega a 0, quitarla del ecosistema
-                    if presa in herbivoros:
-                        herbivoros.remove(presa)
-                self.energia += 1 
+
 
 class Leon(Animal):
     def __init__(self, posicion):

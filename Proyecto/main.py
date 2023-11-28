@@ -133,7 +133,7 @@ while ejecutando:
 
     for carnivoro in carnivoros:
         presas_potenciales = matriz_espacial[carnivoro.posicion[1]][carnivoro.posicion[0]]
-        carnivoro.cazar([presa for presa in presas_potenciales if isinstance(presa, Animal)], herbivoros)
+
 
     # Proceso de reproducción y adición de nuevos animales
     for y in range(0, nyC):
