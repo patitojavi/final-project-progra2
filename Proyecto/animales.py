@@ -63,24 +63,6 @@ class Animal(Organismo):
 
         return None
             
-    def cazar(self, presas, herbivoros):
-        if self.dieta == "Carnívoro" and presas:
-            presa = RA.choice(presas)
-            if isinstance(presa, Animal):  # Verificar si la presa es un Animal
-                vida_restante = presa.vida - 10  # Disminuir la vida de la presa (ajustar según sea necesario)
-                presa.vida = max(vida_restante, 0)  # Asegurar que la vida no sea menor que cero
-                
-                # Ajustar la cantidad de vida ganada por el cazador según la situación
-                if vida_restante <= 0:
-                    self.vida += 20  # Si la presa ha muerto, el cazador gana más vida
-                else:
-                    self.vida += 5  # Si la presa sigue viva después del ataque, el cazador gana menos vida
-                    if self.vida > 100:  # Limitar la vida máxima del cazador a 100
-                        self.vida = 100
-                        
-                if presa.vida <= 0:  # Si la vida de la presa llega a 0, quitarla del ecosistema
-                    if presa in herbivoros:
-                        herbivoros.remove(presa)
 
 
     def dibujar(self, pantalla, celda_ancho, celda_alto):
@@ -108,6 +90,18 @@ class Animal(Organismo):
         vida_texto = font.render(f"Vida: {self.vida}", True, (255, 255, 255))
         pantalla.blit(vida_texto, (x_barra, y_barra - 20))  # Ajusta la posición del texto según tu preferencia
 
+    def cazar(self, presas, herbivoros):
+        if self.dieta == "Carnívoro" and presas:
+            presa = RA.choice(presas)
+            if isinstance(presa, Animal):
+                vida_restante_presa = presa.vida - 20  # Restar 20 de vida a la presa
+                presa.vida = max(vida_restante_presa, 0)
+                if presa.vida <= 0:
+                    if presa in herbivoros:
+                        herbivoros.remove(presa)
+                    self.energia += RA.randint(1, 3)  # Regenerar energía al carnívoro
+                    # Regenerar 10 de vida al carnívoro después de cazar, pero limitar a un máximo de 100
+                    self.vida = min(self.vida + 10, 100)
 
 class Lobo(Animal):
     def __init__(self, posicion):
@@ -119,17 +113,6 @@ class Lobo(Animal):
         self.imagen_original = PY.image.load("Proyecto/imagenes/lobo.png")  
         self.imagen = PY.transform.scale(self.imagen_original, (cW, cH))  
         
-    def cazar(self, presas, herbivoros):
-        if self.dieta == "Carnívoro" and presas:
-            presa = RA.choice(presas)
-            if isinstance(presa, Animal):  # Verificar si la presa es un Animal
-                vida_restante = presa.vida - 10  # Disminuir la vida de la presa (ajustar según sea necesario)
-                presa.vida = max(vida_restante, 0)  # Asegurar que la vida no sea menor que cero
-                if presa.vida <= 0:  # Si la vida de la presa llega a 0, quitarla del ecosistema
-                    if presa in herbivoros:
-                        herbivoros.remove(presa)
-                self.energia += 1 
-
 class Leon(Animal):
     def __init__(self, posicion):
         especie = "Leon"
@@ -152,6 +135,7 @@ class Zorro(Animal):
         self.imagen = PY.transform.scale(self.imagen_original, (cW, cH))
 
 
+
 class Guepardo(Animal):
     def __init__(self, posicion):
         especie = "Guepardo"
@@ -162,6 +146,7 @@ class Guepardo(Animal):
         self.imagen_original = PY.image.load("Proyecto/imagenes/guepardo.png")  
         self.imagen = PY.transform.scale(self.imagen_original, (cW, cH))  
 
+
 class Oso(Animal):
     def __init__(self, posicion):
         especie = "Oso"
@@ -171,6 +156,7 @@ class Oso(Animal):
         super().__init__(posicion, vida, energia, velocidad, especie, "Carnívoro")
         self.imagen_original = PY.image.load("Proyecto/imagenes/oso.png")  
         self.imagen = PY.transform.scale(self.imagen_original, (cW, cH))
+
 
 
 class Cerdo(Animal):

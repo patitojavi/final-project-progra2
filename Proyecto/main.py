@@ -131,9 +131,14 @@ while ejecutando:
     for herbivoro in herbivoros:
         matriz_espacial[herbivoro.posicion[1]][herbivoro.posicion[0]].append(herbivoro)
 
-    for carnivoro in carnivoros:
-        presas_potenciales = matriz_espacial[carnivoro.posicion[1]][carnivoro.posicion[0]]
-        carnivoro.cazar([presa for presa in presas_potenciales if isinstance(presa, Animal)], herbivoros)
+    for y in range(0, nyC):
+        for x in range(0, nxC):
+            presas = [organismo for organismo in matriz_espacial[y][x] if isinstance(organismo, Animal) and organismo.dieta == "herbivoro"]
+            carnivoros_en_celda = [organismo for organismo in matriz_espacial[y][x] if isinstance(organismo, Animal) and organismo.dieta == "Carnívoro"]
+            for carnivoro in carnivoros_en_celda:
+                carnivoro.cazar(presas, herbivoros)
+
+
 
     # Proceso de reproducción y adición de nuevos animales
     for y in range(0, nyC):
