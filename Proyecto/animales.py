@@ -4,6 +4,9 @@ import pygame as PY
 import random as RA
 from organismo import Organismo
 from constantes import cW, cH, nxC, nyC, min_cW, min_cH, pW, pH
+from logger import logger
+
+
 
 
 
@@ -81,6 +84,16 @@ class Animal(Organismo):
                 if presa.vida <= 0:  # Si la vida de la presa llega a 0, quitarla del ecosistema
                     if presa in herbivoros:
                         herbivoros.remove(presa)
+
+    def recuperar_energia(self, cantidad):
+        if self.dieta == "herbivoro":
+            self.vida += 2 + cantidad
+
+        self.energia += cantidad
+
+        # Limitar el valor máximo de vida y energía a 100
+        self.vida = min(self.vida, 100)
+        self.energia = min(self.energia, 100)
 
 
     def dibujar(self, pantalla, celda_ancho, celda_alto):

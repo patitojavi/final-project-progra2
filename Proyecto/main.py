@@ -75,10 +75,6 @@ for y in range(nyC):
             plantas.append(arbol_tierra)
             cantidad_arboles_tierra -= 1
             
-        if cantidad_nenufares == 0 and cantidad_arboles_desierto == 0 and cantidad_arboles_tierra == 0:
-            # Si ya se han colocado todas las plantas deseadas, salir del bucle
-            break
-            
     if cantidad_nenufares == 0 and cantidad_arboles_desierto == 0 and cantidad_arboles_tierra == 0:
         # Si ya se han colocado todas las plantas deseadas, salir del bucle externo
         break
@@ -99,8 +95,10 @@ herbivoros.extend([Oveja((RA.randint(0, nxC - 1), RA.randint(0, nyC - 1))) for _
 herbivoros.extend([Vaca((RA.randint(0, nxC - 1), RA.randint(0, nyC - 1))) for _ in range(num_herbivoros)])
 herbivoros.extend([Conejo((RA.randint(0, nxC - 1), RA.randint(0, nyC - 1))) for _ in range(num_herbivoros)])
 
-
-
+ejecutando = True
+clock = PY.time.Clock()
+FPS = 120
+matriz_espacial = [[[] for _ in range(nxC)] for _ in range(nyC)]
 while ejecutando:
     for evento in PY.event.get():
         if evento.type == PY.QUIT:
@@ -115,6 +113,18 @@ while ejecutando:
             direccion = RA.choice(["arriba", "abajo", "izquierda", "derecha"])
             herbivoro.moverse(direccion, distancia=1)
             logger.log_event(f"{herbivoro.especie} se movio a {herbivoro.posicion}")
+            
+            celda_actual = matriz_espacial[herbivoro.posicion[1]][herbivoro.posicion[0]]
+            
+            # Verificar si hay plantas en la celda actual y consumirlas si es el caso
+            plantas_en_celda = [organismo for organismo in celda_actual if isinstance(organismo, Planta)]
+            for planta in plantas_en_celda:
+                cantidad_comida = planta.valor_comida
+                herbivoro.recuperar_energia(cantidad_comida)
+                plantas.remove(planta)  # Eliminar la planta de la lista de plantas
+                celda_actual.remove(planta)
+                logger.log_event(f"{herbivoro.especie} ha consumido una {planta.tipo_planta} y ha recuperado {herbivoro.energia} de energia y ha recuperado {herbivoro.vida} de vida")
+
     
     contador += 1
 
@@ -157,6 +167,6 @@ while ejecutando:
     # Dibujar la matriz y actualizar la pantalla
     dibujar_matriz()
     PY.display.flip()
+    clock.tick(FPS)
 
 PY.quit()
-
