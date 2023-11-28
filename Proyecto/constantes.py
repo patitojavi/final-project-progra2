@@ -11,6 +11,16 @@ min_cW = pW // nxC
 min_cH = pH // nyC
 velocidad_movimiento = 20
 
+num_carnivoros = 0
+num_herbivoros = 6
+cantidad_nenufares = 100
+cantidad_arboles_desierto = 100
+cantidad_arboles_tierra = 100
+
+ejecutando = True
+contador = 0
+
+
 
 """ def cargarimagen(nombre):
     return PY.transform.scale(PY.image.load(nombre), (cW, cH))

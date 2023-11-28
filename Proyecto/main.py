@@ -5,7 +5,7 @@ from Bioma import patron_biomas,bioma_dict,Tierra,Agua,Desierto
 from organismo import Organismo
 from animales import Animal, Lobo, Guepardo, Cerdo, Gallina, Oveja, Vaca, Conejo, Oso, Leon, Zorro
 from plantas import Planta, Nenufar, ArbolDesierto, ArbolTierra
-from constantes import fondo_color, velocidad_movimiento, cW, cH, nxC, nyC, min_cW, min_cH, pW, pH
+from constantes import fondo_color, velocidad_movimiento, cW, cH, nxC, nyC, min_cW, min_cH, pW, pH, num_carnivoros, num_herbivoros, cantidad_nenufares, cantidad_arboles_desierto, cantidad_arboles_tierra, ejecutando, contador
 from ambiente import Ambiente
 from ecosistema import Ecosistema
 
@@ -24,9 +24,7 @@ for y, fila in enumerate(patron_biomas):
         matriz_biomas[y][x] = bioma_dict[caracter]
         
 
-num_plantas = 2
-num_carnivoros = 0
-num_herbivoros = 6
+
 
 def dibujar_matriz():
     screen.fill(fondo_color)
@@ -53,32 +51,25 @@ def dibujar_matriz():
             color = max(colores) if colores else (0, 0, 0)
             PY.draw.rect(screen, color, rect, 1)
 
-cantidad_nenufares = 10
-cantidad_arboles_desierto = 10
-cantidad_arboles_tierra = 10
-
-cantidad_nenufares = 10
-cantidad_arboles_desierto = 10
-cantidad_arboles_tierra = 10
 
 plantas = []
 
 for y in range(nyC):
     for x in range(nxC):
         bioma_actual = matriz_biomas[y][x]
-        if isinstance(bioma_actual, Agua) and cantidad_nenufares > 0 and RA.random() > 0.5:
+        if isinstance(bioma_actual, Agua) and cantidad_nenufares > 0 and RA.random() > 0.9:
             nenufar = Nenufar((x, y))
             bioma_actual.agregar_planta(nenufar)
             plantas.append(nenufar)
             cantidad_nenufares -= 1
 
-        elif isinstance(bioma_actual, Desierto) and cantidad_arboles_desierto > 0 and RA.random() > 0.5:
+        elif isinstance(bioma_actual, Desierto) and cantidad_arboles_desierto > 0 and RA.random() > 0.9:
             arbol_desierto = ArbolDesierto((x, y))
             bioma_actual.agregar_planta(arbol_desierto)
             plantas.append(arbol_desierto)
             cantidad_arboles_desierto -= 1
 
-        elif isinstance(bioma_actual, Tierra) and cantidad_arboles_tierra > 0 and RA.random() > 0.5:
+        elif isinstance(bioma_actual, Tierra) and cantidad_arboles_tierra > 0 and RA.random() > 0.9:
             arbol_tierra = ArbolTierra((x, y))
             bioma_actual.agregar_planta(arbol_tierra)
             plantas.append(arbol_tierra)
@@ -93,7 +84,6 @@ for y in range(nyC):
         break
 
 
-                    
 carnivoros = []
 carnivoros.extend([Lobo((RA.randint(0, nxC - 1), RA.randint(0, nyC - 1))) for _ in range(num_carnivoros)])
 carnivoros.extend([Guepardo((RA.randint(0, nxC - 1), RA.randint(0, nyC - 1))) for _ in range(num_carnivoros)])
@@ -109,8 +99,7 @@ herbivoros.extend([Oveja((RA.randint(0, nxC - 1), RA.randint(0, nyC - 1))) for _
 herbivoros.extend([Vaca((RA.randint(0, nxC - 1), RA.randint(0, nyC - 1))) for _ in range(num_herbivoros)])
 herbivoros.extend([Conejo((RA.randint(0, nxC - 1), RA.randint(0, nyC - 1))) for _ in range(num_herbivoros)])
 
-ejecutando = True
-contador = 0
+
 
 
 while ejecutando:
@@ -128,7 +117,6 @@ while ejecutando:
             herbivoro.moverse(direccion, distancia=1)
     
     contador += 1
-
 
     # Actualización de la matriz espacial
 
