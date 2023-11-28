@@ -1,6 +1,8 @@
 import pygame as PY
 import random as RA
 
+
+
 from Bioma import patron_biomas,bioma_dict,Tierra,Agua,Desierto
 from organismo import Organismo
 from animales import Animal, Lobo, Guepardo, Cerdo, Gallina, Oveja, Vaca, Conejo, Oso, Leon, Zorro
@@ -99,8 +101,15 @@ herbivoros.extend([Oveja((RA.randint(0, nxC - 1), RA.randint(0, nyC - 1))) for _
 herbivoros.extend([Vaca((RA.randint(0, nxC - 1), RA.randint(0, nyC - 1))) for _ in range(num_herbivoros)])
 herbivoros.extend([Conejo((RA.randint(0, nxC - 1), RA.randint(0, nyC - 1))) for _ in range(num_herbivoros)])
 
+class Logger:
+    def __init__(self, filename="logMovimiento.txt"):
+        self.filename = filename
 
+    def log_event(self, event):
+        with open(self.filename, "a") as log_file:
+            log_file.write(f"{event}\n")
 
+logger = Logger()
 
 while ejecutando:
     for evento in PY.event.get():
@@ -111,10 +120,11 @@ while ejecutando:
         for carnivoro in carnivoros:
             direccion = RA.choice(["arriba", "abajo", "izquierda", "derecha"])
             carnivoro.moverse(direccion, distancia=1)
-            
+            logger.log_event(f"{carnivoro.especie} se movio a {carnivoro.posicion}")
         for herbivoro in herbivoros:
             direccion = RA.choice(["arriba", "abajo", "izquierda", "derecha"])
             herbivoro.moverse(direccion, distancia=1)
+            logger.log_event(f"{herbivoro.especie} se movio a {herbivoro.posicion}")
     
     contador += 1
 
