@@ -1,8 +1,6 @@
 import pygame as PY
 import random as RA
 
-
-
 from Bioma import patron_biomas,bioma_dict,Tierra,Agua,Desierto
 from organismo import Organismo
 from animales import Animal, Lobo, Guepardo, Cerdo, Gallina, Oveja, Vaca, Conejo, Oso, Leon, Zorro
@@ -10,7 +8,7 @@ from plantas import Planta, Nenufar, ArbolDesierto, ArbolTierra
 from constantes import fondo_color, velocidad_movimiento, cW, cH, nxC, nyC, min_cW, min_cH, pW, pH, num_carnivoros, num_herbivoros, cantidad_nenufares, cantidad_arboles_desierto, cantidad_arboles_tierra, ejecutando, contador
 from ambiente import Ambiente
 from ecosistema import Ecosistema
-
+from logger import logger
 
 PY.init()
 
@@ -101,15 +99,7 @@ herbivoros.extend([Oveja((RA.randint(0, nxC - 1), RA.randint(0, nyC - 1))) for _
 herbivoros.extend([Vaca((RA.randint(0, nxC - 1), RA.randint(0, nyC - 1))) for _ in range(num_herbivoros)])
 herbivoros.extend([Conejo((RA.randint(0, nxC - 1), RA.randint(0, nyC - 1))) for _ in range(num_herbivoros)])
 
-class Logger:
-    def __init__(self, filename="logMovimiento.txt"):
-        self.filename = filename
 
-    def log_event(self, event):
-        with open(self.filename, "a") as log_file:
-            log_file.write(f"{event}\n")
-
-logger = Logger()
 
 while ejecutando:
     for evento in PY.event.get():
