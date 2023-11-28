@@ -158,7 +158,6 @@ class Oso(Animal):
         self.imagen = PY.transform.scale(self.imagen_original, (cW, cH))
 
 
-
 class Cerdo(Animal):
     def __init__(self, posicion):
         especie = "Cerdo"

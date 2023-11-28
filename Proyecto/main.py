@@ -137,9 +137,6 @@ while ejecutando:
             carnivoros_en_celda = [organismo for organismo in matriz_espacial[y][x] if isinstance(organismo, Animal) and organismo.dieta == "Carnívoro"]
             for carnivoro in carnivoros_en_celda:
                 carnivoro.cazar(presas, herbivoros)
-
-
-
     # Proceso de reproducción y adición de nuevos animales
     for y in range(0, nyC):
         for x in range(0, nxC):
