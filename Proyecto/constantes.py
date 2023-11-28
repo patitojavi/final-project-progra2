@@ -11,7 +11,7 @@ min_cW = pW // nxC
 min_cH = pH // nyC
 velocidad_movimiento = 50
 
-num_carnivoros = 0
+num_carnivoros = 2
 num_herbivoros = 2
 cantidad_nenufares = 100
 cantidad_arboles_desierto = 100
