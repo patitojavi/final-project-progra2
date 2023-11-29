@@ -175,7 +175,7 @@ while ejecutando:
                             elif nuevo_animal.dieta == "Carnívoro":
                                 carnivoros.append(nuevo_animal)
                             # Aquí puedes añadir un mensaje o alguna acción visual para indicar la reproducción
-                            print(f"¡Se ha reproducido un nuevo {nuevo_animal.especie}!")
+                            logger.log_event(f"Se ha reproducido un nuevo {nuevo_animal.especie}")
 
 
     # Dibujar la matriz y actualizar la pantalla
