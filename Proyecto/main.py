@@ -96,6 +96,7 @@ herbivoros.extend([Vaca((RA.randint(0, nxC - 1), RA.randint(0, nyC - 1))) for _ 
 herbivoros.extend([Conejo((RA.randint(0, nxC - 1), RA.randint(0, nyC - 1))) for _ in range(num_herbivoros)])
 
 ejecutando = True
+pausado = False
 clock = PY.time.Clock()
 FPS = 120
 matriz_espacial = [[[] for _ in range(nxC)] for _ in range(nyC)]
@@ -103,79 +104,86 @@ while ejecutando:
     for evento in PY.event.get():
         if evento.type == PY.QUIT:
             ejecutando = False
+        elif evento.type == PY.KEYDOWN:
+            if evento.key ==PY.K_p:
+                pausado = True
+                logger.log_event("El juego ha sido pausado")
+            elif evento.key == PY.K_r:
+                pausado = False
+                logger.log_event("El juego ha sido reanudado")
+    if not pausado:            
+        if contador % velocidad_movimiento == 0:
+            for carnivoro in carnivoros:
+                direccion = RA.choice(["arriba", "abajo", "izquierda", "derecha"])
+                carnivoro.moverse(direccion, distancia=1)
+                logger.log_event(f"{carnivoro.especie} se movio a {carnivoro.posicion}")
+                
+            for herbivoro in herbivoros:
+                direccion = RA.choice(["arriba", "abajo", "izquierda", "derecha"])
+                herbivoro.moverse(direccion, distancia=1)
+                logger.log_event(f"{herbivoro.especie} se movio a {herbivoro.posicion}")
+                
+                celda_actual = matriz_espacial[herbivoro.posicion[1]][herbivoro.posicion[0]]
+                
+                # Verificar si hay plantas en la celda actual y consumirlas si es el caso
+                plantas_en_celda = [organismo for organismo in celda_actual if isinstance(organismo, Planta)]
+                for planta in plantas_en_celda:
+                    cantidad_comida = planta.valor_comida
+                    vida_anterior = herbivoro.vida  # Almacenar la vida antes de consumir la planta
+                    herbivoro.recuperar_energia(cantidad_comida)
+                    vida_recuperada = herbivoro.vida - vida_anterior  # Calcular la vida recuperada
+                    plantas.remove(planta)  # Eliminar la planta de la lista de plantas
+                    celda_actual.remove(planta)
+                    logger.log_event(f"{herbivoro.especie} ha consumido una {planta.tipo_planta} y ha recuperado {cantidad_comida} de energia y {vida_recuperada} de vida")
+                    
+        contador += 1
 
-    if contador % velocidad_movimiento == 0:
+        # Actualización de la matriz espacial
+
+        matriz_espacial = [[[] for _ in range(nxC)] for _ in range(nyC)]
+
+        for planta in plantas:
+            matriz_espacial[planta.posicion[1]][planta.posicion[0]].append(planta)
+
         for carnivoro in carnivoros:
-            direccion = RA.choice(["arriba", "abajo", "izquierda", "derecha"])
-            carnivoro.moverse(direccion, distancia=1)
-            logger.log_event(f"{carnivoro.especie} se movio a {carnivoro.posicion}")
-            
+            matriz_espacial[carnivoro.posicion[1]][carnivoro.posicion[0]].append(carnivoro)
+
         for herbivoro in herbivoros:
-            direccion = RA.choice(["arriba", "abajo", "izquierda", "derecha"])
-            herbivoro.moverse(direccion, distancia=1)
-            logger.log_event(f"{herbivoro.especie} se movio a {herbivoro.posicion}")
-            
-            celda_actual = matriz_espacial[herbivoro.posicion[1]][herbivoro.posicion[0]]
-            
-            # Verificar si hay plantas en la celda actual y consumirlas si es el caso
-            plantas_en_celda = [organismo for organismo in celda_actual if isinstance(organismo, Planta)]
-            for planta in plantas_en_celda:
-                cantidad_comida = planta.valor_comida
-                vida_anterior = herbivoro.vida  # Almacenar la vida antes de consumir la planta
-                herbivoro.recuperar_energia(cantidad_comida)
-                vida_recuperada = herbivoro.vida - vida_anterior  # Calcular la vida recuperada
-                plantas.remove(planta)  # Eliminar la planta de la lista de plantas
-                celda_actual.remove(planta)
-                logger.log_event(f"{herbivoro.especie} ha consumido una {planta.tipo_planta} y ha recuperado {cantidad_comida} de energia y {vida_recuperada} de vida")
+            matriz_espacial[herbivoro.posicion[1]][herbivoro.posicion[0]].append(herbivoro)
+
+        for y in range(0, nyC):
+            for x in range(0, nxC):
+                presas = [organismo for organismo in matriz_espacial[y][x] if isinstance(organismo, Animal) and organismo.dieta == "herbivoro"]
+                carnivoros_en_celda = [organismo for organismo in matriz_espacial[y][x] if isinstance(organismo, Animal) and organismo.dieta == "Carnívoro"]
                 
-    contador += 1
+                for carnivoro in carnivoros_en_celda:
+                    vida_anterior = carnivoro.vida
+                    energia_anterior = carnivoro.energia
+                    carnivoro.cazar(presas, herbivoros)
+                    vida_recuperada = carnivoro.vida - vida_anterior
+                    energia_recuperada = carnivoro.energia - energia_anterior
+                    
+                    for presa in presas:
+                        # Suponiendo que 'herbivoro_cazado' contiene la referencia al animal herbívoro cazado por el carnívoro
+                        logger.log_event(f"{carnivoro.especie} cazo a {presa.especie} y recupero {vida_recuperada} de vida y {energia_recuperada} de energia")
 
-    # Actualización de la matriz espacial
-
-    matriz_espacial = [[[] for _ in range(nxC)] for _ in range(nyC)]
-
-    for planta in plantas:
-        matriz_espacial[planta.posicion[1]][planta.posicion[0]].append(planta)
-
-    for carnivoro in carnivoros:
-        matriz_espacial[carnivoro.posicion[1]][carnivoro.posicion[0]].append(carnivoro)
-
-    for herbivoro in herbivoros:
-        matriz_espacial[herbivoro.posicion[1]][herbivoro.posicion[0]].append(herbivoro)
-
-    for y in range(0, nyC):
-        for x in range(0, nxC):
-            presas = [organismo for organismo in matriz_espacial[y][x] if isinstance(organismo, Animal) and organismo.dieta == "herbivoro"]
-            carnivoros_en_celda = [organismo for organismo in matriz_espacial[y][x] if isinstance(organismo, Animal) and organismo.dieta == "Carnívoro"]
-            
-            for carnivoro in carnivoros_en_celda:
-                vida_anterior = carnivoro.vida
-                energia_anterior = carnivoro.energia
-                carnivoro.cazar(presas, herbivoros)
-                vida_recuperada = carnivoro.vida - vida_anterior
-                energia_recuperada = carnivoro.energia - energia_anterior
-                
-                for presa in presas:
-                    # Suponiendo que 'herbivoro_cazado' contiene la referencia al animal herbívoro cazado por el carnívoro
-                    logger.log_event(f"{carnivoro.especie} cazo a {presa.especie} y recupero {vida_recuperada} de vida y {energia_recuperada} de energia")
-
-    # Proceso de reproducción y adición de nuevos animales
-    for y in range(0, nyC):
-        for x in range(0, nxC):
-            posibles_compañeros = matriz_espacial[y][x]
-            for organismo in posibles_compañeros:
-                if isinstance(organismo, Animal):
-                    nuevo_animal = organismo.reproducirse(
-                        [otro for otro in posibles_compañeros if isinstance(otro, Animal) and otro != organismo]
-                    )
-                    if nuevo_animal:
-                        if isinstance(nuevo_animal, Animal):
-                            if nuevo_animal.dieta == "herbivoro":
-                                herbivoros.append(nuevo_animal)
-                            elif nuevo_animal.dieta == "Carnívoro":
-                                carnivoros.append(nuevo_animal)
-                            # Aquí puedes añadir un mensaje o alguna acción visual para indicar la reproducción
-                            logger.log_event(f"Se ha reproducido un nuevo {nuevo_animal.especie}")
+        # Proceso de reproducción y adición de nuevos animales
+        for y in range(0, nyC):
+            for x in range(0, nxC):
+                posibles_compañeros = matriz_espacial[y][x]
+                for organismo in posibles_compañeros:
+                    if isinstance(organismo, Animal):
+                        nuevo_animal = organismo.reproducirse(
+                            [otro for otro in posibles_compañeros if isinstance(otro, Animal) and otro != organismo]
+                        )
+                        if nuevo_animal:
+                            if isinstance(nuevo_animal, Animal):
+                                if nuevo_animal.dieta == "herbivoro":
+                                    herbivoros.append(nuevo_animal)
+                                elif nuevo_animal.dieta == "Carnívoro":
+                                    carnivoros.append(nuevo_animal)
+                                # Aquí puedes añadir un mensaje o alguna acción visual para indicar la reproducción
+                                logger.log_event(f"Se ha reproducido un nuevo {nuevo_animal.especie}")
 
 
     # Dibujar la matriz y actualizar la pantalla
