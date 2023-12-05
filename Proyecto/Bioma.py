@@ -17,16 +17,20 @@ class Bioma:
         self.agua = agua
         self.plantas = []  # Lista para almacenar plantas en el bioma
 
+
     def agregar_planta(self, planta):
         self.plantas.append(planta)
+
 
 class Desierto(Bioma):
     def __init__(self):
         super().__init__("Proyecto/imagenes/arena.png", RA.randint(0, 1), 0)
 
+
 class Agua(Bioma):
     def __init__(self):
         super().__init__("Proyecto/imagenes/agua.png", 0, RA.randint(0, 5))
+
 
 class Tierra(Bioma):
     def __init__(self):
@@ -45,6 +49,7 @@ bioma_dict = {
     "T": Tierra(),
     "L": Lava(),
 }
+
 
 patron_biomas = [
     "TTTTTTTTTTTTTTTTTTAAAAAAAADDDDDDDDDDDDDDDDDDDDDDDD",
@@ -98,6 +103,7 @@ patron_biomas = [
     "TTTTTTTTTTTTTTTAAAAAAAAAAAAAADDDDDDDDDDDDDDDDDDDDD",
     "TTTTTTTTTTTTTTTTTAAAAAAAAAAAAAADDDDDDDDDDDDDDDDDDD",
 ]
+
 
 matriz_biomas = []
 for fila_patron in patron_biomas:

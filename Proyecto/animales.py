@@ -4,8 +4,6 @@ import random as RA
 from organismo import Organismo
 from constantes import cW, cH, nxC, nyC
 
-
-
 logging.basicConfig(filename='simulador.txt', level=logging.INFO)
 
 class Animal(Organismo):
@@ -17,12 +15,12 @@ class Animal(Organismo):
         self.imagen = None
         Animal.total_animales += 1
 
+
     def moverse(self, direccion, distancia=1):
         if self.vida <= 0:
             return
         # Obtener la posición actual
         x, y = self.posicion
-
         # Definir los cambios en las coordenadas según la dirección
         if direccion == "arriba":
             nueva_y = max(0, y - distancia)
@@ -39,7 +37,6 @@ class Animal(Organismo):
         else:
             # Si la dirección no es válida, no se mueve
             return
-
         # Actualizar la posición del animal
         self.posicion = (nueva_x, nueva_y)
 
@@ -55,7 +52,7 @@ class Animal(Organismo):
                     if RA.random() < 0.1:
                         nueva_posicion_x = min(max(self.posicion[0] + RA.randint(-1, 1), 0), nxC - 1)
                         nueva_posicion_y = min(max(self.posicion[1] + RA.randint(-1, 1), 0), nyC - 1)
-
+                        
                         nuevo_animal = self.__class__(
                             especie=self.especie,
                             posicion=(nueva_posicion_x, nueva_posicion_y),
@@ -64,12 +61,11 @@ class Animal(Organismo):
                             velocidad=self.velocidad,
                             dieta=self.dieta
                         )
-
                         Animal.total_animales += 1  # Incrementar el número total de animales al reproducirse
                         logging.info(f"{self.especie} se ha reproducido con {otro.especie}. Nueva posicion: {nuevo_animal.posicion}")
                         return nuevo_animal
-
         return None
+
 
     def cazar(self, presas, herbivoros):
         if self.dieta == "Carnívoro" and presas:
@@ -91,9 +87,7 @@ class Animal(Organismo):
     def recuperar_energia(self, cantidad):
         if self.dieta == "herbivoro":
             self.vida += 2 + cantidad
-
         self.energia += cantidad
-
         # Limitar el valor máximo de vida y energía a 100
         self.vida = min(self.vida, 100)
         self.energia = min(self.energia, 100)
@@ -101,21 +95,17 @@ class Animal(Organismo):
 
     def dibujar(self, pantalla, celda_ancho, celda_alto):
         alto_barra = 5  # Mueve la declaración de alto_barra aquí
-
         pantalla.blit(self.imagen, (self.posicion[0] * celda_ancho, self.posicion[1] * celda_alto))
-
         vida_restante = max(self.vida, 0)
         vida_maxima = 100
         ancho_barra = celda_ancho - 4
         borde_barra = 1
         color_fondo = (255, 0, 0)
         color_vida = (0, 255, 0)
-
         vida_proporcion = vida_restante / vida_maxima
         ancho_vida = int(ancho_barra * vida_proporcion)
         x_barra = self.posicion[0] * celda_ancho + 2
         y_barra = self.posicion[1] * celda_alto - alto_barra - 2
-
         PY.draw.rect(pantalla, color_fondo, (x_barra, y_barra, ancho_barra, alto_barra))
         PY.draw.rect(pantalla, color_vida, (x_barra, y_barra, ancho_vida, alto_barra))
         PY.draw.rect(pantalla, (0, 0, 0), (x_barra, y_barra, ancho_barra, alto_barra), borde_barra)

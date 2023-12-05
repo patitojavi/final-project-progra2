@@ -6,8 +6,7 @@ from Bioma import patron_biomas,bioma_dict,Tierra,Agua,Desierto, Lava
 from animales import Animal, Lobo, Guepardo, Cerdo, Gallina, Oveja, Vaca, Conejo, Oso, Leon, Zorro
 from plantas import Planta, Nenufar, ArbolDesierto, ArbolTierra
 from constantes import fondo_color, velocidad_movimiento, cW, cH, nxC, nyC, pW, pH, num_carnivoros, num_herbivoros, cantidad_nenufares, cantidad_arboles_desierto, cantidad_arboles_tierra, ejecutando, contador
-from ambiente import Ambiente
-from ecosistema import Ecosistema
+
 
 logging.basicConfig(filename='simulador.txt', level=logging.INFO)
 
@@ -60,13 +59,11 @@ for y in range(nyC):
                 bioma_actual.agregar_planta(nenufar)
                 plantas.append(nenufar)
                 cantidad_nenufares -= 1
-
             elif isinstance(bioma_actual, Desierto) and cantidad_arboles_desierto > 0 and RA.random() > 0.9:
                 arbol_desierto = ArbolDesierto((x, y))
                 bioma_actual.agregar_planta(arbol_desierto)
                 plantas.append(arbol_desierto)
                 cantidad_arboles_desierto -= 1
-
             elif isinstance(bioma_actual, Tierra) and cantidad_arboles_tierra > 0 and RA.random() > 0.9:
                 arbol_tierra = ArbolTierra((x, y))
                 bioma_actual.agregar_planta(arbol_tierra)
@@ -78,8 +75,6 @@ for y in range(nyC):
 
 
 carnivoros = []
-
-
 carnivoros.extend([
     Lobo(
         posicion=(RA.randint(0, nxC - 1), RA.randint(0, nyC - 1)),
@@ -140,8 +135,8 @@ carnivoros.extend([
     for _ in range(num_carnivoros)
 ])
 
-herbivoros = []
 
+herbivoros = []
 herbivoros.extend([
     Conejo(
         posicion=(RA.randint(0, nxC - 1), RA.randint(0, nyC - 1)),
@@ -230,13 +225,12 @@ while ejecutando:
                 activar_lava = True
     if not pausado:
         if activar_lava:
-            for _ in range(10):  # Ajusta el número de celdas que se llenarán en cada iteración
+            for _ in range(5):  # Ajusta el número de celdas que se llenarán en cada iteración
                 x = RA.randint(0, nxC - 1)
                 y = RA.randint(0, nyC - 1)
                 if matriz_biomas[y][x].image != bioma_dict["L"].image:
                     matriz_biomas[y][x] = bioma_dict["L"]
                     contador_llenado += 1
-
             # Detener el llenado progresivo después de cierto progreso
             if contador_llenado >= nyC * nxC / 2:
                 llenado_progresivo = False
@@ -250,8 +244,6 @@ while ejecutando:
                     if isinstance(nuevo_bioma, Lava):
                         vida_anterior = carnivoro.vida
                         carnivoro.vida = max(carnivoro.vida - 10, 0)  # Ajusta el valor de reducción de vida
-
-                        # Log para informar sobre la pérdida de vida debido a la lava
                         logging.info(f"{carnivoro.especie} perdio vida al pisar lava. Vida restante: {carnivoro.vida}")
                     
                 for herbivoro in herbivoros:
@@ -261,8 +253,6 @@ while ejecutando:
                     if isinstance(nuevo_bioma, Lava):
                         vida_anterior = herbivoro.vida
                         herbivoro.vida = max(herbivoro.vida - 10, 0)  # Ajusta el valor de reducción de vida
-
-                        # Log para informar sobre la pérdida de vida debido a la lava
                         logging.info(f"{herbivoro.especie} perdio vida al pisar lava. Vida restante: {herbivoro.vida}")
                     
                     celda_actual = matriz_espacial[herbivoro.posicion[1]][herbivoro.posicion[0]]
@@ -281,7 +271,6 @@ while ejecutando:
             contador += 1
 
             # Actualización de la matriz espacial
-
             matriz_espacial = [[[] for _ in range(nxC)] for _ in range(nyC)]
             for planta in plantas:
                 matriz_espacial[planta.posicion[1]][planta.posicion[0]].append(planta)
@@ -301,6 +290,7 @@ while ejecutando:
                         vida_recuperada = carnivoro.vida - vida_anterior
                         energia_recuperada = carnivoro.energia - energia_anterior
 
+
             # Proceso de reproducción y adición de nuevos animales
             for y in range(0, nyC):
                 for x in range(0, nxC):
@@ -316,9 +306,7 @@ while ejecutando:
                                         herbivoros.append(nuevo_animal)
                                     elif nuevo_animal.dieta == "Carnívoro":
                                         carnivoros.append(nuevo_animal)
-
-
-    # Dibujar la matriz y actualizar la pantalla
+                                        
     dibujar_matriz()
     PY.display.flip()
     clock.tick(FPS)
