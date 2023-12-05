@@ -12,7 +12,7 @@ min_cH = pH // nyC
 velocidad_movimiento = 20
 
 num_carnivoros = 2
-num_herbivoros = 2
+num_herbivoros = 4
 cantidad_nenufares = 100
 cantidad_arboles_desierto = 100
 cantidad_arboles_tierra = 100

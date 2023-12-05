@@ -81,19 +81,33 @@ for y in range(nyC):
 
 
 carnivoros = []
-carnivoros.extend([Lobo((RA.randint(0, nxC - 1), RA.randint(0, nyC - 1))) for _ in range(num_carnivoros)])
-carnivoros.extend([Guepardo((RA.randint(0, nxC - 1), RA.randint(0, nyC - 1))) for _ in range(num_carnivoros)])
-carnivoros.extend([Leon((RA.randint(0, nxC - 1), RA.randint(0, nyC - 1))) for _ in range(num_carnivoros)])
-carnivoros.extend([Zorro((RA.randint(0, nxC - 1), RA.randint(0, nyC - 1))) for _ in range(num_carnivoros)])
-carnivoros.extend([Oso((RA.randint(0, nxC - 1), RA.randint(0, nyC - 1))) for _ in range(num_carnivoros)])
-
-
 herbivoros = []
-herbivoros.extend([Cerdo((RA.randint(0, nxC - 1), RA.randint(0, nyC - 1))) for _ in range(num_herbivoros)])
-herbivoros.extend([Gallina((RA.randint(0, nxC - 1), RA.randint(0, nyC - 1))) for _ in range(num_herbivoros)])
-herbivoros.extend([Oveja((RA.randint(0, nxC - 1), RA.randint(0, nyC - 1))) for _ in range(num_herbivoros)])
-herbivoros.extend([Vaca((RA.randint(0, nxC - 1), RA.randint(0, nyC - 1))) for _ in range(num_herbivoros)])
-herbivoros.extend([Conejo((RA.randint(0, nxC - 1), RA.randint(0, nyC - 1))) for _ in range(num_herbivoros)])
+
+herbivoros.extend([
+    Conejo(
+        posicion=(RA.randint(0, nxC - 1), RA.randint(0, nyC - 1)),
+        vida=RA.randint(50, 100),
+        energia=RA.randint(20, 50),
+        velocidad=RA.uniform(5, 2),
+        especie="Conejo",
+        dieta="herbivoro"
+    )
+    for _ in range(num_herbivoros)
+])
+
+carnivoros.extend([
+    Lobo(
+        posicion=(RA.randint(0, nxC - 1), RA.randint(0, nyC - 1)),
+        vida=RA.randint(50, 100),
+        energia=RA.randint(20, 50),
+        velocidad=RA.uniform(5, 2),
+        especie="Lobo",
+        dieta="Carnívoro"
+    )
+    for _ in range(num_carnivoros)
+])
+
+
 
 ejecutando = True
 pausado = False
@@ -116,12 +130,12 @@ while ejecutando:
             for carnivoro in carnivoros:
                 direccion = RA.choice(["arriba", "abajo", "izquierda", "derecha"])
                 carnivoro.moverse(direccion, distancia=1)
-                logger.log_event(f"{carnivoro.especie} se movio a {carnivoro.posicion}")
+
                 
             for herbivoro in herbivoros:
                 direccion = RA.choice(["arriba", "abajo", "izquierda", "derecha"])
                 herbivoro.moverse(direccion, distancia=1)
-                logger.log_event(f"{herbivoro.especie} se movio a {herbivoro.posicion}")
+
                 
                 celda_actual = matriz_espacial[herbivoro.posicion[1]][herbivoro.posicion[0]]
                 
@@ -134,7 +148,7 @@ while ejecutando:
                     vida_recuperada = herbivoro.vida - vida_anterior  # Calcular la vida recuperada
                     plantas.remove(planta)  # Eliminar la planta de la lista de plantas
                     celda_actual.remove(planta)
-                    logger.log_event(f"{herbivoro.especie} ha consumido una {planta.tipo_planta} y ha recuperado {cantidad_comida} de energia y {vida_recuperada} de vida")
+
                     
         contador += 1
 
@@ -163,9 +177,7 @@ while ejecutando:
                     vida_recuperada = carnivoro.vida - vida_anterior
                     energia_recuperada = carnivoro.energia - energia_anterior
                     
-                    for presa in presas:
-                        # Suponiendo que 'herbivoro_cazado' contiene la referencia al animal herbívoro cazado por el carnívoro
-                        logger.log_event(f"{carnivoro.especie} cazo a {presa.especie} y recupero {vida_recuperada} de vida y {energia_recuperada} de energia")
+
 
         # Proceso de reproducción y adición de nuevos animales
         for y in range(0, nyC):
@@ -176,14 +188,16 @@ while ejecutando:
                         nuevo_animal = organismo.reproducirse(
                             [otro for otro in posibles_compañeros if isinstance(otro, Animal) and otro != organismo]
                         )
-                        if nuevo_animal:
+                        if nuevo_animal is not None:
                             if isinstance(nuevo_animal, Animal):
                                 if nuevo_animal.dieta == "herbivoro":
                                     herbivoros.append(nuevo_animal)
                                 elif nuevo_animal.dieta == "Carnívoro":
                                     carnivoros.append(nuevo_animal)
                                 # Aquí puedes añadir un mensaje o alguna acción visual para indicar la reproducción
-                                logger.log_event(f"Se ha reproducido un nuevo {nuevo_animal.especie}")
+
+
+
 
 
     # Dibujar la matriz y actualizar la pantalla
