@@ -1,10 +1,8 @@
 import logging
-
 import pygame as PY
 import random as RA
 from organismo import Organismo
-from constantes import cW, cH, nxC, nyC, min_cW, min_cH, pW, pH
-from logger import logger
+from constantes import cW, cH, nxC, nyC
 
 
 
@@ -78,8 +76,11 @@ class Animal(Organismo):
             presa = RA.choice(presas)
             if isinstance(presa, Animal) and self.especie != presa.especie:
                 logging.info(f"{self.especie} cazo a {presa.especie}")
-                vida_restante_presa = presa.vida - 20
+                vida_restante_presa = presa.vida - 50
                 presa.vida = max(vida_restante_presa, 0)
+                vida_recuperada_carnivoro = min(10, 100 - self.vida)
+                self.vida += vida_recuperada_carnivoro
+                logging.info(f"{self.especie} recupero {vida_recuperada_carnivoro} de vida")
                 if presa.vida <= 0:
                     if presa in herbivoros:
                         herbivoros.remove(presa)

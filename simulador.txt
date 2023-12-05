@@ -1,196 +1,2859 @@
-INFO:root:Cerdo consumio una planta. Vida recuperada: 6
+INFO:root:Cerdo se ha reproducido con Cerdo. Nueva posicion: (23, 9)
+INFO:root:Oveja se ha reproducido con Oveja. Nueva posicion: (37, 25)
+INFO:root:Cerdo se ha reproducido con Cerdo. Nueva posicion: (24, 9)
+INFO:root:Oveja se ha reproducido con Oveja. Nueva posicion: (38, 26)
+INFO:root:Cerdo se ha reproducido con Cerdo. Nueva posicion: (25, 8)
+INFO:root:Cerdo se ha reproducido con Cerdo. Nueva posicion: (25, 10)
+INFO:root:Oveja se ha reproducido con Oveja. Nueva posicion: (38, 26)
+INFO:root:Cerdo se ha reproducido con Cerdo. Nueva posicion: (24, 10)
+INFO:root:Oveja se ha reproducido con Oveja. Nueva posicion: (36, 25)
+INFO:root:Cerdo se ha reproducido con Cerdo. Nueva posicion: (24, 9)
+INFO:root:Cerdo se ha reproducido con Cerdo. Nueva posicion: (25, 8)
+INFO:root:Cerdo se ha reproducido con Cerdo. Nueva posicion: (24, 7)
+INFO:root:Oveja se ha reproducido con Oveja. Nueva posicion: (37, 26)
+INFO:root:Cerdo se ha reproducido con Cerdo. Nueva posicion: (24, 10)
+INFO:root:Cerdo se ha reproducido con Cerdo. Nueva posicion: (24, 8)
+INFO:root:Oveja se ha reproducido con Oveja. Nueva posicion: (37, 25)
+INFO:root:Cerdo se ha reproducido con Cerdo. Nueva posicion: (24, 7)
+INFO:root:Oveja se ha reproducido con Oveja. Nueva posicion: (38, 25)
+INFO:root:Oveja se ha reproducido con Oveja. Nueva posicion: (38, 26)
+INFO:root:Oveja se ha reproducido con Oveja. Nueva posicion: (38, 24)
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Cerdo consumio una planta. Vida recuperada: 3
+INFO:root:Gallina consumio una planta. Vida recuperada: 3
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 3
+INFO:root:Gallina consumio una planta. Vida recuperada: 1
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 3
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Oveja consumio una planta. Vida recuperada: 0
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Conejo consumio una planta. Vida recuperada: 2
+INFO:root:Cerdo consumio una planta. Vida recuperada: 1
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 1
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Cerdo consumio una planta. Vida recuperada: 3
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Conejo consumio una planta. Vida recuperada: 3
+INFO:root:Gallina consumio una planta. Vida recuperada: 0
+INFO:root:Oveja consumio una planta. Vida recuperada: 6
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 0
+INFO:root:Cerdo consumio una planta. Vida recuperada: 4
+INFO:root:Cerdo consumio una planta. Vida recuperada: 0
+INFO:root:Cerdo consumio una planta. Vida recuperada: 0
+INFO:root:Oveja consumio una planta. Vida recuperada: 6
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 3
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 0
+INFO:root:Leon cazo a Gallina
+INFO:root:Leon recupero 2 de vida
+INFO:root:Leon cazo a Gallina
+INFO:root:Leon recupero 0 de vida
 INFO:root:Gallina consumio una planta. Vida recuperada: 4
 INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Leon cazo a Oveja
+INFO:root:Leon recupero 10 de vida
+INFO:root:Leon cazo a Oveja
+INFO:root:Leon recupero 10 de vida
+INFO:root:Lobo perdió vida al pisar lava. Vida restante: 74
+INFO:root:Lobo perdió vida al pisar lava. Vida restante: 60
+INFO:root:Zorro perdió vida al pisar lava. Vida restante: 65
+INFO:root:Oso perdió vida al pisar lava. Vida restante: 60
+INFO:root:Oso perdió vida al pisar lava. Vida restante: 49
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 90
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 45
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 48
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 65
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 78
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 71
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 90
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 66
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 57
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 61
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 47
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 60
+INFO:root:Cerdo consumio una planta. Vida recuperada: 4
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 89
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 73
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 59
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 46
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 71
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 47
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 76
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 66
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 66
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 44
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 86
+INFO:root:Gallina consumio una planta. Vida recuperada: 3
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 90
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 59
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 64
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 78
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 62
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 82
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 57
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 83
+INFO:root:Vaca consumio una planta. Vida recuperada: 3
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 46
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 52
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 65
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 55
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 65
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 69
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 48
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 65
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 59
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 69
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 64
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 48
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 67
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 59
+INFO:root:Lobo perdió vida al pisar lava. Vida restante: 50
+INFO:root:Leon perdió vida al pisar lava. Vida restante: 76
+INFO:root:Zorro perdió vida al pisar lava. Vida restante: 55
+INFO:root:Oso perdió vida al pisar lava. Vida restante: 50
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 80
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 38
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 61
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 37
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 63
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 49
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 79
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 36
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 61
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 37
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 56
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 34
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 79
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 73
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 80
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 53
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 61
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 68
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 52
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 90
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 83
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 47
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 83
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 48
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 76
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 36
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 65
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 42
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 45
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 55
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 49
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 59
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 56
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 54
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 61
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 38
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 55
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 49
+INFO:root:Lobo perdió vida al pisar lava. Vida restante: 64
+INFO:root:Lobo perdió vida al pisar lava. Vida restante: 40
+INFO:root:Leon perdió vida al pisar lava. Vida restante: 90
+INFO:root:Zorro perdió vida al pisar lava. Vida restante: 45
+INFO:root:Guepardo perdió vida al pisar lava. Vida restante: 51
+INFO:root:Oso perdió vida al pisar lava. Vida restante: 40
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 70
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 39
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 45
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 28
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 55
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 51
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 80
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 47
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 27
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 54
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 79
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 39
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 26
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 27
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 66
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 63
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 70
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 49
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 90
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 49
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 54
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 42
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 72
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 42
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 73
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 77
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 66
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 26
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 55
+INFO:root:Cerdo consumio una planta. Vida recuperada: 4
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 55
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 38
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 39
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 49
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 44
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 28
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 57
+INFO:root:Guepardo cazo a Cerdo
+INFO:root:Guepardo recupero 10 de vida
+INFO:root:Guepardo cazo a Cerdo
+INFO:root:Guepardo recupero 10 de vida
+INFO:root:Lobo perdió vida al pisar lava. Vida restante: 30
+INFO:root:Leon perdió vida al pisar lava. Vida restante: 66
+INFO:root:Zorro perdió vida al pisar lava. Vida restante: 35
+INFO:root:Guepardo perdió vida al pisar lava. Vida restante: 77
+INFO:root:Guepardo perdió vida al pisar lava. Vida restante: 41
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 71
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 29
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 70
+INFO:root:Conejo consumio una planta. Vida recuperada: 3
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 37
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 44
+INFO:root:Cerdo consumio una planta. Vida recuperada: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 53
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 29
+INFO:root:Cerdo consumio una planta. Vida recuperada: 4
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 51
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 56
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 46
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 24
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 69
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 39
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 80
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 51
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 58
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 32
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 63
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 73
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 38
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 56
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 16
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 55
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 32
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 49
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 35
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 59
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 29
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 67
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 46
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 34
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 51
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 18
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 45
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 39
+INFO:root:Lobo perdió vida al pisar lava. Vida restante: 20
+INFO:root:Leon perdió vida al pisar lava. Vida restante: 56
+INFO:root:Guepardo perdió vida al pisar lava. Vida restante: 67
+INFO:root:Oso perdió vida al pisar lava. Vida restante: 39
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 60
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 61
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 19
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 35
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 18
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 45
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 68
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 41
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 60
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 59
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 27
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 51
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 17
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 34
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 69
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 43
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 19
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 69
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 41
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 46
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 56
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 36
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 14
+INFO:root:Gallina consumio una planta. Vida recuperada: 3
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 53
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 43
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 70
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 44
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 22
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 70
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 53
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 67
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 22
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 39
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 25
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 45
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 49
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 28
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 19
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 65
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 39
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 36
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 24
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 41
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 8
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 55
+INFO:root:Oso cazo a Vaca
+INFO:root:Oso recupero 10 de vida
+INFO:root:Oso cazo a Vaca
+INFO:root:Oso recupero 10 de vida
+INFO:root:Leon perdió vida al pisar lava. Vida restante: 46
+INFO:root:Leon perdió vida al pisar lava. Vida restante: 80
+INFO:root:Zorro perdió vida al pisar lava. Vida restante: 25
+INFO:root:Zorro perdió vida al pisar lava. Vida restante: 47
+INFO:root:Guepardo perdió vida al pisar lava. Vida restante: 31
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 50
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 51
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 9
 INFO:root:Conejo consumio una planta. Vida recuperada: 4
 INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 35
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 17
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 90
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 9
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 31
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 62
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 60
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 33
+INFO:root:Oveja consumio una planta. Vida recuperada: 3
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 60
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 39
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 41
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 48
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 12
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 60
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 82
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 43
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 37
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 28
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 57
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 45
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 29
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 15
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 39
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 9
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 29
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 57
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 14
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 47
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 35
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 29
+INFO:root:Leon perdió vida al pisar lava. Vida restante: 36
+INFO:root:Zorro perdió vida al pisar lava. Vida restante: 15
+INFO:root:Zorro perdió vida al pisar lava. Vida restante: 37
+INFO:root:Guepardo perdió vida al pisar lava. Vida restante: 21
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 40
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 3
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 25
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 58
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 7
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 41
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 7
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 59
+INFO:root:Cerdo consumio una planta. Vida recuperada: 6
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 21
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 36
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 46
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 4
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 52
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 43
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 29
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 26
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 50
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 29
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 34
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 50
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 18
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 47
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 19
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 5
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 35
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 55
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 19
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 47
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 37
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 19
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 45
+INFO:root:Lobo perdió vida al pisar lava. Vida restante: 54
+INFO:root:Guepardo perdió vida al pisar lava. Vida restante: 57
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 30
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 31
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 50
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 33
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 59
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 20
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 36
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 26
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 33
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 16
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 38
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 2
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 72
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 8
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 37
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 6
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 35
+INFO:root:Cerdo consumio una planta. Vida recuperada: 3
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 9
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 25
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 29
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 18
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 37
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 26
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 4
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 31
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 9
+INFO:root:Lobo perdió vida al pisar lava. Vida restante: 10
+INFO:root:Leon perdió vida al pisar lava. Vida restante: 26
+INFO:root:Leon perdió vida al pisar lava. Vida restante: 70
+INFO:root:Zorro perdió vida al pisar lava. Vida restante: 5
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 20
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 41
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 19
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 52
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 31
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 49
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 31
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 24
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 55
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 23
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 49
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 11
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 26
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 26
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 16
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 50
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 40
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 19
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 31
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 33
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 28
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 12
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 15
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 45
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 9
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 27
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 25
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 35
+INFO:root:Lobo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Leon perdió vida al pisar lava. Vida restante: 60
+INFO:root:Guepardo perdió vida al pisar lava. Vida restante: 47
+INFO:root:Guepardo perdió vida al pisar lava. Vida restante: 11
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 10
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 31
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 42
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 39
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 13
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 16
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 42
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 23
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 40
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 6
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 9
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 28
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 62
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 36
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 31
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 46
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 5
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 19
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 35
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 27
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 16
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 21
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 15
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Lobo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Leon perdió vida al pisar lava. Vida restante: 16
+INFO:root:Zorro perdió vida al pisar lava. Vida restante: 0
+INFO:root:Zorro perdió vida al pisar lava. Vida restante: 27
+INFO:root:Guepardo perdió vida al pisar lava. Vida restante: 37
+INFO:root:Oso perdió vida al pisar lava. Vida restante: 60
+INFO:root:Oso perdió vida al pisar lava. Vida restante: 29
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 27
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 21
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 9
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 29
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 14
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 45
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 3
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 1
 INFO:root:Gallina consumio una planta. Vida recuperada: 4
-INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 6
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 32
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 30
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 30
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 21
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 40
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 52
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 27
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 36
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 18
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 9
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 25
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 17
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 6
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 17
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 25
+INFO:root:Lobo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Leon perdió vida al pisar lava. Vida restante: 50
+INFO:root:Zorro perdió vida al pisar lava. Vida restante: 0
+INFO:root:Zorro perdió vida al pisar lava. Vida restante: 17
+INFO:root:Guepardo perdió vida al pisar lava. Vida restante: 27
+INFO:root:Guepardo perdió vida al pisar lava. Vida restante: 1
+INFO:root:Oso perdió vida al pisar lava. Vida restante: 50
+INFO:root:Oso perdió vida al pisar lava. Vida restante: 19
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 11
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 40
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 19
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 21
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 10
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 6
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 22
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 13
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 24
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 18
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 30
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 84
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 26
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 21
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 26
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo consumio una planta. Vida recuperada: 6
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 8
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 15
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 7
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 11
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 7
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 5
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Lobo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Zorro perdió vida al pisar lava. Vida restante: 0
+INFO:root:Zorro perdió vida al pisar lava. Vida restante: 7
+INFO:root:Guepardo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oso perdió vida al pisar lava. Vida restante: 9
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 17
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 1
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 32
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 21
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 11
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 35
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 12
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 20
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 19
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 20
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 8
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 42
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 16
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 11
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo consumio una planta. Vida recuperada: 3
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 5
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Lobo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Leon perdió vida al pisar lava. Vida restante: 40
+INFO:root:Zorro perdió vida al pisar lava. Vida restante: 0
+INFO:root:Zorro perdió vida al pisar lava. Vida restante: 0
+INFO:root:Guepardo perdió vida al pisar lava. Vida restante: 17
+INFO:root:Guepardo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oso perdió vida al pisar lava. Vida restante: 40
+INFO:root:Oso perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 22
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 11
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 30
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 9
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 1
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 39
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
 INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 9
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 10
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 11
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 20
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 6
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 1
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 17
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 16
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 2
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 1
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 15
+INFO:root:Lobo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Leon perdió vida al pisar lava. Vida restante: 6
+INFO:root:Zorro perdió vida al pisar lava. Vida restante: 0
+INFO:root:Zorro perdió vida al pisar lava. Vida restante: 0
+INFO:root:Guepardo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oso perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 7
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 12
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 20
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 25
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 29
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 2
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 9
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 10
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 14
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 10
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 32
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 7
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Lobo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Leon perdió vida al pisar lava. Vida restante: 30
+INFO:root:Zorro perdió vida al pisar lava. Vida restante: 0
+INFO:root:Zorro perdió vida al pisar lava. Vida restante: 0
+INFO:root:Guepardo perdió vida al pisar lava. Vida restante: 7
+INFO:root:Guepardo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oso perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 12
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 1
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 15
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 19
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 5
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 1
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 4
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 6
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 5
+INFO:root:Lobo cazo a Cerdo
+INFO:root:Lobo recupero 10 de vida
+INFO:root:Leon perdió vida al pisar lava. Vida restante: 0
+INFO:root:Zorro perdió vida al pisar lava. Vida restante: 0
+INFO:root:Zorro perdió vida al pisar lava. Vida restante: 0
+INFO:root:Guepardo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oso perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 2
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 2
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 80
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 9
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 21
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 74
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Lobo perdió vida al pisar lava. Vida restante: 44
+INFO:root:Leon perdió vida al pisar lava. Vida restante: 0
+INFO:root:Zorro perdió vida al pisar lava. Vida restante: 0
+INFO:root:Zorro perdió vida al pisar lava. Vida restante: 0
+INFO:root:Guepardo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Guepardo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oso perdió vida al pisar lava. Vida restante: 30
+INFO:root:Oso perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 22
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 23
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 11
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Lobo perdió vida al pisar lava. Vida restante: 10
+INFO:root:Leon perdió vida al pisar lava. Vida restante: 0
+INFO:root:Leon perdió vida al pisar lava. Vida restante: 20
+INFO:root:Zorro perdió vida al pisar lava. Vida restante: 0
+INFO:root:Zorro perdió vida al pisar lava. Vida restante: 0
+INFO:root:Guepardo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Guepardo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oso perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 4
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 64
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 1
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Lobo perdió vida al pisar lava. Vida restante: 34
+INFO:root:Leon perdió vida al pisar lava. Vida restante: 0
+INFO:root:Leon perdió vida al pisar lava. Vida restante: 10
+INFO:root:Zorro perdió vida al pisar lava. Vida restante: 0
+INFO:root:Zorro perdió vida al pisar lava. Vida restante: 0
+INFO:root:Guepardo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Guepardo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oso perdió vida al pisar lava. Vida restante: 20
+INFO:root:Oso perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 70
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 16
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 4
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 12
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 13
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Leon perdió vida al pisar lava. Vida restante: 0
+INFO:root:Zorro perdió vida al pisar lava. Vida restante: 0
+INFO:root:Zorro perdió vida al pisar lava. Vida restante: 0
+INFO:root:Guepardo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Guepardo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oso perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 14
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo consumio una planta. Vida recuperada: 4
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 11
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 54
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Lobo perdió vida al pisar lava. Vida restante: 24
+INFO:root:Lobo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Leon perdió vida al pisar lava. Vida restante: 0
+INFO:root:Leon perdió vida al pisar lava. Vida restante: 0
+INFO:root:Zorro perdió vida al pisar lava. Vida restante: 0
+INFO:root:Zorro perdió vida al pisar lava. Vida restante: 0
+INFO:root:Guepardo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Guepardo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oso perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 1
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 2
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 3
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Lobo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Leon perdió vida al pisar lava. Vida restante: 0
+INFO:root:Leon perdió vida al pisar lava. Vida restante: 0
+INFO:root:Zorro perdió vida al pisar lava. Vida restante: 0
+INFO:root:Zorro perdió vida al pisar lava. Vida restante: 0
+INFO:root:Guepardo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Guepardo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oso perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 60
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 44
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Lobo perdió vida al pisar lava. Vida restante: 14
+INFO:root:Lobo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Leon perdió vida al pisar lava. Vida restante: 0
+INFO:root:Leon perdió vida al pisar lava. Vida restante: 0
+INFO:root:Zorro perdió vida al pisar lava. Vida restante: 0
+INFO:root:Zorro perdió vida al pisar lava. Vida restante: 0
+INFO:root:Guepardo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Guepardo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oso perdió vida al pisar lava. Vida restante: 10
+INFO:root:Oso perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 50
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 6
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Lobo perdió vida al pisar lava. Vida restante: 4
+INFO:root:Lobo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Leon perdió vida al pisar lava. Vida restante: 0
+INFO:root:Leon perdió vida al pisar lava. Vida restante: 0
+INFO:root:Zorro perdió vida al pisar lava. Vida restante: 0
+INFO:root:Zorro perdió vida al pisar lava. Vida restante: 0
+INFO:root:Guepardo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Guepardo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oso perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oso perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 40
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 34
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Lobo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Lobo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Leon perdió vida al pisar lava. Vida restante: 0
+INFO:root:Leon perdió vida al pisar lava. Vida restante: 0
+INFO:root:Zorro perdió vida al pisar lava. Vida restante: 0
+INFO:root:Zorro perdió vida al pisar lava. Vida restante: 0
+INFO:root:Guepardo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Guepardo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oso perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oso perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 30
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 28
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Lobo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Lobo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Leon perdió vida al pisar lava. Vida restante: 0
+INFO:root:Leon perdió vida al pisar lava. Vida restante: 0
+INFO:root:Zorro perdió vida al pisar lava. Vida restante: 0
+INFO:root:Zorro perdió vida al pisar lava. Vida restante: 0
+INFO:root:Guepardo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Guepardo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oso perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oso perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 20
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 18
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Lobo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Lobo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Leon perdió vida al pisar lava. Vida restante: 0
+INFO:root:Leon perdió vida al pisar lava. Vida restante: 0
+INFO:root:Zorro perdió vida al pisar lava. Vida restante: 0
+INFO:root:Zorro perdió vida al pisar lava. Vida restante: 0
+INFO:root:Guepardo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Guepardo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oso perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oso perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 10
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Lobo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Lobo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Leon perdió vida al pisar lava. Vida restante: 0
+INFO:root:Leon perdió vida al pisar lava. Vida restante: 0
+INFO:root:Zorro perdió vida al pisar lava. Vida restante: 0
+INFO:root:Zorro perdió vida al pisar lava. Vida restante: 0
+INFO:root:Guepardo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Guepardo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oso perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oso perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 8
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Lobo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Lobo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Leon perdió vida al pisar lava. Vida restante: 0
+INFO:root:Leon perdió vida al pisar lava. Vida restante: 0
+INFO:root:Zorro perdió vida al pisar lava. Vida restante: 0
+INFO:root:Zorro perdió vida al pisar lava. Vida restante: 0
+INFO:root:Guepardo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Guepardo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oso perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oso perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Lobo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Lobo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Leon perdió vida al pisar lava. Vida restante: 0
+INFO:root:Leon perdió vida al pisar lava. Vida restante: 0
+INFO:root:Zorro perdió vida al pisar lava. Vida restante: 0
+INFO:root:Zorro perdió vida al pisar lava. Vida restante: 0
+INFO:root:Guepardo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Guepardo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oso perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oso perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 4
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Lobo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Lobo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Leon perdió vida al pisar lava. Vida restante: 0
+INFO:root:Leon perdió vida al pisar lava. Vida restante: 0
+INFO:root:Zorro perdió vida al pisar lava. Vida restante: 0
+INFO:root:Zorro perdió vida al pisar lava. Vida restante: 0
+INFO:root:Guepardo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Guepardo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oso perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oso perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Lobo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Lobo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Leon perdió vida al pisar lava. Vida restante: 0
+INFO:root:Leon perdió vida al pisar lava. Vida restante: 0
+INFO:root:Zorro perdió vida al pisar lava. Vida restante: 0
+INFO:root:Zorro perdió vida al pisar lava. Vida restante: 0
+INFO:root:Guepardo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Guepardo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oso perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oso perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Lobo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Lobo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Leon perdió vida al pisar lava. Vida restante: 0
+INFO:root:Leon perdió vida al pisar lava. Vida restante: 0
+INFO:root:Zorro perdió vida al pisar lava. Vida restante: 0
+INFO:root:Zorro perdió vida al pisar lava. Vida restante: 0
+INFO:root:Guepardo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Guepardo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oso perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oso perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Lobo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Lobo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Leon perdió vida al pisar lava. Vida restante: 0
+INFO:root:Leon perdió vida al pisar lava. Vida restante: 0
+INFO:root:Zorro perdió vida al pisar lava. Vida restante: 0
+INFO:root:Zorro perdió vida al pisar lava. Vida restante: 0
+INFO:root:Guepardo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Guepardo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oso perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oso perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Lobo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Lobo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Leon perdió vida al pisar lava. Vida restante: 0
+INFO:root:Leon perdió vida al pisar lava. Vida restante: 0
+INFO:root:Zorro perdió vida al pisar lava. Vida restante: 0
+INFO:root:Zorro perdió vida al pisar lava. Vida restante: 0
+INFO:root:Guepardo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Guepardo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oso perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oso perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Lobo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Lobo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Leon perdió vida al pisar lava. Vida restante: 0
+INFO:root:Leon perdió vida al pisar lava. Vida restante: 0
+INFO:root:Zorro perdió vida al pisar lava. Vida restante: 0
+INFO:root:Zorro perdió vida al pisar lava. Vida restante: 0
+INFO:root:Guepardo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Guepardo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oso perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oso perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdió vida al pisar lava. Vida restante: 0
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Oveja consumio una planta. Vida recuperada: 6
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Cerdo consumio una planta. Vida recuperada: 0
+INFO:root:Cerdo consumio una planta. Vida recuperada: 3
+INFO:root:Cerdo consumio una planta. Vida recuperada: 4
 INFO:root:Gallina consumio una planta. Vida recuperada: 1
 INFO:root:Oveja consumio una planta. Vida recuperada: 6
-INFO:root:Vaca consumio una planta. Vida recuperada: 4
-INFO:root:Vaca se ha reproducido con Vaca. Nueva posicion: (27, 16)
-INFO:root:Vaca se ha reproducido con Vaca. Nueva posicion: (27, 15)
-INFO:root:Vaca se ha reproducido con Vaca. Nueva posicion: (26, 16)
-INFO:root:Vaca se ha reproducido con Vaca. Nueva posicion: (26, 14)
-INFO:root:Oveja consumio una planta. Vida recuperada: 6
-INFO:root:Oveja consumio una planta. Vida recuperada: 6
 INFO:root:Oveja consumio una planta. Vida recuperada: 4
-INFO:root:Vaca consumio una planta. Vida recuperada: 6
-INFO:root:Vaca se ha reproducido con Vaca. Nueva posicion: (26, 16)
-INFO:root:Vaca se ha reproducido con Vaca. Nueva posicion: (25, 15)
-INFO:root:Vaca se ha reproducido con Vaca. Nueva posicion: (26, 14)
-INFO:root:Vaca se ha reproducido con Vaca. Nueva posicion: (27, 15)
-INFO:root:Vaca se ha reproducido con Vaca. Nueva posicion: (25, 15)
-INFO:root:Vaca se ha reproducido con Vaca. Nueva posicion: (28, 16)
-INFO:root:Vaca se ha reproducido con Vaca. Nueva posicion: (28, 16)
-INFO:root:Vaca se ha reproducido con Vaca. Nueva posicion: (26, 16)
-INFO:root:Vaca se ha reproducido con Vaca. Nueva posicion: (28, 14)
-INFO:root:Vaca se ha reproducido con Vaca. Nueva posicion: (26, 16)
-INFO:root:Vaca se ha reproducido con Vaca. Nueva posicion: (27, 14)
-INFO:root:Vaca se ha reproducido con Vaca. Nueva posicion: (25, 17)
-INFO:root:Vaca se ha reproducido con Vaca. Nueva posicion: (26, 16)
-INFO:root:Vaca se ha reproducido con Vaca. Nueva posicion: (26, 16)
-INFO:root:Vaca se ha reproducido con Vaca. Nueva posicion: (24, 16)
-INFO:root:Vaca se ha reproducido con Vaca. Nueva posicion: (25, 16)
-INFO:root:Gallina consumio una planta. Vida recuperada: 4
-INFO:root:Oveja consumio una planta. Vida recuperada: 0
-INFO:root:Oso cazo a Cerdo
-INFO:root:Oso cazo a Cerdo
-INFO:root:Oso cazo a Cerdo
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Leon cazo a Oveja
+INFO:root:Leon recupero 6 de vida
+INFO:root:Leon cazo a Oveja
+INFO:root:Leon recupero 0 de vida
 INFO:root:Cerdo consumio una planta. Vida recuperada: 6
-INFO:root:Cerdo consumio una planta. Vida recuperada: 4
-INFO:root:Gallina consumio una planta. Vida recuperada: 3
-INFO:root:Conejo consumio una planta. Vida recuperada: 6
-INFO:root:Cerdo consumio una planta. Vida recuperada: 4
-INFO:root:Cerdo consumio una planta. Vida recuperada: 6
-INFO:root:Gallina consumio una planta. Vida recuperada: 6
-INFO:root:Vaca consumio una planta. Vida recuperada: 4
-INFO:root:Vaca consumio una planta. Vida recuperada: 4
-INFO:root:Gallina consumio una planta. Vida recuperada: 3
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
 INFO:root:Vaca consumio una planta. Vida recuperada: 3
-INFO:root:Conejo consumio una planta. Vida recuperada: 4
-INFO:root:Cerdo consumio una planta. Vida recuperada: 4
-INFO:root:Gallina consumio una planta. Vida recuperada: 4
-INFO:root:Oveja consumio una planta. Vida recuperada: 4
-INFO:root:Conejo consumio una planta. Vida recuperada: 6
-INFO:root:Conejo consumio una planta. Vida recuperada: 4
-INFO:root:Conejo consumio una planta. Vida recuperada: 6
-INFO:root:Conejo consumio una planta. Vida recuperada: 6
-INFO:root:Oveja consumio una planta. Vida recuperada: 3
-INFO:root:Oveja consumio una planta. Vida recuperada: 0
+INFO:root:Oso cazo a Gallina
+INFO:root:Oso recupero 10 de vida
+INFO:root:Oso cazo a Gallina
+INFO:root:Oso recupero 10 de vida
+INFO:root:Gallina consumio una planta. Vida recuperada: 0
+INFO:root:Zorro cazo a Cerdo
+INFO:root:Zorro recupero 10 de vida
 INFO:root:Conejo consumio una planta. Vida recuperada: 3
-INFO:root:Conejo consumio una planta. Vida recuperada: 0
-INFO:root:Oveja consumio una planta. Vida recuperada: 3
-INFO:root:Oveja consumio una planta. Vida recuperada: 4
-INFO:root:Vaca consumio una planta. Vida recuperada: 4
-INFO:root:Conejo consumio una planta. Vida recuperada: 4
 INFO:root:Gallina consumio una planta. Vida recuperada: 6
-INFO:root:Oveja consumio una planta. Vida recuperada: 3
-INFO:root:Gallina consumio una planta. Vida recuperada: 0
-INFO:root:Oveja consumio una planta. Vida recuperada: 3
-INFO:root:Conejo consumio una planta. Vida recuperada: 4
 INFO:root:Gallina consumio una planta. Vida recuperada: 6
-INFO:root:Cerdo consumio una planta. Vida recuperada: 2
-INFO:root:Oveja consumio una planta. Vida recuperada: 0
-INFO:root:Oveja consumio una planta. Vida recuperada: 4
-INFO:root:Oveja consumio una planta. Vida recuperada: 1
-INFO:root:Oveja consumio una planta. Vida recuperada: 3
-INFO:root:Vaca consumio una planta. Vida recuperada: 4
-INFO:root:Vaca consumio una planta. Vida recuperada: 3
-INFO:root:Cerdo consumio una planta. Vida recuperada: 6
-INFO:root:Oveja consumio una planta. Vida recuperada: 3
-INFO:root:Oveja consumio una planta. Vida recuperada: 0
+INFO:root:Oveja consumio una planta. Vida recuperada: 6
 INFO:root:Conejo consumio una planta. Vida recuperada: 4
-INFO:root:Vaca consumio una planta. Vida recuperada: 3
-INFO:root:Conejo consumio una planta. Vida recuperada: 2
+INFO:root:Cerdo consumio una planta. Vida recuperada: 4
 INFO:root:Cerdo consumio una planta. Vida recuperada: 4
 INFO:root:Gallina consumio una planta. Vida recuperada: 4
-INFO:root:Leon cazo a Gallina
-INFO:root:Leon cazo a Gallina
-INFO:root:Leon cazo a Gallina
-INFO:root:Leon cazo a Gallina
-INFO:root:Gallina consumio una planta. Vida recuperada: 0
-INFO:root:Cerdo consumio una planta. Vida recuperada: 6
-INFO:root:Gallina consumio una planta. Vida recuperada: 3
 INFO:root:Oveja consumio una planta. Vida recuperada: 4
-INFO:root:Vaca consumio una planta. Vida recuperada: 4
-INFO:root:Vaca consumio una planta. Vida recuperada: 3
-INFO:root:Vaca consumio una planta. Vida recuperada: 3
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
 INFO:root:Vaca consumio una planta. Vida recuperada: 6
-INFO:root:Gallina consumio una planta. Vida recuperada: 4
-INFO:root:Oveja consumio una planta. Vida recuperada: 4
-INFO:root:Vaca consumio una planta. Vida recuperada: 3
-INFO:root:Cerdo consumio una planta. Vida recuperada: 4
-INFO:root:Oveja consumio una planta. Vida recuperada: 0
-INFO:root:Vaca consumio una planta. Vida recuperada: 4
-INFO:root:Gallina consumio una planta. Vida recuperada: 3
-INFO:root:Cerdo consumio una planta. Vida recuperada: 4
-INFO:root:Gallina consumio una planta. Vida recuperada: 6
-INFO:root:Vaca consumio una planta. Vida recuperada: 3
-INFO:root:Guepardo cazo a Cerdo
-INFO:root:Guepardo cazo a Cerdo
-INFO:root:Guepardo cazo a Cerdo
-INFO:root:Guepardo cazo a Cerdo
-INFO:root:Guepardo cazo a Cerdo
-INFO:root:Cerdo consumio una planta. Vida recuperada: 4
-INFO:root:Vaca consumio una planta. Vida recuperada: 4
-INFO:root:Vaca consumio una planta. Vida recuperada: 3
-INFO:root:Vaca consumio una planta. Vida recuperada: 5
-INFO:root:Oveja consumio una planta. Vida recuperada: 0
-INFO:root:Cerdo consumio una planta. Vida recuperada: 4
-INFO:root:Oveja consumio una planta. Vida recuperada: 4
-INFO:root:Cerdo consumio una planta. Vida recuperada: 0
-INFO:root:Cerdo consumio una planta. Vida recuperada: 4
-INFO:root:Gallina consumio una planta. Vida recuperada: 0
-INFO:root:Oveja consumio una planta. Vida recuperada: 4
-INFO:root:Vaca consumio una planta. Vida recuperada: 4
-INFO:root:Vaca consumio una planta. Vida recuperada: 4
-INFO:root:Vaca consumio una planta. Vida recuperada: 3
-INFO:root:Conejo consumio una planta. Vida recuperada: 0
-INFO:root:Cerdo consumio una planta. Vida recuperada: 4
-INFO:root:Vaca consumio una planta. Vida recuperada: 3
 INFO:root:Conejo consumio una planta. Vida recuperada: 6
-INFO:root:Oveja consumio una planta. Vida recuperada: 4
-INFO:root:Zorro cazo a Conejo
-INFO:root:Zorro cazo a Conejo
-INFO:root:Zorro cazo a Conejo
-INFO:root:Zorro cazo a Conejo
-INFO:root:Zorro cazo a Conejo
 INFO:root:Cerdo consumio una planta. Vida recuperada: 3
-INFO:root:Vaca consumio una planta. Vida recuperada: 3
-INFO:root:Vaca consumio una planta. Vida recuperada: 3
-INFO:root:Vaca consumio una planta. Vida recuperada: 3
-INFO:root:Gallina consumio una planta. Vida recuperada: 0
-INFO:root:Gallina consumio una planta. Vida recuperada: 4
-INFO:root:Vaca consumio una planta. Vida recuperada: 4
-INFO:root:Oveja consumio una planta. Vida recuperada: 4
-INFO:root:Conejo consumio una planta. Vida recuperada: 4
-INFO:root:Cerdo consumio una planta. Vida recuperada: 4
-INFO:root:Vaca consumio una planta. Vida recuperada: 3
-INFO:root:Cerdo consumio una planta. Vida recuperada: 4
-INFO:root:Cerdo consumio una planta. Vida recuperada: 4
-INFO:root:Vaca consumio una planta. Vida recuperada: 4
-INFO:root:Conejo consumio una planta. Vida recuperada: 4
-INFO:root:Oveja consumio una planta. Vida recuperada: 0
-INFO:root:Vaca consumio una planta. Vida recuperada: 3
-INFO:root:Zorro cazo a Gallina
-INFO:root:Zorro cazo a Gallina
-INFO:root:Zorro cazo a Gallina
-INFO:root:Zorro cazo a Gallina
-INFO:root:Zorro cazo a Gallina
-INFO:root:Oveja consumio una planta. Vida recuperada: 4
-INFO:root:Oveja consumio una planta. Vida recuperada: 4
-INFO:root:Vaca consumio una planta. Vida recuperada: 6
-INFO:root:Conejo consumio una planta. Vida recuperada: 0
-INFO:root:Vaca consumio una planta. Vida recuperada: 3
-INFO:root:Cerdo consumio una planta. Vida recuperada: 6
-INFO:root:Gallina consumio una planta. Vida recuperada: 6
-INFO:root:Oveja consumio una planta. Vida recuperada: 0
-INFO:root:Vaca consumio una planta. Vida recuperada: 6
-INFO:root:Vaca consumio una planta. Vida recuperada: 3
-INFO:root:Conejo consumio una planta. Vida recuperada: 4
-INFO:root:Conejo consumio una planta. Vida recuperada: 0
-INFO:root:Cerdo consumio una planta. Vida recuperada: 6
-INFO:root:Vaca consumio una planta. Vida recuperada: 4
-INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Lobo perdio vida al pisar lava. Vida restante: 57
+INFO:root:Leon perdio vida al pisar lava. Vida restante: 48
+INFO:root:Zorro perdio vida al pisar lava. Vida restante: 69
+INFO:root:Zorro perdio vida al pisar lava. Vida restante: 72
+INFO:root:Guepardo perdio vida al pisar lava. Vida restante: 50
+INFO:root:Oso perdio vida al pisar lava. Vida restante: 51
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 86
 INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 48
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 60
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 40
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 87
+INFO:root:Cerdo consumio una planta. Vida recuperada: 6
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 48
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 74
+INFO:root:Cerdo consumio una planta. Vida recuperada: 4
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 80
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 88
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 80
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 69
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 86
+INFO:root:Gallina consumio una planta. Vida recuperada: 3
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 61
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 79
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 62
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 62
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 63
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 64
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 58
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 70
+INFO:root:Oveja consumio una planta. Vida recuperada: 6
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 83
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 67
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 67
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 43
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 74
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 75
+INFO:root:Lobo perdio vida al pisar lava. Vida restante: 46
+INFO:root:Leon perdio vida al pisar lava. Vida restante: 38
+INFO:root:Zorro perdio vida al pisar lava. Vida restante: 62
+INFO:root:Guepardo perdio vida al pisar lava. Vida restante: 73
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 46
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 82
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 78
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 74
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 76
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 50
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 70
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 30
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 75
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 68
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 70
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 66
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 60
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 75
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 88
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 59
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 76
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 52
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 52
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 53
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 54
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 66
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 73
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 83
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 57
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 33
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 65
+INFO:root:Lobo perdio vida al pisar lava. Vida restante: 47
+INFO:root:Zorro perdio vida al pisar lava. Vida restante: 59
+INFO:root:Guepardo perdio vida al pisar lava. Vida restante: 63
+INFO:root:Guepardo perdio vida al pisar lava. Vida restante: 40
+INFO:root:Oso perdio vida al pisar lava. Vida restante: 41
+INFO:root:Oso perdio vida al pisar lava. Vida restante: 49
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 68
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 64
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 40
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 20
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 83
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 38
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 58
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 60
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 43
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 56
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 50
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 78
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 64
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 49
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 57
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 51
 INFO:root:Gallina consumio una planta. Vida recuperada: 6
-INFO:root:Gallina consumio una planta. Vida recuperada: 6
-INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 61
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 42
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 42
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 43
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 48
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 56
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 63
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 57
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 47
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 78
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 83
+INFO:root:Lobo perdio vida al pisar lava. Vida restante: 36
+INFO:root:Guepardo perdio vida al pisar lava. Vida restante: 53
+INFO:root:Guepardo perdio vida al pisar lava. Vida restante: 30
+INFO:root:Oso perdio vida al pisar lava. Vida restante: 39
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 36
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 72
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 58
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 54
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 60
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 28
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 48
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 40
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 68
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 78
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 54
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 39
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 66
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 51
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 32
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 32
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 33
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 44
 INFO:root:Oveja consumio una planta. Vida recuperada: 3
-INFO:root:Oveja consumio una planta. Vida recuperada: 6
-INFO:root:Vaca consumio una planta. Vida recuperada: 3
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 73
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 37
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 23
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 64
+INFO:root:Lobo cazo a Cerdo
+INFO:root:Lobo recupero 10 de vida
+INFO:root:Lobo cazo a Cerdo
+INFO:root:Lobo recupero 10 de vida
+INFO:root:Lobo perdio vida al pisar lava. Vida restante: 26
+INFO:root:Lobo perdio vida al pisar lava. Vida restante: 67
+INFO:root:Zorro perdio vida al pisar lava. Vida restante: 52
+INFO:root:Guepardo perdio vida al pisar lava. Vida restante: 20
+INFO:root:Oso perdio vida al pisar lava. Vida restante: 31
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 44
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 38
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 66
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 30
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 18
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 38
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 46
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 65
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 58
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 72
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 29
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 56
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 47
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 41
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 22
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 23
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 53
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 47
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 68
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 13
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 55
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 86
+INFO:root:Lobo perdio vida al pisar lava. Vida restante: 16
+INFO:root:Zorro perdio vida al pisar lava. Vida restante: 49
+INFO:root:Guepardo perdio vida al pisar lava. Vida restante: 43
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 52
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 48
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 34
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 20
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 50
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 28
+INFO:root:Cerdo consumio una planta. Vida recuperada: 4
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 33
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 62
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 44
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 19
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 47
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 69
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 12
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 22
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 13
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 41
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 43
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 63
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 27
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 3
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 54
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 73
+INFO:root:Lobo perdio vida al pisar lava. Vida restante: 57
+INFO:root:Zorro perdio vida al pisar lava. Vida restante: 42
+INFO:root:Guepardo perdio vida al pisar lava. Vida restante: 10
+INFO:root:Oso perdio vida al pisar lava. Vida restante: 21
+INFO:root:Oso perdio vida al pisar lava. Vida restante: 29
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 26
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 68
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 24
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 56
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 8
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 65
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 54
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 36
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 48
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 52
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 34
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 9
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 31
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 12
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 3
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 34
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 31
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 37
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 53
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 17
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 44
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 63
 INFO:root:Vaca consumio una planta. Vida recuperada: 6
-INFO:root:Vaca consumio una planta. Vida recuperada: 4
-INFO:root:Vaca consumio una planta. Vida recuperada: 4
-INFO:root:Oveja consumio una planta. Vida recuperada: 4
-INFO:root:Oveja consumio una planta. Vida recuperada: 4
-INFO:root:Vaca consumio una planta. Vida recuperada: 3
-INFO:root:Vaca consumio una planta. Vida recuperada: 6
-INFO:root:Gallina consumio una planta. Vida recuperada: 3
-INFO:root:Vaca consumio una planta. Vida recuperada: 4
-INFO:root:Conejo consumio una planta. Vida recuperada: 3
-INFO:root:Gallina consumio una planta. Vida recuperada: 3
-INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 76
+INFO:root:Leon cazo a Conejo
+INFO:root:Leon recupero 10 de vida
+INFO:root:Lobo perdio vida al pisar lava. Vida restante: 6
+INFO:root:Leon perdio vida al pisar lava. Vida restante: 64
+INFO:root:Guepardo perdio vida al pisar lava. Vida restante: 33
+INFO:root:Oso perdio vida al pisar lava. Vida restante: 19
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 16
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 42
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 28
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 10
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 10
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 55
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 18
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 44
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 30
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 90
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 37
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 49
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 59
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 21
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 2
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 24
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 21
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 79
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 43
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 53
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 45
+INFO:root:Lobo perdio vida al pisar lava. Vida restante: 47
+INFO:root:Oso perdio vida al pisar lava. Vida restante: 11
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 32
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 14
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 52
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 8
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 26
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 45
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 0
 INFO:root:Oveja consumio una planta. Vida recuperada: 6
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 27
+INFO:root:Vaca consumio una planta. Vida recuperada: 3
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 7
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 62
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 34
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 43
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 66
+INFO:root:Vaca consumio una planta. Vida recuperada: 3
+INFO:root:Zorro perdio vida al pisar lava. Vida restante: 39
+INFO:root:Zorro perdio vida al pisar lava. Vida restante: 32
+INFO:root:Guepardo perdio vida al pisar lava. Vida restante: 23
+INFO:root:Oso perdio vida al pisar lava. Vida restante: 1
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 6
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 22
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 42
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 18
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 42
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 45
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 80
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 34
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 20
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 55
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 38
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 70
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 84
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 27
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 35
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 49
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 11
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 20
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 11
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 46
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 33
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 69
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 36
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 52
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 33
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 35
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 85
+INFO:root:Lobo perdio vida al pisar lava. Vida restante: 37
+INFO:root:Zorro perdio vida al pisar lava. Vida restante: 29
+INFO:root:Zorro perdio vida al pisar lava. Vida restante: 22
+INFO:root:Oso perdio vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 2
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 12
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 4
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 32
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 24
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 16
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 45
+INFO:root:Cerdo consumio una planta. Vida recuperada: 6
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 28
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 42
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 60
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 39
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 6
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 10
+INFO:root:Oveja consumio una planta. Vida recuperada: 3
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 17
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 59
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 42
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 24
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 25
+INFO:root:Lobo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Leon perdio vida al pisar lava. Vida restante: 48
+INFO:root:Zorro perdio vida al pisar lava. Vida restante: 19
+INFO:root:Zorro perdio vida al pisar lava. Vida restante: 12
+INFO:root:Guepardo perdio vida al pisar lava. Vida restante: 13
+INFO:root:Oso perdio vida al pisar lava. Vida restante: 0
+INFO:root:Oso perdio vida al pisar lava. Vida restante: 9
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 2
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 32
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 70
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 14
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 10
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 22
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 56
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 74
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 31
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 29
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 1
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 32
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 14
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 23
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 63
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 75
+INFO:root:Lobo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Lobo perdio vida al pisar lava. Vida restante: 27
+INFO:root:Oso perdio vida al pisar lava. Vida restante: 0
+INFO:root:Oso perdio vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 22
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 35
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 4
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 23
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 6
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 41
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 12
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 46
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 21
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 19
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 36
+INFO:root:Oveja consumio una planta. Vida recuperada: 6
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 7
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 13
+INFO:root:Lobo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Leon perdio vida al pisar lava. Vida restante: 38
+INFO:root:Guepardo perdio vida al pisar lava. Vida restante: 3
+INFO:root:Oso perdio vida al pisar lava. Vida restante: 0
+INFO:root:Oso perdio vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 13
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 36
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 36
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 64
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 11
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 32
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 23
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 22
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 4
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 3
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 59
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 65
+INFO:root:Lobo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Zorro perdio vida al pisar lava. Vida restante: 2
+INFO:root:Oso perdio vida al pisar lava. Vida restante: 0
+INFO:root:Oso perdio vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 22
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 8
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 12
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 3
+INFO:root:Cerdo consumio una planta. Vida recuperada: 6
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 31
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 2
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 26
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 17
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 9
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 13
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 49
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 26
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 12
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 53
+INFO:root:Vaca consumio una planta. Vida recuperada: 6
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 49

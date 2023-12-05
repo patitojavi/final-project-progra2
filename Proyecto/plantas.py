@@ -1,7 +1,7 @@
 
 import pygame as PY
 from organismo import Organismo
-from constantes import cW, cH, nxC, nyC, min_cW, min_cH, pW, pH
+from constantes import cW, cH
 
 
 class Planta(Organismo):
