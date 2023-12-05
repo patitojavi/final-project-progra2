@@ -33,11 +33,17 @@ class Tierra(Bioma):
         super().__init__("Proyecto/imagenes/tierra.png", RA.randint(0, 5), 0)
 
 
+class Lava(Bioma):
+    def __init__(self):
+        super().__init__("Proyecto/imagenes/lava.png", 0, 0)
+
+
 
 bioma_dict = {
     "A": Agua(),
     "D": Desierto(),
-    "T": Tierra()
+    "T": Tierra(),
+    "L": Lava(),
 }
 
 patron_biomas = [
