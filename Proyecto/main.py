@@ -1,5 +1,6 @@
 import pygame as PY
 import random as RA
+import logging
 
 from Bioma import patron_biomas,bioma_dict,Tierra,Agua,Desierto
 from organismo import Organismo
@@ -8,7 +9,8 @@ from plantas import Planta, Nenufar, ArbolDesierto, ArbolTierra
 from constantes import fondo_color, velocidad_movimiento, cW, cH, nxC, nyC, min_cW, min_cH, pW, pH, num_carnivoros, num_herbivoros, cantidad_nenufares, cantidad_arboles_desierto, cantidad_arboles_tierra, ejecutando, contador
 from ambiente import Ambiente
 from ecosistema import Ecosistema
-from logger import logger
+
+logging.basicConfig(filename='simulador.txt', level=logging.INFO)
 
 PY.init()
 
@@ -83,17 +85,7 @@ for y in range(nyC):
 carnivoros = []
 herbivoros = []
 
-herbivoros.extend([
-    Conejo(
-        posicion=(RA.randint(0, nxC - 1), RA.randint(0, nyC - 1)),
-        vida=RA.randint(50, 100),
-        energia=RA.randint(20, 50),
-        velocidad=RA.uniform(5, 2),
-        especie="Conejo",
-        dieta="herbivoro"
-    )
-    for _ in range(num_herbivoros)
-])
+
 
 carnivoros.extend([
     Lobo(
@@ -107,7 +99,115 @@ carnivoros.extend([
     for _ in range(num_carnivoros)
 ])
 
+carnivoros.extend([
+    Leon(
+        posicion=(RA.randint(0, nxC - 1), RA.randint(0, nyC - 1)),
+        vida=RA.randint(50, 100),
+        energia=RA.randint(20, 50),
+        velocidad=RA.uniform(5, 2),
+        especie="Leon",
+        dieta="Carnívoro"
+    )
+    for _ in range(num_carnivoros)
+])
 
+carnivoros.extend([
+    Zorro(
+        posicion=(RA.randint(0, nxC - 1), RA.randint(0, nyC - 1)),
+        vida=RA.randint(50, 100),
+        energia=RA.randint(20, 50),
+        velocidad=RA.uniform(5, 2),
+        especie="Zorro",
+        dieta="Carnívoro"
+    )
+    for _ in range(num_carnivoros)
+])
+
+carnivoros.extend([
+    Guepardo(
+        posicion=(RA.randint(0, nxC - 1), RA.randint(0, nyC - 1)),
+        vida=RA.randint(50, 100),
+        energia=RA.randint(20, 50),
+        velocidad=RA.uniform(5, 2),
+        especie="Guepardo",
+        dieta="Carnívoro"
+    )
+    for _ in range(num_carnivoros)
+])
+
+carnivoros.extend([
+    Oso(
+        posicion=(RA.randint(0, nxC - 1), RA.randint(0, nyC - 1)),
+        vida=RA.randint(50, 100),
+        energia=RA.randint(20, 50),
+        velocidad=RA.uniform(5, 2),
+        especie="Oso",
+        dieta="Carnívoro"
+    )
+    for _ in range(num_carnivoros)
+])
+
+herbivoros.extend([
+    Conejo(
+        posicion=(RA.randint(0, nxC - 1), RA.randint(0, nyC - 1)),
+        vida=RA.randint(50, 100),
+        energia=RA.randint(20, 50),
+        velocidad=RA.uniform(5, 2),
+        especie="Conejo",
+        dieta="herbivoro"
+    )
+    for _ in range(num_herbivoros)
+])
+
+herbivoros.extend([
+    Cerdo(
+        posicion=(RA.randint(0, nxC - 1), RA.randint(0, nyC - 1)),
+        vida=RA.randint(50, 100),
+        energia=RA.randint(20, 50),
+        velocidad=RA.uniform(5, 2),
+        especie="Cerdo",
+        dieta="herbivoro"
+    )
+    for _ in range(num_herbivoros)
+])
+
+herbivoros.extend([
+    Gallina(
+        posicion=(RA.randint(0, nxC - 1), RA.randint(0, nyC - 1)),
+        vida=RA.randint(50, 100),
+        energia=RA.randint(20, 50),
+        velocidad=RA.uniform(5, 2),
+        especie="Gallina",
+        dieta="herbivoro"
+    )
+    for _ in range(num_herbivoros)
+])
+
+
+herbivoros.extend([
+    Oveja(
+        posicion=(RA.randint(0, nxC - 1), RA.randint(0, nyC - 1)),
+        vida=RA.randint(50, 100),
+        energia=RA.randint(20, 50),
+        velocidad=RA.uniform(5, 2),
+        especie="Oveja",
+        dieta="herbivoro"
+    )
+    for _ in range(num_herbivoros)
+])
+
+
+herbivoros.extend([
+    Vaca(
+        posicion=(RA.randint(0, nxC - 1), RA.randint(0, nyC - 1)),
+        vida=RA.randint(50, 100),
+        energia=RA.randint(20, 50),
+        velocidad=RA.uniform(5, 2),
+        especie="Vaca",
+        dieta="herbivoro"
+    )
+    for _ in range(num_herbivoros)
+])
 
 ejecutando = True
 pausado = False
@@ -121,10 +221,8 @@ while ejecutando:
         elif evento.type == PY.KEYDOWN:
             if evento.key ==PY.K_p:
                 pausado = True
-                logger.log_event("El juego ha sido pausado")
             elif evento.key == PY.K_r:
                 pausado = False
-                logger.log_event("El juego ha sido reanudado")
     if not pausado:            
         if contador % velocidad_movimiento == 0:
             for carnivoro in carnivoros:
@@ -148,7 +246,8 @@ while ejecutando:
                     vida_recuperada = herbivoro.vida - vida_anterior  # Calcular la vida recuperada
                     plantas.remove(planta)  # Eliminar la planta de la lista de plantas
                     celda_actual.remove(planta)
-
+                    
+                    logging.info(f"{herbivoro.especie} consumio una planta. Vida recuperada: {vida_recuperada}")
                     
         contador += 1
 

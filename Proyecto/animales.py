@@ -8,7 +8,7 @@ from logger import logger
 
 
 
-logging.basicConfig(filename='simulador.log', level=logging.INFO)
+logging.basicConfig(filename='simulador.txt', level=logging.INFO)
 
 class Animal(Organismo):
     total_animales = 0
@@ -47,7 +47,7 @@ class Animal(Organismo):
 
 
     def reproducirse(self, otros):
-        if Animal.total_animales < 20:  # Limitar la reproducción si se alcanza el límite
+        if Animal.total_animales < 100:  # Limitar la reproducción si se alcanza el límite
             for otro in otros:
                 if (
                     isinstance(otro, type(self))
@@ -77,7 +77,7 @@ class Animal(Organismo):
         if self.dieta == "Carnívoro" and presas:
             presa = RA.choice(presas)
             if isinstance(presa, Animal) and self.especie != presa.especie:
-                logging.info(f"{self.especie} cazó a {presa.especie}")# Evitar cazar a animales de la misma especie
+                logging.info(f"{self.especie} cazo a {presa.especie}")
                 vida_restante_presa = presa.vida - 20
                 presa.vida = max(vida_restante_presa, 0)
                 if presa.vida <= 0:
@@ -118,12 +118,6 @@ class Animal(Organismo):
         PY.draw.rect(pantalla, color_fondo, (x_barra, y_barra, ancho_barra, alto_barra))
         PY.draw.rect(pantalla, color_vida, (x_barra, y_barra, ancho_vida, alto_barra))
         PY.draw.rect(pantalla, (0, 0, 0), (x_barra, y_barra, ancho_barra, alto_barra), borde_barra)
-
-
-        # Mostrar la vida como texto sobre la barra
-        font = PY.font.Font(None, 24)
-        vida_texto = font.render(f"Vida: {self.vida}", True, (255, 255, 255))
-        pantalla.blit(vida_texto, (x_barra, y_barra - 20))  # Ajusta la posición del texto según tu preferencia
 
 
 class Conejo(Animal):
