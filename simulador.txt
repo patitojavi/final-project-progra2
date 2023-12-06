@@ -3546,3 +3546,2189 @@ INFO:root:Oso cazo a Gallina
 INFO:root:Oso recupero 0 de vida
 INFO:root:Oso cazo a Gallina
 INFO:root:Oso recupero 0 de vida
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Cerdo consumio una planta. Vida recuperada: 3
+INFO:root:Oveja consumio una planta. Vida recuperada: 6
+INFO:root:Oveja consumio una planta. Vida recuperada: 6
+INFO:root:Vaca consumio una planta. Vida recuperada: 3
+INFO:root:Vaca consumio una planta. Vida recuperada: 6
+INFO:root:Zorro cazo a Conejo
+INFO:root:Zorro recupero 10 de vida
+INFO:root:Zorro cazo a Conejo
+INFO:root:Zorro recupero 9 de vida
+INFO:root:Cerdo consumio una planta. Vida recuperada: 6
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Oveja consumio una planta. Vida recuperada: 6
+INFO:root:Vaca consumio una planta. Vida recuperada: 3
+INFO:root:Lobo cazo a Conejo
+INFO:root:Lobo recupero 10 de vida
+INFO:root:Lobo cazo a Conejo
+INFO:root:Lobo recupero 9 de vida
+INFO:root:Leon perdio vida al pisar lava. Vida restante: 46
+INFO:root:Leon perdio vida al pisar lava. Vida restante: 82
+INFO:root:Guepardo perdio vida al pisar lava. Vida restante: 84
+INFO:root:Oso perdio vida al pisar lava. Vida restante: 74
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 66
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 51
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 81
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 88
+INFO:root:Conejo consumio una planta. Vida recuperada: 2
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 58
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 45
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 62
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 87
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 55
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 58
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 80
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 66
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 80
+INFO:root:Gallina consumio una planta. Vida recuperada: 3
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 69
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 84
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 88
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 47
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 56
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 74
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 59
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 48
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 82
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 85
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 63
+INFO:root:Lobo perdio vida al pisar lava. Vida restante: 90
+INFO:root:Leon perdio vida al pisar lava. Vida restante: 36
+INFO:root:Leon perdio vida al pisar lava. Vida restante: 72
+INFO:root:Zorro perdio vida al pisar lava. Vida restante: 47
+INFO:root:Zorro perdio vida al pisar lava. Vida restante: 90
+INFO:root:Oso perdio vida al pisar lava. Vida restante: 64
+INFO:root:Oso perdio vida al pisar lava. Vida restante: 48
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 78
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 62
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 63
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 48
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 88
+INFO:root:Cerdo consumio una planta. Vida recuperada: 3
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 41
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 48
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 65
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 70
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 56
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 74
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 65
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 78
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 67
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 57
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 64
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 49
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 38
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 68
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 53
+INFO:root:Leon perdio vida al pisar lava. Vida restante: 26
+INFO:root:Guepardo perdio vida al pisar lava. Vida restante: 85
+INFO:root:Oso perdio vida al pisar lava. Vida restante: 38
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 41
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 46
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 68
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 90
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 53
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 57
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 54
+INFO:root:Cerdo consumio una planta. Vida recuperada: 3
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 38
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 78
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 55
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 77
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 38
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 74
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 46
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 73
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 59
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 64
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 37
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 57
+INFO:root:Oveja consumio una planta. Vida recuperada: 6
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 46
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 85
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 39
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 28
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 45
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 58
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 75
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 43
+INFO:root:Zorro cazo a Conejo
+INFO:root:Zorro recupero 10 de vida
+INFO:root:Zorro cazo a Conejo
+INFO:root:Zorro recupero 0 de vida
+INFO:root:Lobo perdio vida al pisar lava. Vida restante: 69
+INFO:root:Leon perdio vida al pisar lava. Vida restante: 62
+INFO:root:Zorro perdio vida al pisar lava. Vida restante: 37
+INFO:root:Guepardo perdio vida al pisar lava. Vida restante: 75
+INFO:root:Oso perdio vida al pisar lava. Vida restante: 54
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 36
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 71
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 88
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 53
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 47
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 28
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 35
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 68
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 45
+INFO:root:Cerdo consumio una planta. Vida recuperada: 3
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 42
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 31
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 45
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 28
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 36
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 54
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 55
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 68
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 47
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 36
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 54
+INFO:root:Vaca consumio una planta. Vida recuperada: 6
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 48
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 70
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 33
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Lobo perdio vida al pisar lava. Vida restante: 59
+INFO:root:Leon perdio vida al pisar lava. Vida restante: 16
+INFO:root:Leon perdio vida al pisar lava. Vida restante: 52
+INFO:root:Zorro perdio vida al pisar lava. Vida restante: 27
+INFO:root:Zorro perdio vida al pisar lava. Vida restante: 90
+INFO:root:Guepardo perdio vida al pisar lava. Vida restante: 65
+INFO:root:Guepardo perdio vida al pisar lava. Vida restante: 74
+INFO:root:Oso perdio vida al pisar lava. Vida restante: 44
+INFO:root:Oso perdio vida al pisar lava. Vida restante: 28
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 26
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 58
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 80
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 78
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 52
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 47
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 37
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 25
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 58
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 38
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 67
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 35
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 18
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 55
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 64
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 60
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 49
+INFO:root:Oveja consumio una planta. Vida recuperada: 3
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 45
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 27
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 26
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 75
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 81
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 29
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 24
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 72
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 39
+INFO:root:Lobo cazo a Gallina
+INFO:root:Lobo recupero 10 de vida
+INFO:root:Lobo perdio vida al pisar lava. Vida restante: 49
+INFO:root:Leon perdio vida al pisar lava. Vida restante: 42
+INFO:root:Zorro perdio vida al pisar lava. Vida restante: 17
+INFO:root:Zorro perdio vida al pisar lava. Vida restante: 80
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 16
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 61
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 68
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 43
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 15
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 57
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 32
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 25
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 8
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 26
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 39
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 39
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 58
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 37
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 53
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 71
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 19
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 14
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 29
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 49
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 38
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 27
+INFO:root:Leon perdio vida al pisar lava. Vida restante: 6
+INFO:root:Leon perdio vida al pisar lava. Vida restante: 32
+INFO:root:Guepardo perdio vida al pisar lava. Vida restante: 55
+INFO:root:Guepardo perdio vida al pisar lava. Vida restante: 64
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 37
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 6
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 48
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 70
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 43
+INFO:root:Cerdo consumio una planta. Vida recuperada: 4
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 33
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 37
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 27
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 5
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 48
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 28
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 22
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 15
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 0
+INFO:root:Gallina consumio una planta. Vida recuperada: 3
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 54
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 16
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 63
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 29
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 47
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 29
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 17
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 27
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 43
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 65
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 44
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 61
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 13
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 62
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 19
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 28
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Lobo perdio vida al pisar lava. Vida restante: 39
+INFO:root:Lobo perdio vida al pisar lava. Vida restante: 90
+INFO:root:Leon perdio vida al pisar lava. Vida restante: 22
+INFO:root:Zorro perdio vida al pisar lava. Vida restante: 7
+INFO:root:Guepardo perdio vida al pisar lava. Vida restante: 45
+INFO:root:Guepardo perdio vida al pisar lava. Vida restante: 54
+INFO:root:Oso perdio vida al pisar lava. Vida restante: 34
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 51
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 23
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 38
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 18
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 47
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 12
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 5
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 44
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 6
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 19
+INFO:root:Oveja consumio una planta. Vida recuperada: 6
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 48
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 17
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 34
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 49
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 51
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 3
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 52
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 9
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 18
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 65
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 21
+INFO:root:Oso cazo a Oveja
+INFO:root:Oso recupero 10 de vida
+INFO:root:Leon perdio vida al pisar lava. Vida restante: 12
+INFO:root:Zorro perdio vida al pisar lava. Vida restante: 70
+INFO:root:Guepardo perdio vida al pisar lava. Vida restante: 35
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 27
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 38
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 60
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 37
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 17
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 28
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 37
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 48
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 53
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 9
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 43
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 19
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 11
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 24
+INFO:root:Oveja consumio una planta. Vida recuperada: 6
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 0
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 4
+INFO:root:Lobo perdio vida al pisar lava. Vida restante: 80
+INFO:root:Leon perdio vida al pisar lava. Vida restante: 2
+INFO:root:Zorro perdio vida al pisar lava. Vida restante: 0
+INFO:root:Guepardo perdio vida al pisar lava. Vida restante: 25
+INFO:root:Oso perdio vida al pisar lava. Vida restante: 38
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 17
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 13
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 27
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 18
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 27
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 1
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 38
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 34
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 43
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 9
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 38
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 7
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 5
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 33
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 20
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 39
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 41
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 42
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 55
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 60
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 11
+INFO:root:Lobo perdio vida al pisar lava. Vida restante: 70
+INFO:root:Leon perdio vida al pisar lava. Vida restante: 0
+INFO:root:Leon perdio vida al pisar lava. Vida restante: 0
+INFO:root:Zorro perdio vida al pisar lava. Vida restante: 0
+INFO:root:Zorro perdio vida al pisar lava. Vida restante: 60
+INFO:root:Guepardo perdio vida al pisar lava. Vida restante: 15
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 7
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 45
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 28
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 58
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 42
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 17
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 18
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 28
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 50
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 33
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 23
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 10
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 29
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 39
+INFO:root:Vaca consumio una planta. Vida recuperada: 3
+INFO:root:Lobo perdio vida al pisar lava. Vida restante: 60
+INFO:root:Leon perdio vida al pisar lava. Vida restante: 0
+INFO:root:Leon perdio vida al pisar lava. Vida restante: 0
+INFO:root:Zorro perdio vida al pisar lava. Vida restante: 0
+INFO:root:Guepardo perdio vida al pisar lava. Vida restante: 5
+INFO:root:Oso perdio vida al pisar lava. Vida restante: 28
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 53
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 27
+INFO:root:Cerdo consumio una planta. Vida recuperada: 4
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 3
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 7
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 8
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 8
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 18
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 28
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 13
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 55
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 19
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 31
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 32
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 8
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 45
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 50
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 1
+INFO:root:Lobo cazo a Oveja
+INFO:root:Lobo recupero 10 de vida
+INFO:root:Zorro cazo a Gallina
+INFO:root:Zorro recupero 10 de vida
+INFO:root:Lobo perdio vida al pisar lava. Vida restante: 29
+INFO:root:Lobo perdio vida al pisar lava. Vida restante: 70
+INFO:root:Leon perdio vida al pisar lava. Vida restante: 0
+INFO:root:Leon perdio vida al pisar lava. Vida restante: 0
+INFO:root:Zorro perdio vida al pisar lava. Vida restante: 0
+INFO:root:Guepardo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Guepardo perdio vida al pisar lava. Vida restante: 44
+INFO:root:Oso perdio vida al pisar lava. Vida restante: 24
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 35
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 18
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 50
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 17
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 8
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 18
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 3
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 9
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 21
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 0
+INFO:root:Conejo se ha reproducido con Conejo. Nueva posicion: (28, 44)
+INFO:root:Conejo se ha reproducido con Conejo. Nueva posicion: (27, 45)
+INFO:root:Vaca se ha reproducido con Vaca. Nueva posicion: (26, 14)
+INFO:root:Conejo se ha reproducido con Conejo. Nueva posicion: (27, 46)
+INFO:root:Conejo se ha reproducido con Conejo. Nueva posicion: (28, 46)
+INFO:root:Vaca se ha reproducido con Vaca. Nueva posicion: (26, 13)
+INFO:root:Conejo se ha reproducido con Conejo. Nueva posicion: (27, 44)
+INFO:root:Vaca se ha reproducido con Vaca. Nueva posicion: (24, 13)
+INFO:root:Vaca se ha reproducido con Vaca. Nueva posicion: (24, 15)
+INFO:root:Conejo se ha reproducido con Conejo. Nueva posicion: (27, 44)
+INFO:root:Conejo se ha reproducido con Conejo. Nueva posicion: (28, 45)
+INFO:root:Conejo se ha reproducido con Conejo. Nueva posicion: (29, 44)
+INFO:root:Conejo se ha reproducido con Conejo. Nueva posicion: (28, 45)
+INFO:root:Conejo se ha reproducido con Conejo. Nueva posicion: (27, 44)
+INFO:root:Conejo se ha reproducido con Conejo. Nueva posicion: (28, 44)
+INFO:root:Conejo se ha reproducido con Conejo. Nueva posicion: (28, 43)
+INFO:root:Conejo se ha reproducido con Conejo. Nueva posicion: (27, 44)
+INFO:root:Conejo se ha reproducido con Conejo. Nueva posicion: (27, 44)
+INFO:root:Conejo se ha reproducido con Conejo. Nueva posicion: (27, 43)
+INFO:root:Conejo se ha reproducido con Conejo. Nueva posicion: (27, 46)
+INFO:root:Lobo perdio vida al pisar lava. Vida restante: 60
+INFO:root:Leon perdio vida al pisar lava. Vida restante: 0
+INFO:root:Leon perdio vida al pisar lava. Vida restante: 0
+INFO:root:Zorro perdio vida al pisar lava. Vida restante: 0
+INFO:root:Guepardo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Oso perdio vida al pisar lava. Vida restante: 18
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 48
+INFO:root:Cerdo consumio una planta. Vida recuperada: 4
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 30
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 8
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 40
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 24
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 24
+INFO:root:Conejo consumio una planta. Vida recuperada: 3
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 19
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 24
+INFO:root:Vaca consumio una planta. Vida recuperada: 3
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 12
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 18
+INFO:root:Guepardo cazo a Vaca
+INFO:root:Guepardo recupero 10 de vida
+INFO:root:Lobo perdio vida al pisar lava. Vida restante: 50
+INFO:root:Leon perdio vida al pisar lava. Vida restante: 0
+INFO:root:Leon perdio vida al pisar lava. Vida restante: 0
+INFO:root:Zorro perdio vida al pisar lava. Vida restante: 0
+INFO:root:Zorro perdio vida al pisar lava. Vida restante: 70
+INFO:root:Guepardo perdio vida al pisar lava. Vida restante: 10
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 25
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 8
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 40
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 38
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 7
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 35
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 24
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 14
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 24
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 19
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 24
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 16
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 16
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 28
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 26
+INFO:root:Conejo consumio una planta. Vida recuperada: 3
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 26
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 24
+INFO:root:Lobo perdio vida al pisar lava. Vida restante: 19
+INFO:root:Lobo perdio vida al pisar lava. Vida restante: 40
+INFO:root:Leon perdio vida al pisar lava. Vida restante: 0
+INFO:root:Leon perdio vida al pisar lava. Vida restante: 0
+INFO:root:Zorro perdio vida al pisar lava. Vida restante: 0
+INFO:root:Zorro perdio vida al pisar lava. Vida restante: 60
+INFO:root:Guepardo perdio vida al pisar lava. Vida restante: 34
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 28
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 43
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 0
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 22
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 14
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 17
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 4
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 9
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 6
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 18
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 2
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 19
+INFO:root:Guepardo cazo a Vaca
+INFO:root:Guepardo recupero 10 de vida
+INFO:root:Lobo perdio vida al pisar lava. Vida restante: 30
+INFO:root:Leon perdio vida al pisar lava. Vida restante: 0
+INFO:root:Leon perdio vida al pisar lava. Vida restante: 0
+INFO:root:Zorro perdio vida al pisar lava. Vida restante: 0
+INFO:root:Oso perdio vida al pisar lava. Vida restante: 14
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 15
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 30
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 32
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 33
+INFO:root:Cerdo consumio una planta. Vida recuperada: 6
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo consumio una planta. Vida recuperada: 3
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 2
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 0
+INFO:root:Gallina consumio una planta. Vida recuperada: 3
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 45
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 25
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 9
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 14
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 14
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 24
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 14
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Conejo consumio una planta. Vida recuperada: 3
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 6
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 9
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 32
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 16
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 14
+INFO:root:Lobo perdio vida al pisar lava. Vida restante: 20
+INFO:root:Leon perdio vida al pisar lava. Vida restante: 0
+INFO:root:Leon perdio vida al pisar lava. Vida restante: 0
+INFO:root:Zorro perdio vida al pisar lava. Vida restante: 0
+INFO:root:Zorro perdio vida al pisar lava. Vida restante: 50
+INFO:root:Guepardo perdio vida al pisar lava. Vida restante: 20
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 20
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 33
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 35
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 12
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 15
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 22
+INFO:root:Vaca consumio una planta. Vida recuperada: 3
+INFO:root:Vaca consumio una planta. Vida recuperada: 6
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 14
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 8
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 8
+INFO:root:Lobo cazo a Conejo
+INFO:root:Lobo recupero 10 de vida
+INFO:root:Leon perdio vida al pisar lava. Vida restante: 0
+INFO:root:Leon perdio vida al pisar lava. Vida restante: 0
+INFO:root:Zorro perdio vida al pisar lava. Vida restante: 0
+INFO:root:Guepardo perdio vida al pisar lava. Vida restante: 24
+INFO:root:Oso perdio vida al pisar lava. Vida restante: 4
+INFO:root:Oso perdio vida al pisar lava. Vida restante: 8
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 5
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 10
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 22
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 8
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 29
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 11
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 2
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 7
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 4
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 4
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 15
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 5
+INFO:root:Vaca consumio una planta. Vida recuperada: 6
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 4
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 22
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 6
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 4
+INFO:root:Lobo perdio vida al pisar lava. Vida restante: 9
+INFO:root:Lobo perdio vida al pisar lava. Vida restante: 30
+INFO:root:Leon perdio vida al pisar lava. Vida restante: 0
+INFO:root:Leon perdio vida al pisar lava. Vida restante: 0
+INFO:root:Zorro perdio vida al pisar lava. Vida restante: 0
+INFO:root:Zorro perdio vida al pisar lava. Vida restante: 40
+INFO:root:Guepardo perdio vida al pisar lava. Vida restante: 10
+INFO:root:Guepardo perdio vida al pisar lava. Vida restante: 14
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 12
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 29
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 19
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 23
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 25
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 1
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 32
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 5
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 1
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 12
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Lobo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Leon perdio vida al pisar lava. Vida restante: 0
+INFO:root:Leon perdio vida al pisar lava. Vida restante: 0
+INFO:root:Zorro perdio vida al pisar lava. Vida restante: 0
+INFO:root:Guepardo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Guepardo perdio vida al pisar lava. Vida restante: 4
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 0
+INFO:root:Oveja consumio una planta. Vida recuperada: 6
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 15
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 19
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Vaca consumio una planta. Vida recuperada: 6
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 4
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Lobo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Lobo perdio vida al pisar lava. Vida restante: 20
+INFO:root:Leon perdio vida al pisar lava. Vida restante: 0
+INFO:root:Leon perdio vida al pisar lava. Vida restante: 0
+INFO:root:Zorro perdio vida al pisar lava. Vida restante: 0
+INFO:root:Zorro perdio vida al pisar lava. Vida restante: 30
+INFO:root:Guepardo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Guepardo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Oso perdio vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Cerdo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 9
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 0
+INFO:root:Gallina perdio vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 0
+INFO:root:Oveja perdio vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 22
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 5
+INFO:root:Vaca consumio una planta. Vida recuperada: 3
+INFO:root:Vaca perdio vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Conejo perdio vida al pisar lava. Vida restante: 0
+INFO:root:Lobo cazo a Conejo
+INFO:root:Lobo recupero 10 de vida
+INFO:root:Lobo cazo a Conejo
+INFO:root:Lobo recupero 10 de vida
+INFO:root:Conejo consumio una planta. Vida recuperada: 3
+INFO:root:Cerdo consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Oveja consumio una planta. Vida recuperada: 3
+INFO:root:Oveja consumio una planta. Vida recuperada: 3
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Vaca consumio una planta. Vida recuperada: 3
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Gallina consumio una planta. Vida recuperada: 3
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Oveja consumio una planta. Vida recuperada: 3
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 3
+INFO:root:Conejo consumio una planta. Vida recuperada: 1
+INFO:root:Cerdo consumio una planta. Vida recuperada: 3
+INFO:root:Gallina consumio una planta. Vida recuperada: 3
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Vaca consumio una planta. Vida recuperada: 0
+INFO:root:Conejo consumio una planta. Vida recuperada: 2
+INFO:root:Cerdo consumio una planta. Vida recuperada: 1
+INFO:root:Cerdo consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 0
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Gallina consumio una planta. Vida recuperada: 3
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Conejo consumio una planta. Vida recuperada: 0
+INFO:root:Gallina consumio una planta. Vida recuperada: 3
+INFO:root:Oveja consumio una planta. Vida recuperada: 6
+INFO:root:Vaca se ha reproducido con Vaca. Nueva posicion: (33, 2)
+INFO:root:Vaca se ha reproducido con Vaca. Nueva posicion: (31, 3)
+INFO:root:Vaca se ha reproducido con Vaca. Nueva posicion: (32, 4)
+INFO:root:Vaca se ha reproducido con Vaca. Nueva posicion: (33, 4)
+INFO:root:Vaca se ha reproducido con Vaca. Nueva posicion: (32, 3)
+INFO:root:Vaca se ha reproducido con Vaca. Nueva posicion: (31, 2)
+INFO:root:Vaca se ha reproducido con Vaca. Nueva posicion: (33, 3)
+INFO:root:Vaca se ha reproducido con Vaca. Nueva posicion: (32, 2)
+INFO:root:Vaca se ha reproducido con Vaca. Nueva posicion: (33, 2)
+INFO:root:Oveja consumio una planta. Vida recuperada: 6
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Vaca se ha reproducido con Vaca. Nueva posicion: (32, 5)
+INFO:root:Vaca se ha reproducido con Vaca. Nueva posicion: (32, 3)
+INFO:root:Vaca se ha reproducido con Vaca. Nueva posicion: (33, 3)
+INFO:root:Vaca se ha reproducido con Vaca. Nueva posicion: (31, 4)
+INFO:root:Vaca se ha reproducido con Vaca. Nueva posicion: (33, 3)
+INFO:root:Vaca se ha reproducido con Vaca. Nueva posicion: (31, 3)
+INFO:root:Vaca se ha reproducido con Vaca. Nueva posicion: (32, 5)
+INFO:root:Vaca se ha reproducido con Vaca. Nueva posicion: (32, 1)
+INFO:root:Vaca se ha reproducido con Vaca. Nueva posicion: (31, 2)
+INFO:root:Vaca se ha reproducido con Vaca. Nueva posicion: (33, 4)
+INFO:root:Vaca se ha reproducido con Vaca. Nueva posicion: (33, 4)
+INFO:root:Cerdo consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 0
+INFO:root:Vaca consumio una planta. Vida recuperada: 0
+INFO:root:Cerdo consumio una planta. Vida recuperada: 6
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Oveja consumio una planta. Vida recuperada: 3
+INFO:root:Cerdo consumio una planta. Vida recuperada: 6
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Cerdo consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 3
+INFO:root:Oveja consumio una planta. Vida recuperada: 1
+INFO:root:Guepardo cazo a Cerdo
+INFO:root:Guepardo recupero 10 de vida
+INFO:root:Guepardo cazo a Cerdo
+INFO:root:Guepardo recupero 10 de vida
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Cerdo consumio una planta. Vida recuperada: 3
+INFO:root:Oveja consumio una planta. Vida recuperada: 6
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 2
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Cerdo consumio una planta. Vida recuperada: 6
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Conejo consumio una planta. Vida recuperada: 3
+INFO:root:Oveja consumio una planta. Vida recuperada: 1
+INFO:root:Conejo consumio una planta. Vida recuperada: 3
+INFO:root:Oveja consumio una planta. Vida recuperada: 6
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 3
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Cerdo consumio una planta. Vida recuperada: 6
+INFO:root:Cerdo consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 2
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Cerdo consumio una planta. Vida recuperada: 3
+INFO:root:Cerdo consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Guepardo cazo a Vaca
+INFO:root:Guepardo recupero 10 de vida
+INFO:root:Guepardo cazo a Vaca
+INFO:root:Guepardo recupero 6 de vida
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Oso cazo a Vaca
+INFO:root:Oso recupero 4 de vida
+INFO:root:Oso cazo a Vaca
+INFO:root:Oso recupero 0 de vida
+INFO:root:Gallina consumio una planta. Vida recuperada: 0
+INFO:root:Gallina consumio una planta. Vida recuperada: 1
+INFO:root:Gallina consumio una planta. Vida recuperada: 3
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Cerdo consumio una planta. Vida recuperada: 4
+INFO:root:Conejo consumio una planta. Vida recuperada: 3
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Zorro cazo a Oveja
+INFO:root:Zorro recupero 10 de vida
+INFO:root:Zorro cazo a Oveja
+INFO:root:Zorro recupero 10 de vida
+INFO:root:Cerdo consumio una planta. Vida recuperada: 6
+INFO:root:Oveja consumio una planta. Vida recuperada: 6
+INFO:root:Oveja consumio una planta. Vida recuperada: 3
+INFO:root:Vaca consumio una planta. Vida recuperada: 1
+INFO:root:Oveja consumio una planta. Vida recuperada: 6
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Cerdo consumio una planta. Vida recuperada: 6
+INFO:root:Oveja consumio una planta. Vida recuperada: 3
+INFO:root:Oveja consumio una planta. Vida recuperada: 1
+INFO:root:Oveja consumio una planta. Vida recuperada: 6
+INFO:root:Oveja consumio una planta. Vida recuperada: 6
+INFO:root:Oveja consumio una planta. Vida recuperada: 1
+INFO:root:Cerdo consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Vaca consumio una planta. Vida recuperada: 2
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 0
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Oveja consumio una planta. Vida recuperada: 3
+INFO:root:Vaca consumio una planta. Vida recuperada: 3
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Oveja consumio una planta. Vida recuperada: 3
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Cerdo consumio una planta. Vida recuperada: 3
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 6
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Cerdo consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 6
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Conejo consumio una planta. Vida recuperada: 3
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Oveja consumio una planta. Vida recuperada: 3
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Cerdo consumio una planta. Vida recuperada: 6
+INFO:root:Gallina consumio una planta. Vida recuperada: 0
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Cerdo consumio una planta. Vida recuperada: 6
+INFO:root:Vaca consumio una planta. Vida recuperada: 6
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Vaca consumio una planta. Vida recuperada: 3
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Cerdo consumio una planta. Vida recuperada: 3
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Cerdo consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 3
+INFO:root:Vaca consumio una planta. Vida recuperada: 6
+INFO:root:Cerdo consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 3
+INFO:root:Vaca consumio una planta. Vida recuperada: 3
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 0
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 2
+INFO:root:Vaca consumio una planta. Vida recuperada: 3
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (33, 49)
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (32, 48)
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (32, 48)
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (33, 47)
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (31, 49)
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (33, 48)
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (33, 49)
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (32, 49)
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (33, 49)
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (33, 49)
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (31, 49)
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (32, 49)
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (32, 48)
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (33, 48)
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (33, 48)
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (31, 48)
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (31, 49)
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (34, 49)
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (33, 48)
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (33, 48)
+INFO:root:Vaca consumio una planta. Vida recuperada: 6
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Cerdo consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 0
+INFO:root:Vaca consumio una planta. Vida recuperada: 6
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Cerdo consumio una planta. Vida recuperada: 4
+INFO:root:Cerdo consumio una planta. Vida recuperada: 0
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Oveja consumio una planta. Vida recuperada: 6
+INFO:root:Cerdo consumio una planta. Vida recuperada: 4
+INFO:root:Cerdo consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 3
+INFO:root:Gallina consumio una planta. Vida recuperada: 3
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Cerdo consumio una planta. Vida recuperada: 4
+INFO:root:Cerdo consumio una planta. Vida recuperada: 4
+INFO:root:Cerdo consumio una planta. Vida recuperada: 1
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Oveja consumio una planta. Vida recuperada: 3
+INFO:root:Oveja consumio una planta. Vida recuperada: 3
+INFO:root:Oveja consumio una planta. Vida recuperada: 6
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Vaca consumio una planta. Vida recuperada: 6
+INFO:root:Cerdo consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 3
+INFO:root:Vaca consumio una planta. Vida recuperada: 6
+INFO:root:Conejo consumio una planta. Vida recuperada: 2
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Leon cazo a Conejo
+INFO:root:Leon recupero 10 de vida
+INFO:root:Leon cazo a Conejo
+INFO:root:Leon recupero 10 de vida
+INFO:root:Vaca consumio una planta. Vida recuperada: 6
+INFO:root:Conejo consumio una planta. Vida recuperada: 0
+INFO:root:Cerdo consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 3
+INFO:root:Gallina consumio una planta. Vida recuperada: 3
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Oveja consumio una planta. Vida recuperada: 2
+INFO:root:Vaca consumio una planta. Vida recuperada: 6
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Gallina consumio una planta. Vida recuperada: 3
+INFO:root:Oveja consumio una planta. Vida recuperada: 6
+INFO:root:Oveja consumio una planta. Vida recuperada: 3
+INFO:root:Oveja consumio una planta. Vida recuperada: 0
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Lobo cazo a Cerdo
+INFO:root:Lobo recupero 10 de vida
+INFO:root:Lobo cazo a Cerdo
+INFO:root:Lobo recupero 10 de vida
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Oveja consumio una planta. Vida recuperada: 6
+INFO:root:Cerdo consumio una planta. Vida recuperada: 6
+INFO:root:Gallina consumio una planta. Vida recuperada: 1
+INFO:root:Gallina consumio una planta. Vida recuperada: 1
+INFO:root:Gallina consumio una planta. Vida recuperada: 1
+INFO:root:Oveja consumio una planta. Vida recuperada: 6
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (24, 43)
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (24, 44)
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (24, 44)
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (25, 44)
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (25, 43)
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (25, 44)
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (24, 45)
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (24, 44)
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (24, 44)
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (23, 45)
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (23, 44)
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (23, 43)
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (24, 43)
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (24, 45)
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (24, 42)
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (23, 44)
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (25, 45)
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (25, 44)
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (24, 43)
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (24, 45)
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 3
+INFO:root:Gallina consumio una planta. Vida recuperada: 0
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Vaca consumio una planta. Vida recuperada: 3
+INFO:root:Vaca consumio una planta. Vida recuperada: 6
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 3
+INFO:root:Cerdo consumio una planta. Vida recuperada: 3
+INFO:root:Vaca consumio una planta. Vida recuperada: 6
+INFO:root:Vaca consumio una planta. Vida recuperada: 3
+INFO:root:Vaca consumio una planta. Vida recuperada: 6
+INFO:root:Oveja consumio una planta. Vida recuperada: 0
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Lobo cazo a Gallina
+INFO:root:Lobo recupero 10 de vida
+INFO:root:Lobo cazo a Gallina
+INFO:root:Lobo recupero 9 de vida
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 3
+INFO:root:Cerdo consumio una planta. Vida recuperada: 6
+INFO:root:Gallina consumio una planta. Vida recuperada: 0
+INFO:root:Gallina consumio una planta. Vida recuperada: 3
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Cerdo consumio una planta. Vida recuperada: 6
+INFO:root:Cerdo consumio una planta. Vida recuperada: 6
+INFO:root:Gallina consumio una planta. Vida recuperada: 0
+INFO:root:Oveja consumio una planta. Vida recuperada: 3
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Vaca consumio una planta. Vida recuperada: 6
+INFO:root:Vaca consumio una planta. Vida recuperada: 6
+INFO:root:Guepardo cazo a Gallina
+INFO:root:Guepardo recupero 10 de vida
+INFO:root:Guepardo cazo a Gallina
+INFO:root:Guepardo recupero 10 de vida
+INFO:root:Cerdo consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 6
+INFO:root:Vaca consumio una planta. Vida recuperada: 6
+INFO:root:Oso cazo a Gallina
+INFO:root:Oso recupero 10 de vida
+INFO:root:Oso cazo a Gallina
+INFO:root:Oso recupero 7 de vida
+INFO:root:Conejo consumio una planta. Vida recuperada: 3
+INFO:root:Cerdo consumio una planta. Vida recuperada: 3
+INFO:root:Cerdo consumio una planta. Vida recuperada: 6
+INFO:root:Vaca consumio una planta. Vida recuperada: 6
+INFO:root:Conejo consumio una planta. Vida recuperada: 3
+INFO:root:Conejo consumio una planta. Vida recuperada: 2
+INFO:root:Cerdo consumio una planta. Vida recuperada: 3
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (46, 5)
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (45, 5)
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (46, 6)
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (45, 7)
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (44, 6)
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (46, 6)
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (44, 6)
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (46, 5)
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (47, 7)
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (47, 6)
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (46, 6)
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (46, 6)
+INFO:root:Conejo consumio una planta. Vida recuperada: 3
+INFO:root:Cerdo consumio una planta. Vida recuperada: 3
+INFO:root:Gallina consumio una planta. Vida recuperada: 3
+INFO:root:Vaca consumio una planta. Vida recuperada: 3
+INFO:root:Vaca consumio una planta. Vida recuperada: 6
+INFO:root:Zorro cazo a Oveja
+INFO:root:Zorro recupero 10 de vida
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (45, 7)
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (48, 6)
+INFO:root:Zorro cazo a Oveja
+INFO:root:Zorro recupero 10 de vida
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (46, 6)
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (45, 6)
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (44, 5)
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (46, 5)
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (46, 5)
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (47, 5)
+INFO:root:Conejo consumio una planta. Vida recuperada: 3
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Vaca se ha reproducido con Vaca. Nueva posicion: (4, 47)
+INFO:root:Vaca se ha reproducido con Vaca. Nueva posicion: (3, 46)
+INFO:root:Vaca se ha reproducido con Vaca. Nueva posicion: (3, 46)
+INFO:root:Vaca se ha reproducido con Vaca. Nueva posicion: (4, 46)
+INFO:root:Vaca se ha reproducido con Vaca. Nueva posicion: (5, 45)
+INFO:root:Vaca se ha reproducido con Vaca. Nueva posicion: (4, 46)
+INFO:root:Vaca se ha reproducido con Vaca. Nueva posicion: (3, 46)
+INFO:root:Vaca se ha reproducido con Vaca. Nueva posicion: (3, 46)
+INFO:root:Vaca se ha reproducido con Vaca. Nueva posicion: (3, 46)
+INFO:root:Vaca se ha reproducido con Vaca. Nueva posicion: (4, 46)
+INFO:root:Vaca se ha reproducido con Vaca. Nueva posicion: (2, 47)
+INFO:root:Vaca se ha reproducido con Vaca. Nueva posicion: (3, 47)
+INFO:root:Vaca se ha reproducido con Vaca. Nueva posicion: (3, 47)
+INFO:root:Vaca se ha reproducido con Vaca. Nueva posicion: (4, 47)
+INFO:root:Vaca se ha reproducido con Vaca. Nueva posicion: (3, 45)
+INFO:root:Vaca se ha reproducido con Vaca. Nueva posicion: (3, 47)
+INFO:root:Vaca se ha reproducido con Vaca. Nueva posicion: (4, 47)
+INFO:root:Vaca se ha reproducido con Vaca. Nueva posicion: (3, 46)
+INFO:root:Vaca se ha reproducido con Vaca. Nueva posicion: (4, 48)
+INFO:root:Vaca se ha reproducido con Vaca. Nueva posicion: (5, 46)
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Cerdo consumio una planta. Vida recuperada: 6
+INFO:root:Cerdo consumio una planta. Vida recuperada: 3
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Oveja consumio una planta. Vida recuperada: 6
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Cerdo consumio una planta. Vida recuperada: 6
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 3
+INFO:root:Vaca consumio una planta. Vida recuperada: 3
+INFO:root:Vaca consumio una planta. Vida recuperada: 6
+INFO:root:Oveja consumio una planta. Vida recuperada: 6
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 6
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Cerdo consumio una planta. Vida recuperada: 6
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Cerdo consumio una planta. Vida recuperada: 6
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 6
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 3
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 6
+INFO:root:Cerdo consumio una planta. Vida recuperada: 6
+INFO:root:Cerdo consumio una planta. Vida recuperada: 6
+INFO:root:Oveja consumio una planta. Vida recuperada: 3
+INFO:root:Oveja consumio una planta. Vida recuperada: 6
+INFO:root:Vaca consumio una planta. Vida recuperada: 6
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 6
+INFO:root:Cerdo consumio una planta. Vida recuperada: 3
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Cerdo consumio una planta. Vida recuperada: 3
+INFO:root:Vaca consumio una planta. Vida recuperada: 1
+INFO:root:Oso cazo a Cerdo
+INFO:root:Oso recupero 3 de vida
+INFO:root:Oso cazo a Cerdo
+INFO:root:Oso recupero 0 de vida
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Cerdo consumio una planta. Vida recuperada: 6
+INFO:root:Cerdo consumio una planta. Vida recuperada: 1
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Vaca consumio una planta. Vida recuperada: 3
+INFO:root:Oveja se ha reproducido con Oveja. Nueva posicion: (39, 17)
+INFO:root:Oveja se ha reproducido con Oveja. Nueva posicion: (38, 18)
+INFO:root:Oveja se ha reproducido con Oveja. Nueva posicion: (38, 19)
+INFO:root:Oveja se ha reproducido con Oveja. Nueva posicion: (39, 17)
+INFO:root:Oveja se ha reproducido con Oveja. Nueva posicion: (38, 19)
+INFO:root:Oveja se ha reproducido con Oveja. Nueva posicion: (37, 19)
+INFO:root:Oveja se ha reproducido con Oveja. Nueva posicion: (40, 16)
+INFO:root:Oveja se ha reproducido con Oveja. Nueva posicion: (40, 17)
+INFO:root:Oveja se ha reproducido con Oveja. Nueva posicion: (38, 16)
+INFO:root:Oso cazo a Oveja
+INFO:root:Oso recupero 0 de vida
+INFO:root:Oveja se ha reproducido con Oveja. Nueva posicion: (39, 19)
+INFO:root:Oso cazo a Oveja
+INFO:root:Oso recupero 0 de vida
+INFO:root:Oveja se ha reproducido con Oveja. Nueva posicion: (40, 16)
+INFO:root:Oveja se ha reproducido con Oveja. Nueva posicion: (40, 17)
+INFO:root:Oveja se ha reproducido con Oveja. Nueva posicion: (40, 16)
+INFO:root:Oveja se ha reproducido con Oveja. Nueva posicion: (37, 17)
+INFO:root:Oveja se ha reproducido con Oveja. Nueva posicion: (37, 17)
+INFO:root:Oveja se ha reproducido con Oveja. Nueva posicion: (39, 18)
+INFO:root:Oveja se ha reproducido con Oveja. Nueva posicion: (37, 18)
+INFO:root:Oveja se ha reproducido con Oveja. Nueva posicion: (38, 19)
+INFO:root:Oveja se ha reproducido con Oveja. Nueva posicion: (40, 16)
+INFO:root:Oveja se ha reproducido con Oveja. Nueva posicion: (38, 18)
+INFO:root:Cerdo consumio una planta. Vida recuperada: 3
+INFO:root:Cerdo consumio una planta. Vida recuperada: 6
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Oso cazo a Oveja
+INFO:root:Oso recupero 0 de vida
+INFO:root:Oso cazo a Oveja
+INFO:root:Oso recupero 0 de vida
+INFO:root:Cerdo consumio una planta. Vida recuperada: 0
+INFO:root:Cerdo consumio una planta. Vida recuperada: 6
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 6
+INFO:root:Oso cazo a Oveja
+INFO:root:Oso recupero 0 de vida
+INFO:root:Oso cazo a Oveja
+INFO:root:Oso recupero 0 de vida
+INFO:root:Gallina consumio una planta. Vida recuperada: 3
+INFO:root:Oveja consumio una planta. Vida recuperada: 6
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Oveja consumio una planta. Vida recuperada: 3
+INFO:root:Oso cazo a Oveja
+INFO:root:Oso recupero 0 de vida
+INFO:root:Oso cazo a Oveja
+INFO:root:Oso recupero 0 de vida
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Cerdo consumio una planta. Vida recuperada: 4
+INFO:root:Cerdo consumio una planta. Vida recuperada: 6
+INFO:root:Oveja consumio una planta. Vida recuperada: 6
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Cerdo consumio una planta. Vida recuperada: 0
+INFO:root:Cerdo consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Cerdo consumio una planta. Vida recuperada: 6
+INFO:root:Cerdo consumio una planta. Vida recuperada: 0
+INFO:root:Gallina consumio una planta. Vida recuperada: 3
+INFO:root:Zorro cazo a Vaca
+INFO:root:Zorro recupero 10 de vida
+INFO:root:Zorro cazo a Vaca
+INFO:root:Zorro recupero 10 de vida
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Conejo consumio una planta. Vida recuperada: 2
+INFO:root:Cerdo consumio una planta. Vida recuperada: 6
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 6
+INFO:root:Conejo consumio una planta. Vida recuperada: 2
+INFO:root:Gallina consumio una planta. Vida recuperada: 3
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Cerdo consumio una planta. Vida recuperada: 4
+INFO:root:Cerdo consumio una planta. Vida recuperada: 6
+INFO:root:Oveja consumio una planta. Vida recuperada: 6
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Lobo cazo a Oveja
+INFO:root:Lobo recupero 10 de vida
+INFO:root:Lobo cazo a Oveja
+INFO:root:Lobo recupero 10 de vida
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Leon cazo a Oveja
+INFO:root:Leon recupero 10 de vida
+INFO:root:Leon cazo a Oveja
+INFO:root:Leon recupero 8 de vida
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Cerdo consumio una planta. Vida recuperada: 6
+INFO:root:Cerdo consumio una planta. Vida recuperada: 3
+INFO:root:Gallina consumio una planta. Vida recuperada: 3
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 6
+INFO:root:Vaca consumio una planta. Vida recuperada: 6
+INFO:root:Cerdo consumio una planta. Vida recuperada: 4
+INFO:root:Conejo consumio una planta. Vida recuperada: 3
+INFO:root:Cerdo consumio una planta. Vida recuperada: 0
+INFO:root:Cerdo consumio una planta. Vida recuperada: 4
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Cerdo consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 3
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Oveja consumio una planta. Vida recuperada: 6
+INFO:root:Vaca consumio una planta. Vida recuperada: 6
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Cerdo consumio una planta. Vida recuperada: 3
+INFO:root:Cerdo consumio una planta. Vida recuperada: 6
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Oveja consumio una planta. Vida recuperada: 6
+INFO:root:Oveja consumio una planta. Vida recuperada: 6
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Oveja consumio una planta. Vida recuperada: 6
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Cerdo consumio una planta. Vida recuperada: 4
+INFO:root:Cerdo consumio una planta. Vida recuperada: 4
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Conejo consumio una planta. Vida recuperada: 3
+INFO:root:Cerdo consumio una planta. Vida recuperada: 3
+INFO:root:Cerdo consumio una planta. Vida recuperada: 3
+INFO:root:Gallina consumio una planta. Vida recuperada: 3
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 3
+INFO:root:Oveja consumio una planta. Vida recuperada: 0
+INFO:root:Oveja se ha reproducido con Oveja. Nueva posicion: (15, 2)
+INFO:root:Oveja se ha reproducido con Oveja. Nueva posicion: (15, 1)
+INFO:root:Oveja se ha reproducido con Oveja. Nueva posicion: (14, 2)
+INFO:root:Oveja se ha reproducido con Oveja. Nueva posicion: (13, 1)
+INFO:root:Oveja se ha reproducido con Oveja. Nueva posicion: (13, 2)
+INFO:root:Cerdo consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 3
+INFO:root:Oso cazo a Cerdo
+INFO:root:Oso recupero 10 de vida
+INFO:root:Oso cazo a Cerdo
+INFO:root:Oso recupero 9 de vida
+INFO:root:Oveja se ha reproducido con Oveja. Nueva posicion: (15, 2)
+INFO:root:Oveja se ha reproducido con Oveja. Nueva posicion: (14, 2)
+INFO:root:Oveja se ha reproducido con Oveja. Nueva posicion: (14, 1)
+INFO:root:Oveja se ha reproducido con Oveja. Nueva posicion: (14, 3)
+INFO:root:Oveja se ha reproducido con Oveja. Nueva posicion: (13, 1)
+INFO:root:Oveja se ha reproducido con Oveja. Nueva posicion: (15, 2)
+INFO:root:Oveja se ha reproducido con Oveja. Nueva posicion: (14, 1)
+INFO:root:Oveja se ha reproducido con Oveja. Nueva posicion: (14, 1)
+INFO:root:Oveja se ha reproducido con Oveja. Nueva posicion: (14, 1)
+INFO:root:Oveja se ha reproducido con Oveja. Nueva posicion: (14, 2)
+INFO:root:Oveja se ha reproducido con Oveja. Nueva posicion: (13, 2)
+INFO:root:Oveja se ha reproducido con Oveja. Nueva posicion: (15, 0)
+INFO:root:Oveja se ha reproducido con Oveja. Nueva posicion: (14, 1)
+INFO:root:Oveja se ha reproducido con Oveja. Nueva posicion: (14, 2)
+INFO:root:Oveja se ha reproducido con Oveja. Nueva posicion: (12, 1)
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Cerdo consumio una planta. Vida recuperada: 0
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Gallina consumio una planta. Vida recuperada: 3
+INFO:root:Vaca consumio una planta. Vida recuperada: 3
+INFO:root:Lobo cazo a Oveja
+INFO:root:Lobo recupero 10 de vida
+INFO:root:Lobo cazo a Oveja
+INFO:root:Lobo recupero 10 de vida
+INFO:root:Conejo consumio una planta. Vida recuperada: 3
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Cerdo consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 6
+INFO:root:Vaca consumio una planta. Vida recuperada: 6
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 6
+INFO:root:Cerdo se ha reproducido con Cerdo. Nueva posicion: (0, 25)
+INFO:root:Cerdo se ha reproducido con Cerdo. Nueva posicion: (0, 25)
+INFO:root:Cerdo se ha reproducido con Cerdo. Nueva posicion: (0, 26)
+INFO:root:Cerdo se ha reproducido con Cerdo. Nueva posicion: (1, 24)
+INFO:root:Cerdo se ha reproducido con Cerdo. Nueva posicion: (0, 24)
+INFO:root:Cerdo se ha reproducido con Cerdo. Nueva posicion: (1, 25)
+INFO:root:Cerdo se ha reproducido con Cerdo. Nueva posicion: (1, 25)
+INFO:root:Cerdo se ha reproducido con Cerdo. Nueva posicion: (0, 26)
+INFO:root:Cerdo se ha reproducido con Cerdo. Nueva posicion: (0, 26)
+INFO:root:Cerdo se ha reproducido con Cerdo. Nueva posicion: (0, 26)
+INFO:root:Cerdo se ha reproducido con Cerdo. Nueva posicion: (0, 25)
+INFO:root:Cerdo se ha reproducido con Cerdo. Nueva posicion: (0, 26)
+INFO:root:Cerdo se ha reproducido con Cerdo. Nueva posicion: (1, 24)
+INFO:root:Cerdo se ha reproducido con Cerdo. Nueva posicion: (0, 25)
+INFO:root:Cerdo se ha reproducido con Cerdo. Nueva posicion: (1, 25)
+INFO:root:Cerdo se ha reproducido con Cerdo. Nueva posicion: (1, 26)
+INFO:root:Cerdo se ha reproducido con Cerdo. Nueva posicion: (2, 24)
+INFO:root:Cerdo se ha reproducido con Cerdo. Nueva posicion: (1, 27)
+INFO:root:Cerdo se ha reproducido con Cerdo. Nueva posicion: (1, 25)
+INFO:root:Cerdo se ha reproducido con Cerdo. Nueva posicion: (1, 27)
+INFO:root:Cerdo consumio una planta. Vida recuperada: 0
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Cerdo consumio una planta. Vida recuperada: 6
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Oveja consumio una planta. Vida recuperada: 6
+INFO:root:Vaca consumio una planta. Vida recuperada: 6
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Cerdo consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Vaca consumio una planta. Vida recuperada: 6
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Cerdo consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Cerdo consumio una planta. Vida recuperada: 2
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 3
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 6
+INFO:root:Vaca consumio una planta. Vida recuperada: 6
+INFO:root:Zorro cazo a Cerdo
+INFO:root:Zorro recupero 10 de vida
+INFO:root:Zorro cazo a Cerdo
+INFO:root:Zorro recupero 10 de vida
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Oveja consumio una planta. Vida recuperada: 2
+INFO:root:Vaca consumio una planta. Vida recuperada: 6
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 3
+INFO:root:Cerdo consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 3
+INFO:root:Gallina consumio una planta. Vida recuperada: 3
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Vaca consumio una planta. Vida recuperada: 6
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Oveja consumio una planta. Vida recuperada: 6
+INFO:root:Vaca consumio una planta. Vida recuperada: 6
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Gallina consumio una planta. Vida recuperada: 3
+INFO:root:Cerdo consumio una planta. Vida recuperada: 4
+INFO:root:Cerdo consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 1
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Oveja consumio una planta. Vida recuperada: 6
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Oveja consumio una planta. Vida recuperada: 6
+INFO:root:Vaca consumio una planta. Vida recuperada: 6
+INFO:root:Vaca consumio una planta. Vida recuperada: 6
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 0
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Guepardo cazo a Cerdo
+INFO:root:Guepardo recupero 10 de vida
+INFO:root:Guepardo cazo a Cerdo
+INFO:root:Guepardo recupero 10 de vida
+INFO:root:Gallina consumio una planta. Vida recuperada: 3
+INFO:root:Oveja consumio una planta. Vida recuperada: 3
+INFO:root:Conejo consumio una planta. Vida recuperada: 0
+INFO:root:Oveja consumio una planta. Vida recuperada: 3
+INFO:root:Guepardo cazo a Oveja
+INFO:root:Guepardo recupero 10 de vida
+INFO:root:Guepardo cazo a Oveja
+INFO:root:Guepardo recupero 10 de vida
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Gallina consumio una planta. Vida recuperada: 3
+INFO:root:Vaca consumio una planta. Vida recuperada: 6
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Oveja consumio una planta. Vida recuperada: 6
+INFO:root:Oveja consumio una planta. Vida recuperada: 3
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 6
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Zorro cazo a Vaca
+INFO:root:Zorro recupero 10 de vida
+INFO:root:Zorro cazo a Vaca
+INFO:root:Zorro recupero 10 de vida
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Cerdo consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Cerdo consumio una planta. Vida recuperada: 0
+INFO:root:Vaca consumio una planta. Vida recuperada: 3
+INFO:root:Conejo consumio una planta. Vida recuperada: 3
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 6
+INFO:root:Leon cazo a Oveja
+INFO:root:Leon recupero 6 de vida
+INFO:root:Leon cazo a Oveja
+INFO:root:Leon recupero 0 de vida
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Conejo consumio una planta. Vida recuperada: 1
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Vaca consumio una planta. Vida recuperada: 6
+INFO:root:Vaca consumio una planta. Vida recuperada: 6
+INFO:root:Cerdo consumio una planta. Vida recuperada: 2
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Vaca consumio una planta. Vida recuperada: 3
+INFO:root:Vaca consumio una planta. Vida recuperada: 6
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Gallina consumio una planta. Vida recuperada: 3
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Conejo consumio una planta. Vida recuperada: 3
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Cerdo consumio una planta. Vida recuperada: 3
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Conejo consumio una planta. Vida recuperada: 3
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Conejo consumio una planta. Vida recuperada: 3
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Conejo consumio una planta. Vida recuperada: 3
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Cerdo consumio una planta. Vida recuperada: 6
+INFO:root:Cerdo consumio una planta. Vida recuperada: 3
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 6
+INFO:root:Conejo consumio una planta. Vida recuperada: 3
+INFO:root:Conejo consumio una planta. Vida recuperada: 1
+INFO:root:Cerdo consumio una planta. Vida recuperada: 6
+INFO:root:Cerdo consumio una planta. Vida recuperada: 1
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 3
+INFO:root:Cerdo consumio una planta. Vida recuperada: 3
+INFO:root:Gallina consumio una planta. Vida recuperada: 3
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Oveja consumio una planta. Vida recuperada: 1
+INFO:root:Conejo consumio una planta. Vida recuperada: 3
+INFO:root:Gallina consumio una planta. Vida recuperada: 3
+INFO:root:Conejo consumio una planta. Vida recuperada: 2
+INFO:root:Cerdo consumio una planta. Vida recuperada: 6
+INFO:root:Gallina consumio una planta. Vida recuperada: 3
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (27, 13)
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (27, 13)
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (26, 12)
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (27, 12)
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (26, 13)
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (25, 11)
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (26, 11)
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (26, 12)
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (27, 13)
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (27, 12)
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (27, 13)
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (27, 11)
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (26, 12)
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (27, 12)
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (25, 12)
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (27, 12)
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (27, 13)
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (25, 11)
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (26, 11)
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (28, 14)
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Oveja consumio una planta. Vida recuperada: 2
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 6
+INFO:root:Cerdo consumio una planta. Vida recuperada: 3
+INFO:root:Cerdo consumio una planta. Vida recuperada: 3
+INFO:root:Oveja consumio una planta. Vida recuperada: 0
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Conejo consumio una planta. Vida recuperada: 3
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 6
+INFO:root:Oso cazo a Vaca
+INFO:root:Oso recupero 10 de vida
+INFO:root:Oso cazo a Vaca
+INFO:root:Oso recupero 10 de vida
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Oveja consumio una planta. Vida recuperada: 6
+INFO:root:Oveja consumio una planta. Vida recuperada: 6
+INFO:root:Conejo consumio una planta. Vida recuperada: 0
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Cerdo consumio una planta. Vida recuperada: 3
+INFO:root:Vaca consumio una planta. Vida recuperada: 5
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Conejo consumio una planta. Vida recuperada: 3
+INFO:root:Gallina consumio una planta. Vida recuperada: 2
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Oveja consumio una planta. Vida recuperada: 3
+INFO:root:Vaca consumio una planta. Vida recuperada: 0
+INFO:root:Vaca consumio una planta. Vida recuperada: 6
+INFO:root:Vaca consumio una planta. Vida recuperada: 6
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 3
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Cerdo se ha reproducido con Cerdo. Nueva posicion: (5, 12)
+INFO:root:Cerdo se ha reproducido con Cerdo. Nueva posicion: (5, 14)
+INFO:root:Cerdo se ha reproducido con Cerdo. Nueva posicion: (5, 13)
+INFO:root:Cerdo se ha reproducido con Cerdo. Nueva posicion: (5, 14)
+INFO:root:Cerdo se ha reproducido con Cerdo. Nueva posicion: (4, 12)
+INFO:root:Cerdo se ha reproducido con Cerdo. Nueva posicion: (4, 12)
+INFO:root:Cerdo se ha reproducido con Cerdo. Nueva posicion: (4, 13)
+INFO:root:Cerdo se ha reproducido con Cerdo. Nueva posicion: (3, 13)
+INFO:root:Cerdo se ha reproducido con Cerdo. Nueva posicion: (4, 13)
+INFO:root:Cerdo se ha reproducido con Cerdo. Nueva posicion: (4, 12)
+INFO:root:Cerdo se ha reproducido con Cerdo. Nueva posicion: (5, 12)
+INFO:root:Cerdo se ha reproducido con Cerdo. Nueva posicion: (4, 11)
+INFO:root:Cerdo se ha reproducido con Cerdo. Nueva posicion: (4, 12)
+INFO:root:Cerdo se ha reproducido con Cerdo. Nueva posicion: (6, 13)
+INFO:root:Cerdo se ha reproducido con Cerdo. Nueva posicion: (4, 13)
+INFO:root:Cerdo se ha reproducido con Cerdo. Nueva posicion: (4, 12)
+INFO:root:Cerdo se ha reproducido con Cerdo. Nueva posicion: (6, 12)
+INFO:root:Cerdo se ha reproducido con Cerdo. Nueva posicion: (5, 12)
+INFO:root:Cerdo se ha reproducido con Cerdo. Nueva posicion: (3, 12)
+INFO:root:Cerdo se ha reproducido con Cerdo. Nueva posicion: (5, 12)
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 3
+INFO:root:Cerdo consumio una planta. Vida recuperada: 6
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 6
+INFO:root:Cerdo consumio una planta. Vida recuperada: 6
+INFO:root:Cerdo consumio una planta. Vida recuperada: 6
+INFO:root:Cerdo consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 6
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Zorro cazo a Conejo
+INFO:root:Zorro recupero 10 de vida
+INFO:root:Oso cazo a Oveja
+INFO:root:Oso recupero 10 de vida
+INFO:root:Zorro cazo a Conejo
+INFO:root:Zorro recupero 10 de vida
+INFO:root:Oso cazo a Oveja
+INFO:root:Oso recupero 10 de vida
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Cerdo consumio una planta. Vida recuperada: 6
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Cerdo consumio una planta. Vida recuperada: 6
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Cerdo consumio una planta. Vida recuperada: 3
+INFO:root:Cerdo consumio una planta. Vida recuperada: 4
+INFO:root:Oveja consumio una planta. Vida recuperada: 1
+INFO:root:Conejo consumio una planta. Vida recuperada: 3
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Oveja consumio una planta. Vida recuperada: 6
+INFO:root:Cerdo consumio una planta. Vida recuperada: 6
+INFO:root:Conejo consumio una planta. Vida recuperada: 3
+INFO:root:Cerdo consumio una planta. Vida recuperada: 6
+INFO:root:Gallina consumio una planta. Vida recuperada: 0
+INFO:root:Gallina consumio una planta. Vida recuperada: 0
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Cerdo consumio una planta. Vida recuperada: 6
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Lobo cazo a Vaca
+INFO:root:Lobo recupero 10 de vida
+INFO:root:Lobo cazo a Vaca
+INFO:root:Lobo recupero 10 de vida
+INFO:root:Gallina consumio una planta. Vida recuperada: 3
+INFO:root:Cerdo consumio una planta. Vida recuperada: 3
+INFO:root:Cerdo consumio una planta. Vida recuperada: 6
+INFO:root:Gallina consumio una planta. Vida recuperada: 3
+INFO:root:Vaca consumio una planta. Vida recuperada: 6
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Cerdo consumio una planta. Vida recuperada: 6
+INFO:root:Oveja consumio una planta. Vida recuperada: 6
+INFO:root:Cerdo consumio una planta. Vida recuperada: 6
+INFO:root:Cerdo consumio una planta. Vida recuperada: 6
+INFO:root:Guepardo cazo a Conejo
+INFO:root:Guepardo recupero 8 de vida
+INFO:root:Guepardo cazo a Conejo
+INFO:root:Guepardo recupero 0 de vida
+INFO:root:Cerdo consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Vaca consumio una planta. Vida recuperada: 3
+INFO:root:Conejo consumio una planta. Vida recuperada: 3
+INFO:root:Conejo consumio una planta. Vida recuperada: 3
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Gallina consumio una planta. Vida recuperada: 3
+INFO:root:Oveja consumio una planta. Vida recuperada: 3
+INFO:root:Cerdo consumio una planta. Vida recuperada: 4
+INFO:root:Cerdo consumio una planta. Vida recuperada: 3
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Oveja consumio una planta. Vida recuperada: 6
+INFO:root:Oveja consumio una planta. Vida recuperada: 3
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Cerdo consumio una planta. Vida recuperada: 4
+INFO:root:Cerdo consumio una planta. Vida recuperada: 4
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 3
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Conejo consumio una planta. Vida recuperada: 3
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Cerdo consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 6
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Cerdo consumio una planta. Vida recuperada: 3
+INFO:root:Oveja consumio una planta. Vida recuperada: 3
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Oveja consumio una planta. Vida recuperada: 6
+INFO:root:Vaca consumio una planta. Vida recuperada: 6
+INFO:root:Cerdo consumio una planta. Vida recuperada: 2
+INFO:root:Oveja consumio una planta. Vida recuperada: 3
+INFO:root:Vaca consumio una planta. Vida recuperada: 6
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Cerdo consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Oveja consumio una planta. Vida recuperada: 3
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (8, 4)
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (8, 4)
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (9, 6)
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (7, 3)
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (8, 4)
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (7, 3)
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (9, 3)
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (7, 4)
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (10, 5)
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (6, 4)
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (9, 4)
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (8, 2)
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (10, 5)
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (9, 3)
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (10, 4)
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (8, 5)
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (9, 3)
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (8, 4)
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (9, 5)
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (10, 3)
+INFO:root:Cerdo consumio una planta. Vida recuperada: 0
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Cerdo consumio una planta. Vida recuperada: 4
+INFO:root:Oveja consumio una planta. Vida recuperada: 3
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 6
+INFO:root:Conejo consumio una planta. Vida recuperada: 3
+INFO:root:Cerdo consumio una planta. Vida recuperada: 4
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 0
+INFO:root:Conejo consumio una planta. Vida recuperada: 3
+INFO:root:Cerdo consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 0
+INFO:root:Guepardo cazo a Vaca
+INFO:root:Guepardo recupero 7 de vida
+INFO:root:Cerdo se ha reproducido con Cerdo. Nueva posicion: (32, 20)
+INFO:root:Guepardo cazo a Vaca
+INFO:root:Guepardo recupero 0 de vida
+INFO:root:Cerdo se ha reproducido con Cerdo. Nueva posicion: (31, 19)
+INFO:root:Cerdo se ha reproducido con Cerdo. Nueva posicion: (32, 19)
+INFO:root:Cerdo se ha reproducido con Cerdo. Nueva posicion: (33, 19)
+INFO:root:Cerdo se ha reproducido con Cerdo. Nueva posicion: (32, 18)
+INFO:root:Cerdo se ha reproducido con Cerdo. Nueva posicion: (32, 19)
+INFO:root:Cerdo se ha reproducido con Cerdo. Nueva posicion: (31, 18)
+INFO:root:Cerdo se ha reproducido con Cerdo. Nueva posicion: (32, 20)
+INFO:root:Cerdo se ha reproducido con Cerdo. Nueva posicion: (32, 19)
+INFO:root:Cerdo se ha reproducido con Cerdo. Nueva posicion: (32, 21)
+INFO:root:Cerdo se ha reproducido con Cerdo. Nueva posicion: (32, 20)
+INFO:root:Cerdo se ha reproducido con Cerdo. Nueva posicion: (33, 20)
+INFO:root:Cerdo se ha reproducido con Cerdo. Nueva posicion: (31, 20)
+INFO:root:Cerdo se ha reproducido con Cerdo. Nueva posicion: (33, 20)
+INFO:root:Cerdo se ha reproducido con Cerdo. Nueva posicion: (32, 19)
+INFO:root:Cerdo se ha reproducido con Cerdo. Nueva posicion: (33, 18)
+INFO:root:Cerdo se ha reproducido con Cerdo. Nueva posicion: (32, 20)
+INFO:root:Cerdo se ha reproducido con Cerdo. Nueva posicion: (33, 20)
+INFO:root:Cerdo se ha reproducido con Cerdo. Nueva posicion: (33, 19)
+INFO:root:Cerdo se ha reproducido con Cerdo. Nueva posicion: (32, 21)
+INFO:root:Conejo consumio una planta. Vida recuperada: 3
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Oveja consumio una planta. Vida recuperada: 0
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Cerdo consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 6
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Cerdo consumio una planta. Vida recuperada: 4
+INFO:root:Oveja consumio una planta. Vida recuperada: 0
+INFO:root:Cerdo consumio una planta. Vida recuperada: 4
+INFO:root:Leon cazo a Conejo
+INFO:root:Leon recupero 1 de vida
+INFO:root:Leon cazo a Conejo
+INFO:root:Leon recupero 0 de vida
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Cerdo consumio una planta. Vida recuperada: 6
+INFO:root:Oveja consumio una planta. Vida recuperada: 6
+INFO:root:Vaca consumio una planta. Vida recuperada: 3
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Oveja consumio una planta. Vida recuperada: 0
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 3
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Oveja consumio una planta. Vida recuperada: 3
+INFO:root:Oveja consumio una planta. Vida recuperada: 3
+INFO:root:Cerdo consumio una planta. Vida recuperada: 4
+INFO:root:Cerdo consumio una planta. Vida recuperada: 4
+INFO:root:Conejo consumio una planta. Vida recuperada: 3
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Oveja consumio una planta. Vida recuperada: 6
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Cerdo consumio una planta. Vida recuperada: 3
+INFO:root:Cerdo consumio una planta. Vida recuperada: 3
+INFO:root:Conejo consumio una planta. Vida recuperada: 1
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Cerdo consumio una planta. Vida recuperada: 4
+INFO:root:Cerdo consumio una planta. Vida recuperada: 6
+INFO:root:Oveja consumio una planta. Vida recuperada: 6
+INFO:root:Cerdo consumio una planta. Vida recuperada: 4
+INFO:root:Oveja consumio una planta. Vida recuperada: 3
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Oveja consumio una planta. Vida recuperada: 0
+INFO:root:Cerdo consumio una planta. Vida recuperada: 3
+INFO:root:Conejo consumio una planta. Vida recuperada: 5
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Cerdo consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 0
+INFO:root:Cerdo consumio una planta. Vida recuperada: 3
+INFO:root:Cerdo consumio una planta. Vida recuperada: 6
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Conejo consumio una planta. Vida recuperada: 0
+INFO:root:Vaca consumio una planta. Vida recuperada: 3
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Conejo consumio una planta. Vida recuperada: 0
+INFO:root:Oveja consumio una planta. Vida recuperada: 6
+INFO:root:Cerdo consumio una planta. Vida recuperada: 3
+INFO:root:Oveja consumio una planta. Vida recuperada: 3
+INFO:root:Cerdo consumio una planta. Vida recuperada: 3
+INFO:root:Cerdo consumio una planta. Vida recuperada: 3
+INFO:root:Vaca consumio una planta. Vida recuperada: 1
+INFO:root:Vaca consumio una planta. Vida recuperada: 2
+INFO:root:Gallina consumio una planta. Vida recuperada: 0
+INFO:root:Oveja consumio una planta. Vida recuperada: 3
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 6
+INFO:root:Vaca consumio una planta. Vida recuperada: 6
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 1
+INFO:root:Vaca consumio una planta. Vida recuperada: 5
+INFO:root:Oveja consumio una planta. Vida recuperada: 6
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Cerdo consumio una planta. Vida recuperada: 3
+INFO:root:Oveja consumio una planta. Vida recuperada: 3
+INFO:root:Cerdo se ha reproducido con Cerdo. Nueva posicion: (26, 49)
+INFO:root:Cerdo se ha reproducido con Cerdo. Nueva posicion: (26, 49)
+INFO:root:Cerdo se ha reproducido con Cerdo. Nueva posicion: (24, 49)
+INFO:root:Cerdo se ha reproducido con Cerdo. Nueva posicion: (25, 49)
+INFO:root:Cerdo se ha reproducido con Cerdo. Nueva posicion: (27, 49)
+INFO:root:Cerdo se ha reproducido con Cerdo. Nueva posicion: (26, 49)
+INFO:root:Cerdo se ha reproducido con Cerdo. Nueva posicion: (26, 49)
+INFO:root:Cerdo se ha reproducido con Cerdo. Nueva posicion: (25, 49)
+INFO:root:Cerdo se ha reproducido con Cerdo. Nueva posicion: (25, 48)
+INFO:root:Cerdo se ha reproducido con Cerdo. Nueva posicion: (25, 48)
+INFO:root:Cerdo se ha reproducido con Cerdo. Nueva posicion: (26, 48)
+INFO:root:Cerdo se ha reproducido con Cerdo. Nueva posicion: (26, 49)
+INFO:root:Cerdo se ha reproducido con Cerdo. Nueva posicion: (26, 49)
+INFO:root:Cerdo se ha reproducido con Cerdo. Nueva posicion: (26, 48)
+INFO:root:Cerdo se ha reproducido con Cerdo. Nueva posicion: (26, 48)
+INFO:root:Cerdo se ha reproducido con Cerdo. Nueva posicion: (25, 48)
+INFO:root:Cerdo se ha reproducido con Cerdo. Nueva posicion: (26, 49)
+INFO:root:Cerdo se ha reproducido con Cerdo. Nueva posicion: (25, 49)
+INFO:root:Cerdo se ha reproducido con Cerdo. Nueva posicion: (27, 49)
+INFO:root:Cerdo se ha reproducido con Cerdo. Nueva posicion: (25, 49)
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Cerdo consumio una planta. Vida recuperada: 3
+INFO:root:Gallina consumio una planta. Vida recuperada: 3
+INFO:root:Oveja consumio una planta. Vida recuperada: 3
+INFO:root:Vaca consumio una planta. Vida recuperada: 3
+INFO:root:Conejo consumio una planta. Vida recuperada: 3
+INFO:root:Cerdo consumio una planta. Vida recuperada: 4
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 3
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 0
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Vaca consumio una planta. Vida recuperada: 6
+INFO:root:Vaca consumio una planta. Vida recuperada: 3
+INFO:root:Leon cazo a Gallina
+INFO:root:Leon recupero 6 de vida
+INFO:root:Leon cazo a Gallina
+INFO:root:Leon recupero 0 de vida
+INFO:root:Cerdo consumio una planta. Vida recuperada: 6
+INFO:root:Conejo consumio una planta. Vida recuperada: 3
+INFO:root:Conejo consumio una planta. Vida recuperada: 3
+INFO:root:Oveja consumio una planta. Vida recuperada: 0
+INFO:root:Cerdo consumio una planta. Vida recuperada: 6
+INFO:root:Oveja consumio una planta. Vida recuperada: 3
+INFO:root:Cerdo consumio una planta. Vida recuperada: 3
+INFO:root:Vaca consumio una planta. Vida recuperada: 3
+INFO:root:Conejo consumio una planta. Vida recuperada: 3
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Cerdo consumio una planta. Vida recuperada: 6
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Cerdo consumio una planta. Vida recuperada: 3
+INFO:root:Cerdo consumio una planta. Vida recuperada: 6
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Cerdo consumio una planta. Vida recuperada: 3
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Cerdo consumio una planta. Vida recuperada: 6
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Cerdo consumio una planta. Vida recuperada: 0
+INFO:root:Conejo consumio una planta. Vida recuperada: 3
+INFO:root:Cerdo consumio una planta. Vida recuperada: 0
+INFO:root:Guepardo cazo a Cerdo
+INFO:root:Guepardo recupero 10 de vida
+INFO:root:Guepardo cazo a Cerdo
+INFO:root:Guepardo recupero 10 de vida
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Cerdo consumio una planta. Vida recuperada: 3
+INFO:root:Conejo consumio una planta. Vida recuperada: 3
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Oveja consumio una planta. Vida recuperada: 6
+INFO:root:Vaca consumio una planta. Vida recuperada: 0
+INFO:root:Cerdo consumio una planta. Vida recuperada: 6
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Cerdo consumio una planta. Vida recuperada: 3
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Cerdo consumio una planta. Vida recuperada: 4
+INFO:root:Cerdo consumio una planta. Vida recuperada: 1
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Oveja consumio una planta. Vida recuperada: 3
+INFO:root:Oveja consumio una planta. Vida recuperada: 6
+INFO:root:Cerdo consumio una planta. Vida recuperada: 0
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Cerdo consumio una planta. Vida recuperada: 6
+INFO:root:Oveja consumio una planta. Vida recuperada: 3
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Cerdo consumio una planta. Vida recuperada: 3
+INFO:root:Oveja consumio una planta. Vida recuperada: 0
+INFO:root:Oveja consumio una planta. Vida recuperada: 3
+INFO:root:Vaca consumio una planta. Vida recuperada: 5
+INFO:root:Gallina consumio una planta. Vida recuperada: 3
+INFO:root:Oveja consumio una planta. Vida recuperada: 3
+INFO:root:Cerdo consumio una planta. Vida recuperada: 6
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Cerdo consumio una planta. Vida recuperada: 3
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 0
+INFO:root:Cerdo consumio una planta. Vida recuperada: 3
+INFO:root:Zorro cazo a Vaca
+INFO:root:Zorro recupero 10 de vida
+INFO:root:Zorro cazo a Vaca
+INFO:root:Zorro recupero 10 de vida
+INFO:root:Cerdo consumio una planta. Vida recuperada: 6
+INFO:root:Leon cazo a Cerdo
+INFO:root:Leon recupero 10 de vida
+INFO:root:Leon cazo a Cerdo
+INFO:root:Leon recupero 7 de vida
+INFO:root:Cerdo consumio una planta. Vida recuperada: 3

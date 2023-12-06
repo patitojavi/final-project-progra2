@@ -2,7 +2,7 @@ import pygame as PY
 import random as RA
 import logging
 
-from Bioma import patron_biomas,bioma_dict,Tierra,Agua,Desierto, Lava, Lluvia
+from Bioma import patron_biomas,bioma_dict,Tierra,Agua,Desierto, Lava, Lluvia,Nieve
 from animales import Animal, Lobo, Guepardo, Cerdo, Gallina, Oveja, Vaca, Conejo, Oso, Leon, Zorro
 from plantas import Planta, Nenufar, ArbolDesierto, ArbolTierra
 from constantes import fondo_color, velocidad_movimiento, cW, cH, nxC, nyC, pW, pH, num_carnivoros, num_herbivoros, cantidad_nenufares, cantidad_arboles_desierto, cantidad_arboles_tierra, ejecutando, contador
@@ -46,7 +46,10 @@ def dibujar_matriz():
 
             color = max(colores) if colores else (0, 0, 0)
             PY.draw.rect(screen, color, rect, 1)
+    if nieve.nieve_activa:  # Dibuja la nieve solo cuando esté activa
+        nieve.dibujar(screen)
     lluvia.dibujar(screen)
+    PY.display.flip()
 
 plantas = []
 
@@ -208,24 +211,22 @@ clock = PY.time.Clock()
 FPS = 120
 matriz_espacial = [[[] for _ in range(nxC)] for _ in range(nyC)]
 lluvia = Lluvia() 
+nieve = Nieve()
 
 while ejecutando:
     for evento in PY.event.get():
         if evento.type == PY.QUIT:
             ejecutando = False
         elif evento.type == PY.KEYDOWN:
-            if evento.key ==PY.K_p:
-                pausado = True
-            elif evento.key == PY.K_SPACE:
-                lluvia.activar_lluvia()  # Activar la lluvia cuando se presiona la tecla de espacio
+            if evento.key == PY.K_l:
+                lluvia.activar_lluvia()
+            elif evento.key == PY.K_n:
+                nieve.activar_nieve()
             elif evento.key == PY.K_ESCAPE:
-                lluvia.desactivar_lluvia() 
-            elif evento.key == PY.K_r:
-                pausado = False
-            elif evento.key == PY.K_l:
-                llenado_progresivo = True
-                contador_llenado = 0
-                activar_lava = True
+                lluvia.desactivar_lluvia()
+            elif evento.key == PY.K_q:
+                nieve.desactivar_nieve()  # Desactivar la nieve al presionar Escape
+
     if not pausado:
         if activar_lava:
             for _ in range(5):  # Ajusta el número de celdas que se llenarán en cada iteración
@@ -310,8 +311,8 @@ while ejecutando:
                                     elif nuevo_animal.dieta == "Carnívoro":
                                         carnivoros.append(nuevo_animal)
                                         
-    lluvia.actualizar()  # Actualizar la lluvia (posición de las gotas)
-    lluvia.dibujar(screen)  # Dibujar la lluvia en la pantalla
+    lluvia.actualizar()
+    nieve.actualizar()  # Asegúrate de llamar a la función actualizar de la clase Nieve # Dibujar la lluvia en la pantalla
     dibujar_matriz()
     PY.display.flip()
     clock.tick(FPS)

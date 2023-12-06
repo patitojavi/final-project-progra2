@@ -79,6 +79,41 @@ class Lluvia:
                 else:
                     index += 1
 
+class Nieve:
+    def __init__(self):
+        self.copos = [] 
+        self.velocidad = 1 # Ajusta la velocidad de la lluvia
+        self.nieve_activa = False  # Lista para almacenar las posiciones de los copos de nieve
+
+    def generar_copo_nieve(self, x, y):
+        return [x, y]  # Crea un copo de nieve en una posición x, y dada
+    
+    def activar_nieve(self):
+        self.nieve_activa = True
+
+    def desactivar_nieve(self):
+        self.nieve_activa = False
+
+    def dibujar(self, screen):
+        for copo in self.copos:
+            # Dibujar un círculo para simular un copo de nieve
+            PY.draw.circle(screen, (255, 255, 255), (int(copo[0]), int(copo[1])), 3)  # Color blanco para la nieve
+
+    def actualizar(self):
+        for _ in range(2):  # Controla la cantidad de copos generados en cada iteración
+            x = RA.randint(0, pW)  # Generar una posición aleatoria en el ancho de la pantalla
+            y = RA.randint(-pH, 0)  # Generar una posición aleatoria por encima del límite superior
+            self.copos.append(self.generar_copo_nieve(x, y))  # Agregar copos de nieve a la lista de posiciones
+
+        # Mover los copos de nieve hacia abajo simulando la nieve
+        index = 0
+        while index < len(self.copos):
+            self.copos[index][1] += 2  # Ajustar la velocidad de caída de los copos de nieve
+            if self.copos[index][1] > pH:
+                del self.copos[index]
+            else:
+                index += 1
+
 bioma_dict = {
     "A": Agua(),
     "D": Desierto(),
