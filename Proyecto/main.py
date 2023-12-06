@@ -218,7 +218,7 @@ while ejecutando:
         if evento.type == PY.QUIT:
             ejecutando = False
         elif evento.type == PY.KEYDOWN:
-            if evento.key == PY.K_l:
+            if evento.key == PY.K_SPACE:
                 lluvia.activar_lluvia()
             elif evento.key == PY.K_n:
                 nieve.activar_nieve()
@@ -226,6 +226,10 @@ while ejecutando:
                 lluvia.desactivar_lluvia()
             elif evento.key == PY.K_q:
                 nieve.desactivar_nieve()  # Desactivar la nieve al presionar Escape
+            elif evento.key == PY.K_l:
+                llenado_progresivo = True
+                contador_llenado = 0
+                activar_lava = True
 
     if not pausado:
         if activar_lava:
