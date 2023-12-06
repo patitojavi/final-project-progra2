@@ -41,7 +41,43 @@ class Lava(Bioma):
     def __init__(self):
         super().__init__("Proyecto/imagenes/lava.png", 0, 0)
 
+class Lluvia:
+    def __init__(self):
+        self.velocidad = 1 # Ajusta la velocidad de la lluvia
+        self.lluvia_activa = False
+        self.gotas = []  # Lista para almacenar las posiciones de las gotas de lluvia
 
+    def activar_lluvia(self):
+        self.lluvia_activa = True
+
+    def desactivar_lluvia(self):
+        self.lluvia_activa = False
+
+    def generar_gota(self, x, y):
+        return [x, y]  # Crea una gota en una posición x, y dada
+
+    def dibujar(self, screen):
+        if self.lluvia_activa:
+            for gota in self.gotas:
+                # Dibujar un rectángulo para simular una gota más ancha
+                rect = (gota[0], gota[1], 3, 10)  # Ancho y alto del rectángulo
+                PY.draw.rect(screen, (0, 0, 255), rect)  # Color azul para las gotas
+
+    def actualizar(self):
+        if self.lluvia_activa:
+            for _ in range(self.velocidad):
+                x = RA.randint(0, pW)  # Generar una posición aleatoria en el ancho de la pantalla
+                y = RA.randint(-pH, 0)  # Generar una posición aleatoria por encima del límite superior
+                self.gotas.append(self.generar_gota(x, y))  # Agregar gotas a la lista de posiciones de gotas
+
+            # Mover las gotas hacia abajo simulando la lluvia
+            index = 0
+            while index < len(self.gotas):
+                self.gotas[index][1] += 4  # Ajustar la distancia a la que caen las gotas
+                if self.gotas[index][1] > pH:
+                    del self.gotas[index]
+                else:
+                    index += 1
 
 bioma_dict = {
     "A": Agua(),

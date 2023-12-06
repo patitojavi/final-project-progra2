@@ -2381,3 +2381,1168 @@ INFO:root:Oveja perdio vida al pisar lava. Vida restante: 0
 INFO:root:Oveja perdio vida al pisar lava. Vida restante: 0
 INFO:root:Oveja perdio vida al pisar lava. Vida restante: 0
 INFO:root:Oveja perdio vida al pisar lava. Vida restante: 0
+INFO:root:Gallina consumio una planta. Vida recuperada: 3
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Oveja consumio una planta. Vida recuperada: 6
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Gallina consumio una planta. Vida recuperada: 2
+INFO:root:Lobo cazo a Vaca
+INFO:root:Lobo recupero 10 de vida
+INFO:root:Lobo cazo a Vaca
+INFO:root:Lobo recupero 10 de vida
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Cerdo consumio una planta. Vida recuperada: 6
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Oveja consumio una planta. Vida recuperada: 1
+INFO:root:Vaca consumio una planta. Vida recuperada: 3
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Leon cazo a Oveja
+INFO:root:Leon recupero 10 de vida
+INFO:root:Leon cazo a Oveja
+INFO:root:Leon recupero 1 de vida
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Vaca consumio una planta. Vida recuperada: 3
+INFO:root:Cerdo consumio una planta. Vida recuperada: 6
+INFO:root:Cerdo consumio una planta. Vida recuperada: 6
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Gallina consumio una planta. Vida recuperada: 0
+INFO:root:Vaca consumio una planta. Vida recuperada: 6
+INFO:root:Gallina consumio una planta. Vida recuperada: 0
+INFO:root:Oveja consumio una planta. Vida recuperada: 6
+INFO:root:Vaca consumio una planta. Vida recuperada: 0
+INFO:root:Guepardo cazo a Conejo
+INFO:root:Guepardo recupero 10 de vida
+INFO:root:Guepardo cazo a Conejo
+INFO:root:Guepardo recupero 10 de vida
+INFO:root:Gallina consumio una planta. Vida recuperada: 3
+INFO:root:Vaca consumio una planta. Vida recuperada: 6
+INFO:root:Conejo consumio una planta. Vida recuperada: 3
+INFO:root:Conejo consumio una planta. Vida recuperada: 5
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 3
+INFO:root:Lobo cazo a Vaca
+INFO:root:Lobo recupero 0 de vida
+INFO:root:Lobo cazo a Vaca
+INFO:root:Lobo recupero 0 de vida
+INFO:root:Oveja consumio una planta. Vida recuperada: 6
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 2
+INFO:root:Vaca consumio una planta. Vida recuperada: 0
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Oveja consumio una planta. Vida recuperada: 6
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (1, 11)
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (1, 10)
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (1, 11)
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (0, 11)
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (1, 10)
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (0, 10)
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (1, 10)
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (1, 11)
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (1, 9)
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (1, 11)
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (2, 10)
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (2, 10)
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (2, 10)
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (0, 10)
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (0, 11)
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (2, 10)
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (2, 10)
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (1, 10)
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (0, 11)
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (0, 11)
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 3
+INFO:root:Vaca consumio una planta. Vida recuperada: 3
+INFO:root:Cerdo consumio una planta. Vida recuperada: 3
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Oveja consumio una planta. Vida recuperada: 6
+INFO:root:Cerdo consumio una planta. Vida recuperada: 3
+INFO:root:Gallina consumio una planta. Vida recuperada: 0
+INFO:root:Guepardo cazo a Gallina
+INFO:root:Guepardo recupero 10 de vida
+INFO:root:Guepardo cazo a Gallina
+INFO:root:Guepardo recupero 10 de vida
+INFO:root:Vaca consumio una planta. Vida recuperada: 0
+INFO:root:Vaca consumio una planta. Vida recuperada: 0
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Oso cazo a Gallina
+INFO:root:Oso recupero 10 de vida
+INFO:root:Oso cazo a Gallina
+INFO:root:Oso recupero 10 de vida
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Oveja consumio una planta. Vida recuperada: 6
+INFO:root:Cerdo consumio una planta. Vida recuperada: 6
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 3
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 0
+INFO:root:Zorro cazo a Cerdo
+INFO:root:Zorro recupero 10 de vida
+INFO:root:Zorro cazo a Cerdo
+INFO:root:Zorro recupero 3 de vida
+INFO:root:Cerdo consumio una planta. Vida recuperada: 6
+INFO:root:Cerdo consumio una planta. Vida recuperada: 6
+INFO:root:Cerdo consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Gallina consumio una planta. Vida recuperada: 0
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Oveja consumio una planta. Vida recuperada: 0
+INFO:root:Gallina consumio una planta. Vida recuperada: 3
+INFO:root:Conejo consumio una planta. Vida recuperada: 3
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Cerdo consumio una planta. Vida recuperada: 6
+INFO:root:Cerdo consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 3
+INFO:root:Cerdo consumio una planta. Vida recuperada: 6
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Oveja consumio una planta. Vida recuperada: 6
+INFO:root:Conejo consumio una planta. Vida recuperada: 3
+INFO:root:Conejo consumio una planta. Vida recuperada: 0
+INFO:root:Oveja consumio una planta. Vida recuperada: 0
+INFO:root:Conejo consumio una planta. Vida recuperada: 0
+INFO:root:Gallina consumio una planta. Vida recuperada: 0
+INFO:root:Vaca consumio una planta. Vida recuperada: 0
+INFO:root:Lobo cazo a Gallina
+INFO:root:Lobo recupero 10 de vida
+INFO:root:Lobo cazo a Gallina
+INFO:root:Lobo recupero 10 de vida
+INFO:root:Oveja consumio una planta. Vida recuperada: 6
+INFO:root:Oveja consumio una planta. Vida recuperada: 2
+INFO:root:Oveja consumio una planta. Vida recuperada: 0
+INFO:root:Oveja consumio una planta. Vida recuperada: 0
+INFO:root:Vaca consumio una planta. Vida recuperada: 0
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Oveja consumio una planta. Vida recuperada: 6
+INFO:root:Vaca consumio una planta. Vida recuperada: 6
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Oveja consumio una planta. Vida recuperada: 6
+INFO:root:Conejo consumio una planta. Vida recuperada: 3
+INFO:root:Cerdo consumio una planta. Vida recuperada: 6
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Oveja consumio una planta. Vida recuperada: 1
+INFO:root:Vaca consumio una planta. Vida recuperada: 6
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Cerdo consumio una planta. Vida recuperada: 3
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Vaca consumio una planta. Vida recuperada: 3
+INFO:root:Vaca consumio una planta. Vida recuperada: 6
+INFO:root:Leon cazo a Cerdo
+INFO:root:Leon recupero 10 de vida
+INFO:root:Leon cazo a Cerdo
+INFO:root:Leon recupero 10 de vida
+INFO:root:Conejo consumio una planta. Vida recuperada: 3
+INFO:root:Oveja consumio una planta. Vida recuperada: 0
+INFO:root:Cerdo consumio una planta. Vida recuperada: 6
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Oveja consumio una planta. Vida recuperada: 6
+INFO:root:Zorro cazo a Gallina
+INFO:root:Zorro recupero 10 de vida
+INFO:root:Zorro cazo a Gallina
+INFO:root:Zorro recupero 10 de vida
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Cerdo consumio una planta. Vida recuperada: 3
+INFO:root:Oveja consumio una planta. Vida recuperada: 6
+INFO:root:Conejo consumio una planta. Vida recuperada: 3
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Oveja consumio una planta. Vida recuperada: 2
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Cerdo consumio una planta. Vida recuperada: 3
+INFO:root:Cerdo consumio una planta. Vida recuperada: 6
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Vaca se ha reproducido con Vaca. Nueva posicion: (43, 35)
+INFO:root:Vaca se ha reproducido con Vaca. Nueva posicion: (41, 37)
+INFO:root:Vaca se ha reproducido con Vaca. Nueva posicion: (41, 36)
+INFO:root:Vaca se ha reproducido con Vaca. Nueva posicion: (41, 35)
+INFO:root:Vaca se ha reproducido con Vaca. Nueva posicion: (41, 37)
+INFO:root:Vaca se ha reproducido con Vaca. Nueva posicion: (43, 37)
+INFO:root:Vaca se ha reproducido con Vaca. Nueva posicion: (40, 38)
+INFO:root:Vaca se ha reproducido con Vaca. Nueva posicion: (42, 37)
+INFO:root:Vaca se ha reproducido con Vaca. Nueva posicion: (42, 37)
+INFO:root:Vaca se ha reproducido con Vaca. Nueva posicion: (42, 37)
+INFO:root:Vaca se ha reproducido con Vaca. Nueva posicion: (41, 36)
+INFO:root:Vaca se ha reproducido con Vaca. Nueva posicion: (42, 37)
+INFO:root:Vaca se ha reproducido con Vaca. Nueva posicion: (42, 36)
+INFO:root:Vaca se ha reproducido con Vaca. Nueva posicion: (43, 37)
+INFO:root:Vaca se ha reproducido con Vaca. Nueva posicion: (41, 35)
+INFO:root:Vaca se ha reproducido con Vaca. Nueva posicion: (42, 38)
+INFO:root:Vaca se ha reproducido con Vaca. Nueva posicion: (43, 37)
+INFO:root:Vaca se ha reproducido con Vaca. Nueva posicion: (42, 38)
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Gallina consumio una planta. Vida recuperada: 3
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Vaca se ha reproducido con Vaca. Nueva posicion: (42, 38)
+INFO:root:Vaca se ha reproducido con Vaca. Nueva posicion: (41, 38)
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Conejo consumio una planta. Vida recuperada: 3
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Cerdo consumio una planta. Vida recuperada: 6
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Leon cazo a Gallina
+INFO:root:Leon recupero 10 de vida
+INFO:root:Leon cazo a Gallina
+INFO:root:Leon recupero 10 de vida
+INFO:root:Cerdo consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Cerdo consumio una planta. Vida recuperada: 6
+INFO:root:Cerdo consumio una planta. Vida recuperada: 6
+INFO:root:Oveja consumio una planta. Vida recuperada: 0
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Oveja consumio una planta. Vida recuperada: 0
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Conejo consumio una planta. Vida recuperada: 0
+INFO:root:Cerdo consumio una planta. Vida recuperada: 6
+INFO:root:Oveja consumio una planta. Vida recuperada: 6
+INFO:root:Vaca consumio una planta. Vida recuperada: 6
+INFO:root:Oveja consumio una planta. Vida recuperada: 6
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 3
+INFO:root:Gallina consumio una planta. Vida recuperada: 3
+INFO:root:Oveja consumio una planta. Vida recuperada: 0
+INFO:root:Guepardo cazo a Oveja
+INFO:root:Guepardo recupero 10 de vida
+INFO:root:Guepardo cazo a Oveja
+INFO:root:Guepardo recupero 10 de vida
+INFO:root:Vaca consumio una planta. Vida recuperada: 3
+INFO:root:Cerdo consumio una planta. Vida recuperada: 6
+INFO:root:Gallina consumio una planta. Vida recuperada: 3
+INFO:root:Oveja consumio una planta. Vida recuperada: 0
+INFO:root:Oveja consumio una planta. Vida recuperada: 6
+INFO:root:Vaca consumio una planta. Vida recuperada: 1
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Zorro cazo a Conejo
+INFO:root:Zorro recupero 10 de vida
+INFO:root:Zorro cazo a Conejo
+INFO:root:Zorro recupero 6 de vida
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Leon cazo a Gallina
+INFO:root:Leon recupero 9 de vida
+INFO:root:Leon cazo a Gallina
+INFO:root:Leon recupero 0 de vida
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Conejo consumio una planta. Vida recuperada: 3
+INFO:root:Oveja consumio una planta. Vida recuperada: 0
+INFO:root:Conejo consumio una planta. Vida recuperada: 3
+INFO:root:Oveja consumio una planta. Vida recuperada: 6
+INFO:root:Oveja consumio una planta. Vida recuperada: 6
+INFO:root:Conejo consumio una planta. Vida recuperada: 3
+INFO:root:Oveja consumio una planta. Vida recuperada: 1
+INFO:root:Vaca consumio una planta. Vida recuperada: 2
+INFO:root:Cerdo consumio una planta. Vida recuperada: 6
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 0
+INFO:root:Cerdo consumio una planta. Vida recuperada: 6
+INFO:root:Oveja consumio una planta. Vida recuperada: 0
+INFO:root:Cerdo consumio una planta. Vida recuperada: 6
+INFO:root:Oveja consumio una planta. Vida recuperada: 6
+INFO:root:Oso cazo a Gallina
+INFO:root:Oso recupero 10 de vida
+INFO:root:Oso cazo a Gallina
+INFO:root:Oso recupero 10 de vida
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 3
+INFO:root:Zorro cazo a Vaca
+INFO:root:Zorro recupero 0 de vida
+INFO:root:Zorro cazo a Vaca
+INFO:root:Zorro recupero 0 de vida
+INFO:root:Conejo consumio una planta. Vida recuperada: 3
+INFO:root:Guepardo cazo a Gallina
+INFO:root:Guepardo recupero 10 de vida
+INFO:root:Guepardo cazo a Gallina
+INFO:root:Guepardo recupero 10 de vida
+INFO:root:Conejo consumio una planta. Vida recuperada: 3
+INFO:root:Cerdo consumio una planta. Vida recuperada: 4
+INFO:root:Cerdo consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 3
+INFO:root:Gallina consumio una planta. Vida recuperada: 1
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Vaca consumio una planta. Vida recuperada: 3
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Cerdo consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 1
+INFO:root:Oveja consumio una planta. Vida recuperada: 6
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Cerdo consumio una planta. Vida recuperada: 4
+INFO:root:Leon cazo a Conejo
+INFO:root:Leon recupero 10 de vida
+INFO:root:Leon cazo a Conejo
+INFO:root:Leon recupero 0 de vida
+INFO:root:Cerdo consumio una planta. Vida recuperada: 4
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 6
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 3
+INFO:root:Conejo consumio una planta. Vida recuperada: 3
+INFO:root:Vaca consumio una planta. Vida recuperada: 0
+INFO:root:Cerdo consumio una planta. Vida recuperada: 3
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 3
+INFO:root:Vaca consumio una planta. Vida recuperada: 3
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 6
+INFO:root:Vaca consumio una planta. Vida recuperada: 6
+INFO:root:Conejo consumio una planta. Vida recuperada: 0
+INFO:root:Gallina consumio una planta. Vida recuperada: 3
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Oveja consumio una planta. Vida recuperada: 6
+INFO:root:Cerdo consumio una planta. Vida recuperada: 3
+INFO:root:Cerdo consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Oveja consumio una planta. Vida recuperada: 6
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Conejo consumio una planta. Vida recuperada: 3
+INFO:root:Oveja consumio una planta. Vida recuperada: 6
+INFO:root:Vaca consumio una planta. Vida recuperada: 6
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (35, 33)
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (33, 33)
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (33, 34)
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (35, 33)
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (35, 33)
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (34, 32)
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (35, 34)
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (34, 34)
+INFO:root:Gallina se ha reproducido con Gallina. Nueva posicion: (33, 33)
+INFO:root:Lobo cazo a Oveja
+INFO:root:Lobo recupero 10 de vida
+INFO:root:Lobo cazo a Oveja
+INFO:root:Lobo recupero 7 de vida
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Cerdo consumio una planta. Vida recuperada: 3
+INFO:root:Oveja consumio una planta. Vida recuperada: 0
+INFO:root:Vaca consumio una planta. Vida recuperada: 5
+INFO:root:Conejo consumio una planta. Vida recuperada: 2
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Oveja consumio una planta. Vida recuperada: 6
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Guepardo cazo a Oveja
+INFO:root:Guepardo recupero 10 de vida
+INFO:root:Guepardo cazo a Oveja
+INFO:root:Guepardo recupero 10 de vida
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Oveja consumio una planta. Vida recuperada: 5
+INFO:root:Oveja consumio una planta. Vida recuperada: 6
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 3
+INFO:root:Oveja consumio una planta. Vida recuperada: 2
+INFO:root:Vaca consumio una planta. Vida recuperada: 6
+INFO:root:Conejo consumio una planta. Vida recuperada: 3
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Oveja consumio una planta. Vida recuperada: 3
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Cerdo consumio una planta. Vida recuperada: 3
+INFO:root:Cerdo consumio una planta. Vida recuperada: 6
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Conejo consumio una planta. Vida recuperada: 0
+INFO:root:Cerdo consumio una planta. Vida recuperada: 3
+INFO:root:Oveja consumio una planta. Vida recuperada: 3
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Cerdo consumio una planta. Vida recuperada: 6
+INFO:root:Conejo consumio una planta. Vida recuperada: 3
+INFO:root:Cerdo consumio una planta. Vida recuperada: 6
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Conejo consumio una planta. Vida recuperada: 0
+INFO:root:Oveja consumio una planta. Vida recuperada: 6
+INFO:root:Cerdo consumio una planta. Vida recuperada: 4
+INFO:root:Oso cazo a Oveja
+INFO:root:Oso recupero 10 de vida
+INFO:root:Oso cazo a Oveja
+INFO:root:Oso recupero 10 de vida
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Cerdo consumio una planta. Vida recuperada: 3
+INFO:root:Oso cazo a Vaca
+INFO:root:Oso recupero 10 de vida
+INFO:root:Oso cazo a Vaca
+INFO:root:Oso recupero 10 de vida
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Cerdo consumio una planta. Vida recuperada: 4
+INFO:root:Cerdo consumio una planta. Vida recuperada: 4
+INFO:root:Cerdo consumio una planta. Vida recuperada: 3
+INFO:root:Vaca consumio una planta. Vida recuperada: 6
+INFO:root:Lobo cazo a Conejo
+INFO:root:Lobo recupero 10 de vida
+INFO:root:Lobo cazo a Conejo
+INFO:root:Lobo recupero 10 de vida
+INFO:root:Conejo consumio una planta. Vida recuperada: 3
+INFO:root:Cerdo consumio una planta. Vida recuperada: 6
+INFO:root:Cerdo consumio una planta. Vida recuperada: 4
+INFO:root:Cerdo consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Cerdo consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Cerdo consumio una planta. Vida recuperada: 3
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Zorro cazo a Cerdo
+INFO:root:Zorro recupero 10 de vida
+INFO:root:Zorro cazo a Cerdo
+INFO:root:Zorro recupero 10 de vida
+INFO:root:Cerdo consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Oveja consumio una planta. Vida recuperada: 3
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Conejo consumio una planta. Vida recuperada: 0
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 6
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Oveja consumio una planta. Vida recuperada: 6
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Cerdo consumio una planta. Vida recuperada: 4
+INFO:root:Cerdo consumio una planta. Vida recuperada: 0
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 6
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 1
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Oveja consumio una planta. Vida recuperada: 6
+INFO:root:Oveja consumio una planta. Vida recuperada: 3
+INFO:root:Cerdo consumio una planta. Vida recuperada: 3
+INFO:root:Oveja consumio una planta. Vida recuperada: 6
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 0
+INFO:root:Oveja consumio una planta. Vida recuperada: 3
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Zorro cazo a Cerdo
+INFO:root:Zorro recupero 6 de vida
+INFO:root:Zorro cazo a Cerdo
+INFO:root:Zorro recupero 0 de vida
+INFO:root:Conejo consumio una planta. Vida recuperada: 3
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Conejo consumio una planta. Vida recuperada: 0
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 6
+INFO:root:Cerdo consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Oveja consumio una planta. Vida recuperada: 6
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Conejo consumio una planta. Vida recuperada: 2
+INFO:root:Cerdo consumio una planta. Vida recuperada: 0
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Oso cazo a Gallina
+INFO:root:Oso recupero 10 de vida
+INFO:root:Oso cazo a Gallina
+INFO:root:Oso recupero 10 de vida
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Vaca consumio una planta. Vida recuperada: 6
+INFO:root:Conejo consumio una planta. Vida recuperada: 3
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Cerdo consumio una planta. Vida recuperada: 3
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Cerdo consumio una planta. Vida recuperada: 3
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Oveja consumio una planta. Vida recuperada: 6
+INFO:root:Zorro cazo a Cerdo
+INFO:root:Zorro recupero 10 de vida
+INFO:root:Zorro cazo a Cerdo
+INFO:root:Zorro recupero 10 de vida
+INFO:root:Conejo consumio una planta. Vida recuperada: 3
+INFO:root:Conejo consumio una planta. Vida recuperada: 1
+INFO:root:Gallina consumio una planta. Vida recuperada: 3
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Oveja consumio una planta. Vida recuperada: 2
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 6
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 6
+INFO:root:Oveja se ha reproducido con Oveja. Nueva posicion: (2, 21)
+INFO:root:Oveja se ha reproducido con Oveja. Nueva posicion: (4, 19)
+INFO:root:Oveja se ha reproducido con Oveja. Nueva posicion: (4, 19)
+INFO:root:Oveja se ha reproducido con Oveja. Nueva posicion: (3, 21)
+INFO:root:Oveja se ha reproducido con Oveja. Nueva posicion: (4, 21)
+INFO:root:Oveja se ha reproducido con Oveja. Nueva posicion: (3, 19)
+INFO:root:Oveja se ha reproducido con Oveja. Nueva posicion: (4, 19)
+INFO:root:Oveja se ha reproducido con Oveja. Nueva posicion: (3, 18)
+INFO:root:Oveja se ha reproducido con Oveja. Nueva posicion: (5, 18)
+INFO:root:Oveja se ha reproducido con Oveja. Nueva posicion: (5, 19)
+INFO:root:Oveja se ha reproducido con Oveja. Nueva posicion: (3, 20)
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Cerdo consumio una planta. Vida recuperada: 6
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 1
+INFO:root:Lobo cazo a Gallina
+INFO:root:Lobo recupero 10 de vida
+INFO:root:Lobo cazo a Gallina
+INFO:root:Lobo recupero 10 de vida
+INFO:root:Oveja se ha reproducido con Oveja. Nueva posicion: (5, 20)
+INFO:root:Oveja se ha reproducido con Oveja. Nueva posicion: (2, 20)
+INFO:root:Oveja se ha reproducido con Oveja. Nueva posicion: (4, 19)
+INFO:root:Oveja se ha reproducido con Oveja. Nueva posicion: (6, 18)
+INFO:root:Oveja se ha reproducido con Oveja. Nueva posicion: (2, 21)
+INFO:root:Oveja se ha reproducido con Oveja. Nueva posicion: (4, 20)
+INFO:root:Oveja se ha reproducido con Oveja. Nueva posicion: (2, 20)
+INFO:root:Oveja se ha reproducido con Oveja. Nueva posicion: (4, 18)
+INFO:root:Oveja se ha reproducido con Oveja. Nueva posicion: (4, 21)
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Gallina consumio una planta. Vida recuperada: 3
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Oveja consumio una planta. Vida recuperada: 3
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Conejo consumio una planta. Vida recuperada: 3
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 0
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 6
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Conejo consumio una planta. Vida recuperada: 3
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Cerdo consumio una planta. Vida recuperada: 6
+INFO:root:Cerdo consumio una planta. Vida recuperada: 6
+INFO:root:Vaca consumio una planta. Vida recuperada: 6
+INFO:root:Gallina consumio una planta. Vida recuperada: 0
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Cerdo consumio una planta. Vida recuperada: 6
+INFO:root:Conejo consumio una planta. Vida recuperada: 3
+INFO:root:Cerdo consumio una planta. Vida recuperada: 4
+INFO:root:Cerdo consumio una planta. Vida recuperada: 6
+INFO:root:Cerdo consumio una planta. Vida recuperada: 3
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Cerdo consumio una planta. Vida recuperada: 6
+INFO:root:Vaca consumio una planta. Vida recuperada: 6
+INFO:root:Gallina consumio una planta. Vida recuperada: 0
+INFO:root:Oveja consumio una planta. Vida recuperada: 3
+INFO:root:Oveja consumio una planta. Vida recuperada: 3
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Conejo consumio una planta. Vida recuperada: 0
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Conejo consumio una planta. Vida recuperada: 0
+INFO:root:Oveja consumio una planta. Vida recuperada: 3
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Cerdo consumio una planta. Vida recuperada: 5
+INFO:root:Oveja consumio una planta. Vida recuperada: 6
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Cerdo consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Cerdo consumio una planta. Vida recuperada: 4
+INFO:root:Cerdo consumio una planta. Vida recuperada: 4
+INFO:root:Cerdo consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Oveja consumio una planta. Vida recuperada: 6
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Cerdo consumio una planta. Vida recuperada: 4
+INFO:root:Cerdo consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 0
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Cerdo consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 3
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Oveja consumio una planta. Vida recuperada: 6
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 0
+INFO:root:Cerdo consumio una planta. Vida recuperada: 0
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Cerdo consumio una planta. Vida recuperada: 6
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 6
+INFO:root:Cerdo consumio una planta. Vida recuperada: 4
+INFO:root:Cerdo consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Oveja consumio una planta. Vida recuperada: 3
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Conejo consumio una planta. Vida recuperada: 3
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 0
+INFO:root:Vaca consumio una planta. Vida recuperada: 3
+INFO:root:Lobo cazo a Cerdo
+INFO:root:Lobo recupero 10 de vida
+INFO:root:Lobo cazo a Cerdo
+INFO:root:Lobo recupero 10 de vida
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Cerdo consumio una planta. Vida recuperada: 0
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 0
+INFO:root:Gallina consumio una planta. Vida recuperada: 0
+INFO:root:Oveja consumio una planta. Vida recuperada: 6
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Cerdo consumio una planta. Vida recuperada: 3
+INFO:root:Cerdo consumio una planta. Vida recuperada: 0
+INFO:root:Cerdo consumio una planta. Vida recuperada: 4
+INFO:root:Oveja consumio una planta. Vida recuperada: 6
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Conejo consumio una planta. Vida recuperada: 0
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 3
+INFO:root:Guepardo cazo a Gallina
+INFO:root:Guepardo recupero 10 de vida
+INFO:root:Guepardo cazo a Gallina
+INFO:root:Guepardo recupero 10 de vida
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 6
+INFO:root:Vaca consumio una planta. Vida recuperada: 6
+INFO:root:Vaca consumio una planta. Vida recuperada: 6
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Cerdo consumio una planta. Vida recuperada: 3
+INFO:root:Cerdo consumio una planta. Vida recuperada: 6
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Oveja consumio una planta. Vida recuperada: 6
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Oveja consumio una planta. Vida recuperada: 6
+INFO:root:Oveja consumio una planta. Vida recuperada: 1
+INFO:root:Oveja consumio una planta. Vida recuperada: 3
+INFO:root:Vaca consumio una planta. Vida recuperada: 5
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Cerdo consumio una planta. Vida recuperada: 6
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 6
+INFO:root:Cerdo se ha reproducido con Cerdo. Nueva posicion: (19, 1)
+INFO:root:Cerdo se ha reproducido con Cerdo. Nueva posicion: (18, 0)
+INFO:root:Cerdo se ha reproducido con Cerdo. Nueva posicion: (19, 1)
+INFO:root:Cerdo se ha reproducido con Cerdo. Nueva posicion: (18, 2)
+INFO:root:Cerdo se ha reproducido con Cerdo. Nueva posicion: (19, 2)
+INFO:root:Cerdo se ha reproducido con Cerdo. Nueva posicion: (19, 0)
+INFO:root:Cerdo se ha reproducido con Cerdo. Nueva posicion: (18, 1)
+INFO:root:Cerdo se ha reproducido con Cerdo. Nueva posicion: (19, 0)
+INFO:root:Cerdo se ha reproducido con Cerdo. Nueva posicion: (20, 2)
+INFO:root:Cerdo se ha reproducido con Cerdo. Nueva posicion: (19, 1)
+INFO:root:Cerdo se ha reproducido con Cerdo. Nueva posicion: (18, 2)
+INFO:root:Cerdo se ha reproducido con Cerdo. Nueva posicion: (19, 2)
+INFO:root:Cerdo se ha reproducido con Cerdo. Nueva posicion: (17, 2)
+INFO:root:Cerdo se ha reproducido con Cerdo. Nueva posicion: (18, 0)
+INFO:root:Cerdo se ha reproducido con Cerdo. Nueva posicion: (19, 3)
+INFO:root:Cerdo se ha reproducido con Cerdo. Nueva posicion: (18, 0)
+INFO:root:Cerdo se ha reproducido con Cerdo. Nueva posicion: (19, 2)
+INFO:root:Cerdo se ha reproducido con Cerdo. Nueva posicion: (18, 1)
+INFO:root:Cerdo se ha reproducido con Cerdo. Nueva posicion: (19, 2)
+INFO:root:Cerdo se ha reproducido con Cerdo. Nueva posicion: (18, 1)
+INFO:root:Cerdo consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Oveja consumio una planta. Vida recuperada: 3
+INFO:root:Cerdo consumio una planta. Vida recuperada: 3
+INFO:root:Zorro cazo a Gallina
+INFO:root:Zorro recupero 10 de vida
+INFO:root:Zorro cazo a Gallina
+INFO:root:Zorro recupero 10 de vida
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Cerdo consumio una planta. Vida recuperada: 3
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Cerdo consumio una planta. Vida recuperada: 6
+INFO:root:Cerdo consumio una planta. Vida recuperada: 6
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Cerdo consumio una planta. Vida recuperada: 3
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 0
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 6
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Cerdo consumio una planta. Vida recuperada: 3
+INFO:root:Oveja consumio una planta. Vida recuperada: 3
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Oveja consumio una planta. Vida recuperada: 3
+INFO:root:Cerdo consumio una planta. Vida recuperada: 3
+INFO:root:Cerdo consumio una planta. Vida recuperada: 6
+INFO:root:Cerdo consumio una planta. Vida recuperada: 6
+INFO:root:Cerdo consumio una planta. Vida recuperada: 6
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Oveja consumio una planta. Vida recuperada: 6
+INFO:root:Vaca consumio una planta. Vida recuperada: 6
+INFO:root:Vaca consumio una planta. Vida recuperada: 6
+INFO:root:Cerdo consumio una planta. Vida recuperada: 6
+INFO:root:Cerdo consumio una planta. Vida recuperada: 6
+INFO:root:Cerdo consumio una planta. Vida recuperada: 4
+INFO:root:Oveja consumio una planta. Vida recuperada: 3
+INFO:root:Vaca consumio una planta. Vida recuperada: 6
+INFO:root:Conejo consumio una planta. Vida recuperada: 0
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Conejo consumio una planta. Vida recuperada: 3
+INFO:root:Cerdo consumio una planta. Vida recuperada: 6
+INFO:root:Cerdo consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 3
+INFO:root:Vaca consumio una planta. Vida recuperada: 6
+INFO:root:Gallina consumio una planta. Vida recuperada: 3
+INFO:root:Oveja consumio una planta. Vida recuperada: 2
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 3
+INFO:root:Cerdo consumio una planta. Vida recuperada: 4
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Oveja consumio una planta. Vida recuperada: 6
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 3
+INFO:root:Conejo se ha reproducido con Conejo. Nueva posicion: (40, 29)
+INFO:root:Conejo se ha reproducido con Conejo. Nueva posicion: (39, 27)
+INFO:root:Conejo se ha reproducido con Conejo. Nueva posicion: (41, 27)
+INFO:root:Conejo se ha reproducido con Conejo. Nueva posicion: (40, 27)
+INFO:root:Conejo se ha reproducido con Conejo. Nueva posicion: (40, 28)
+INFO:root:Conejo se ha reproducido con Conejo. Nueva posicion: (41, 29)
+INFO:root:Conejo se ha reproducido con Conejo. Nueva posicion: (40, 29)
+INFO:root:Conejo se ha reproducido con Conejo. Nueva posicion: (40, 27)
+INFO:root:Conejo se ha reproducido con Conejo. Nueva posicion: (41, 28)
+INFO:root:Conejo se ha reproducido con Conejo. Nueva posicion: (39, 28)
+INFO:root:Conejo se ha reproducido con Conejo. Nueva posicion: (40, 29)
+INFO:root:Conejo se ha reproducido con Conejo. Nueva posicion: (41, 28)
+INFO:root:Conejo se ha reproducido con Conejo. Nueva posicion: (39, 26)
+INFO:root:Conejo se ha reproducido con Conejo. Nueva posicion: (40, 28)
+INFO:root:Conejo se ha reproducido con Conejo. Nueva posicion: (40, 29)
+INFO:root:Conejo se ha reproducido con Conejo. Nueva posicion: (41, 28)
+INFO:root:Conejo se ha reproducido con Conejo. Nueva posicion: (42, 28)
+INFO:root:Conejo se ha reproducido con Conejo. Nueva posicion: (40, 30)
+INFO:root:Vaca consumio una planta. Vida recuperada: 6
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Lobo cazo a Gallina
+INFO:root:Lobo recupero 10 de vida
+INFO:root:Conejo se ha reproducido con Conejo. Nueva posicion: (40, 28)
+INFO:root:Lobo cazo a Gallina
+INFO:root:Lobo recupero 10 de vida
+INFO:root:Conejo se ha reproducido con Conejo. Nueva posicion: (40, 27)
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 2
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Vaca consumio una planta. Vida recuperada: 0
+INFO:root:Cerdo consumio una planta. Vida recuperada: 4
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Oveja consumio una planta. Vida recuperada: 3
+INFO:root:Conejo consumio una planta. Vida recuperada: 0
+INFO:root:Cerdo consumio una planta. Vida recuperada: 6
+INFO:root:Oveja consumio una planta. Vida recuperada: 0
+INFO:root:Vaca consumio una planta. Vida recuperada: 3
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 3
+INFO:root:Vaca consumio una planta. Vida recuperada: 3
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Oveja consumio una planta. Vida recuperada: 6
+INFO:root:Oveja consumio una planta. Vida recuperada: 6
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Cerdo consumio una planta. Vida recuperada: 4
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Oveja consumio una planta. Vida recuperada: 6
+INFO:root:Leon cazo a Conejo
+INFO:root:Leon recupero 10 de vida
+INFO:root:Leon cazo a Conejo
+INFO:root:Leon recupero 10 de vida
+INFO:root:Conejo consumio una planta. Vida recuperada: 3
+INFO:root:Cerdo consumio una planta. Vida recuperada: 6
+INFO:root:Cerdo consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Oveja consumio una planta. Vida recuperada: 6
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Oveja consumio una planta. Vida recuperada: 3
+INFO:root:Vaca consumio una planta. Vida recuperada: 0
+INFO:root:Conejo consumio una planta. Vida recuperada: 3
+INFO:root:Cerdo consumio una planta. Vida recuperada: 4
+INFO:root:Cerdo consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 3
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 3
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Cerdo consumio una planta. Vida recuperada: 6
+INFO:root:Oveja consumio una planta. Vida recuperada: 6
+INFO:root:Vaca consumio una planta. Vida recuperada: 5
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 6
+INFO:root:Cerdo consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Oveja consumio una planta. Vida recuperada: 3
+INFO:root:Guepardo cazo a Cerdo
+INFO:root:Guepardo recupero 10 de vida
+INFO:root:Guepardo cazo a Cerdo
+INFO:root:Guepardo recupero 10 de vida
+INFO:root:Cerdo consumio una planta. Vida recuperada: 3
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Oveja consumio una planta. Vida recuperada: 0
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 3
+INFO:root:Oveja consumio una planta. Vida recuperada: 3
+INFO:root:Cerdo consumio una planta. Vida recuperada: 3
+INFO:root:Cerdo se ha reproducido con Cerdo. Nueva posicion: (26, 35)
+INFO:root:Cerdo se ha reproducido con Cerdo. Nueva posicion: (26, 35)
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Cerdo consumio una planta. Vida recuperada: 6
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 0
+INFO:root:Vaca consumio una planta. Vida recuperada: 6
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Oveja consumio una planta. Vida recuperada: 6
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Guepardo cazo a Gallina
+INFO:root:Guepardo recupero 10 de vida
+INFO:root:Guepardo cazo a Gallina
+INFO:root:Guepardo recupero 1 de vida
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Oveja consumio una planta. Vida recuperada: 0
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Cerdo consumio una planta. Vida recuperada: 3
+INFO:root:Oveja consumio una planta. Vida recuperada: 6
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 3
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Oveja consumio una planta. Vida recuperada: 2
+INFO:root:Cerdo consumio una planta. Vida recuperada: 6
+INFO:root:Oso cazo a Oveja
+INFO:root:Oso recupero 10 de vida
+INFO:root:Oso cazo a Oveja
+INFO:root:Oso recupero 10 de vida
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Vaca consumio una planta. Vida recuperada: 3
+INFO:root:Cerdo consumio una planta. Vida recuperada: 6
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Cerdo consumio una planta. Vida recuperada: 4
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Conejo se ha reproducido con Conejo. Nueva posicion: (12, 26)
+INFO:root:Conejo se ha reproducido con Conejo. Nueva posicion: (12, 26)
+INFO:root:Conejo se ha reproducido con Conejo. Nueva posicion: (12, 26)
+INFO:root:Conejo se ha reproducido con Conejo. Nueva posicion: (12, 27)
+INFO:root:Conejo se ha reproducido con Conejo. Nueva posicion: (13, 25)
+INFO:root:Conejo se ha reproducido con Conejo. Nueva posicion: (12, 26)
+INFO:root:Conejo se ha reproducido con Conejo. Nueva posicion: (11, 27)
+INFO:root:Conejo se ha reproducido con Conejo. Nueva posicion: (11, 27)
+INFO:root:Conejo se ha reproducido con Conejo. Nueva posicion: (13, 27)
+INFO:root:Conejo se ha reproducido con Conejo. Nueva posicion: (12, 26)
+INFO:root:Conejo se ha reproducido con Conejo. Nueva posicion: (12, 26)
+INFO:root:Conejo se ha reproducido con Conejo. Nueva posicion: (12, 26)
+INFO:root:Conejo se ha reproducido con Conejo. Nueva posicion: (11, 25)
+INFO:root:Conejo se ha reproducido con Conejo. Nueva posicion: (11, 27)
+INFO:root:Conejo se ha reproducido con Conejo. Nueva posicion: (11, 25)
+INFO:root:Conejo se ha reproducido con Conejo. Nueva posicion: (13, 27)
+INFO:root:Conejo se ha reproducido con Conejo. Nueva posicion: (13, 26)
+INFO:root:Conejo se ha reproducido con Conejo. Nueva posicion: (12, 27)
+INFO:root:Conejo se ha reproducido con Conejo. Nueva posicion: (10, 27)
+INFO:root:Conejo se ha reproducido con Conejo. Nueva posicion: (12, 28)
+INFO:root:Oveja consumio una planta. Vida recuperada: 6
+INFO:root:Vaca consumio una planta. Vida recuperada: 0
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Cerdo consumio una planta. Vida recuperada: 6
+INFO:root:Cerdo consumio una planta. Vida recuperada: 3
+INFO:root:Cerdo consumio una planta. Vida recuperada: 3
+INFO:root:Gallina consumio una planta. Vida recuperada: 2
+INFO:root:Oveja consumio una planta. Vida recuperada: 3
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Vaca consumio una planta. Vida recuperada: 0
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Oveja consumio una planta. Vida recuperada: 6
+INFO:root:Vaca consumio una planta. Vida recuperada: 6
+INFO:root:Cerdo consumio una planta. Vida recuperada: 6
+INFO:root:Cerdo consumio una planta. Vida recuperada: 6
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Conejo consumio una planta. Vida recuperada: 2
+INFO:root:Cerdo consumio una planta. Vida recuperada: 4
+INFO:root:Oveja consumio una planta. Vida recuperada: 6
+INFO:root:Vaca consumio una planta. Vida recuperada: 6
+INFO:root:Cerdo consumio una planta. Vida recuperada: 3
+INFO:root:Cerdo consumio una planta. Vida recuperada: 3
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Conejo consumio una planta. Vida recuperada: 1
+INFO:root:Conejo consumio una planta. Vida recuperada: 3
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Oveja consumio una planta. Vida recuperada: 3
+INFO:root:Oveja consumio una planta. Vida recuperada: 6
+INFO:root:Oveja consumio una planta. Vida recuperada: 3
+INFO:root:Vaca consumio una planta. Vida recuperada: 6
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Conejo consumio una planta. Vida recuperada: 1
+INFO:root:Oveja consumio una planta. Vida recuperada: 3
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Cerdo consumio una planta. Vida recuperada: 3
+INFO:root:Vaca consumio una planta. Vida recuperada: 6
+INFO:root:Conejo consumio una planta. Vida recuperada: 3
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Oveja consumio una planta. Vida recuperada: 6
+INFO:root:Lobo cazo a Cerdo
+INFO:root:Lobo recupero 10 de vida
+INFO:root:Lobo cazo a Cerdo
+INFO:root:Lobo recupero 10 de vida
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Cerdo consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 1
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Conejo consumio una planta. Vida recuperada: 2
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Conejo consumio una planta. Vida recuperada: 3
+INFO:root:Cerdo consumio una planta. Vida recuperada: 6
+INFO:root:Oveja consumio una planta. Vida recuperada: 6
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 6
+INFO:root:Gallina consumio una planta. Vida recuperada: 3
+INFO:root:Oveja consumio una planta. Vida recuperada: 3
+INFO:root:Oveja consumio una planta. Vida recuperada: 3
+INFO:root:Gallina consumio una planta. Vida recuperada: 3
+INFO:root:Cerdo consumio una planta. Vida recuperada: 6
+INFO:root:Oveja consumio una planta. Vida recuperada: 0
+INFO:root:Cerdo consumio una planta. Vida recuperada: 6
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Oveja consumio una planta. Vida recuperada: 6
+INFO:root:Conejo consumio una planta. Vida recuperada: 0
+INFO:root:Cerdo consumio una planta. Vida recuperada: 3
+INFO:root:Oveja consumio una planta. Vida recuperada: 6
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Oveja consumio una planta. Vida recuperada: 6
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Oveja consumio una planta. Vida recuperada: 6
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Lobo cazo a Conejo
+INFO:root:Lobo recupero 2 de vida
+INFO:root:Lobo cazo a Conejo
+INFO:root:Lobo recupero 0 de vida
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Cerdo consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 3
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 3
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 3
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 3
+INFO:root:Cerdo consumio una planta. Vida recuperada: 6
+INFO:root:Cerdo consumio una planta. Vida recuperada: 6
+INFO:root:Oveja consumio una planta. Vida recuperada: 3
+INFO:root:Oveja consumio una planta. Vida recuperada: 3
+INFO:root:Vaca consumio una planta. Vida recuperada: 3
+INFO:root:Conejo consumio una planta. Vida recuperada: 0
+INFO:root:Cerdo consumio una planta. Vida recuperada: 4
+INFO:root:Cerdo consumio una planta. Vida recuperada: 3
+INFO:root:Oveja consumio una planta. Vida recuperada: 3
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Cerdo consumio una planta. Vida recuperada: 3
+INFO:root:Leon cazo a Cerdo
+INFO:root:Leon recupero 10 de vida
+INFO:root:Leon cazo a Cerdo
+INFO:root:Leon recupero 0 de vida
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Oveja consumio una planta. Vida recuperada: 6
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Oveja consumio una planta. Vida recuperada: 6
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 3
+INFO:root:Gallina consumio una planta. Vida recuperada: 3
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Oveja consumio una planta. Vida recuperada: 0
+INFO:root:Oveja consumio una planta. Vida recuperada: 6
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Oveja consumio una planta. Vida recuperada: 6
+INFO:root:Vaca consumio una planta. Vida recuperada: 6
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Oveja consumio una planta. Vida recuperada: 0
+INFO:root:Vaca consumio una planta. Vida recuperada: 6
+INFO:root:Oso cazo a Conejo
+INFO:root:Oso recupero 10 de vida
+INFO:root:Zorro cazo a Gallina
+INFO:root:Zorro recupero 10 de vida
+INFO:root:Oso cazo a Conejo
+INFO:root:Oso recupero 7 de vida
+INFO:root:Zorro cazo a Gallina
+INFO:root:Zorro recupero 10 de vida
+INFO:root:Vaca consumio una planta. Vida recuperada: 3
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 3
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Lobo cazo a Oveja
+INFO:root:Lobo recupero 10 de vida
+INFO:root:Lobo cazo a Oveja
+INFO:root:Lobo recupero 5 de vida
+INFO:root:Leon cazo a Vaca
+INFO:root:Leon recupero 8 de vida
+INFO:root:Leon cazo a Vaca
+INFO:root:Leon recupero 0 de vida
+INFO:root:Vaca consumio una planta. Vida recuperada: 1
+INFO:root:Zorro cazo a Vaca
+INFO:root:Zorro recupero 10 de vida
+INFO:root:Zorro cazo a Vaca
+INFO:root:Zorro recupero 0 de vida
+INFO:root:Cerdo consumio una planta. Vida recuperada: 3
+INFO:root:Oso cazo a Gallina
+INFO:root:Oso recupero 10 de vida
+INFO:root:Oso cazo a Gallina
+INFO:root:Oso recupero 10 de vida
+INFO:root:Leon cazo a Gallina
+INFO:root:Leon recupero 0 de vida
+INFO:root:Leon cazo a Gallina
+INFO:root:Leon recupero 0 de vida
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Conejo consumio una planta. Vida recuperada: 0
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Gallina consumio una planta. Vida recuperada: 1
+INFO:root:Cerdo consumio una planta. Vida recuperada: 3
+INFO:root:Oveja consumio una planta. Vida recuperada: 6
+INFO:root:Vaca consumio una planta. Vida recuperada: 0
+INFO:root:Cerdo consumio una planta. Vida recuperada: 6
+INFO:root:Conejo consumio una planta. Vida recuperada: 3
+INFO:root:Conejo consumio una planta. Vida recuperada: 0
+INFO:root:Conejo consumio una planta. Vida recuperada: 3
+INFO:root:Gallina consumio una planta. Vida recuperada: 0
+INFO:root:Conejo consumio una planta. Vida recuperada: 0
+INFO:root:Vaca consumio una planta. Vida recuperada: 0
+INFO:root:Gallina consumio una planta. Vida recuperada: 6
+INFO:root:Conejo consumio una planta. Vida recuperada: 0
+INFO:root:Conejo consumio una planta. Vida recuperada: 0
+INFO:root:Conejo consumio una planta. Vida recuperada: 0
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Cerdo consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 6
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Conejo consumio una planta. Vida recuperada: 6
+INFO:root:Conejo consumio una planta. Vida recuperada: 0
+INFO:root:Gallina consumio una planta. Vida recuperada: 0
+INFO:root:Gallina consumio una planta. Vida recuperada: 0
+INFO:root:Oso cazo a Vaca
+INFO:root:Oso recupero 0 de vida
+INFO:root:Oso cazo a Vaca
+INFO:root:Oso recupero 0 de vida
+INFO:root:Cerdo consumio una planta. Vida recuperada: 4
+INFO:root:Cerdo consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 3
+INFO:root:Oveja consumio una planta. Vida recuperada: 3
+INFO:root:Gallina consumio una planta. Vida recuperada: 0
+INFO:root:Cerdo consumio una planta. Vida recuperada: 3
+INFO:root:Oveja consumio una planta. Vida recuperada: 6
+INFO:root:Zorro cazo a Conejo
+INFO:root:Zorro recupero 0 de vida
+INFO:root:Zorro cazo a Conejo
+INFO:root:Zorro recupero 0 de vida
+INFO:root:Conejo consumio una planta. Vida recuperada: 0
+INFO:root:Cerdo consumio una planta. Vida recuperada: 4
+INFO:root:Conejo consumio una planta. Vida recuperada: 0
+INFO:root:Conejo consumio una planta. Vida recuperada: 0
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 0
+INFO:root:Conejo consumio una planta. Vida recuperada: 4
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Oso cazo a Oveja
+INFO:root:Oso recupero 0 de vida
+INFO:root:Oso cazo a Oveja
+INFO:root:Oso recupero 0 de vida
+INFO:root:Gallina consumio una planta. Vida recuperada: 0
+INFO:root:Vaca consumio una planta. Vida recuperada: 3
+INFO:root:Vaca consumio una planta. Vida recuperada: 4
+INFO:root:Gallina consumio una planta. Vida recuperada: 4
+INFO:root:Oveja consumio una planta. Vida recuperada: 4
+INFO:root:Oso cazo a Gallina
+INFO:root:Oso recupero 0 de vida
+INFO:root:Oso cazo a Gallina
+INFO:root:Oso recupero 0 de vida

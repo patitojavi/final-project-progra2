@@ -2,7 +2,7 @@ import pygame as PY
 import random as RA
 import logging
 
-from Bioma import patron_biomas,bioma_dict,Tierra,Agua,Desierto, Lava
+from Bioma import patron_biomas,bioma_dict,Tierra,Agua,Desierto, Lava, Lluvia
 from animales import Animal, Lobo, Guepardo, Cerdo, Gallina, Oveja, Vaca, Conejo, Oso, Leon, Zorro
 from plantas import Planta, Nenufar, ArbolDesierto, ArbolTierra
 from constantes import fondo_color, velocidad_movimiento, cW, cH, nxC, nyC, pW, pH, num_carnivoros, num_herbivoros, cantidad_nenufares, cantidad_arboles_desierto, cantidad_arboles_tierra, ejecutando, contador
@@ -46,7 +46,7 @@ def dibujar_matriz():
 
             color = max(colores) if colores else (0, 0, 0)
             PY.draw.rect(screen, color, rect, 1)
-
+    lluvia.dibujar(screen)
 
 plantas = []
 
@@ -207,8 +207,7 @@ contador_llenado = 0
 clock = PY.time.Clock()
 FPS = 120
 matriz_espacial = [[[] for _ in range(nxC)] for _ in range(nyC)]
-
-
+lluvia = Lluvia() 
 
 while ejecutando:
     for evento in PY.event.get():
@@ -217,6 +216,10 @@ while ejecutando:
         elif evento.type == PY.KEYDOWN:
             if evento.key ==PY.K_p:
                 pausado = True
+            elif evento.key == PY.K_SPACE:
+                lluvia.activar_lluvia()  # Activar la lluvia cuando se presiona la tecla de espacio
+            elif evento.key == PY.K_ESCAPE:
+                lluvia.desactivar_lluvia() 
             elif evento.key == PY.K_r:
                 pausado = False
             elif evento.key == PY.K_l:
@@ -307,6 +310,8 @@ while ejecutando:
                                     elif nuevo_animal.dieta == "Carnívoro":
                                         carnivoros.append(nuevo_animal)
                                         
+    lluvia.actualizar()  # Actualizar la lluvia (posición de las gotas)
+    lluvia.dibujar(screen)  # Dibujar la lluvia en la pantalla
     dibujar_matriz()
     PY.display.flip()
     clock.tick(FPS)
